@@ -66,7 +66,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(244, 72);
+            this.panel1.Location = new System.Drawing.Point(440, 150);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(270, 299);
             this.panel1.TabIndex = 0;
@@ -207,7 +207,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(244, 72);
+            this.panel4.Location = new System.Drawing.Point(440, 150);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(270, 33);
             this.panel4.TabIndex = 10;
@@ -217,7 +217,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(837, 488);
+            this.ClientSize = new System.Drawing.Size(1239, 678);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

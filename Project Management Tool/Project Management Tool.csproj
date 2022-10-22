@@ -107,6 +107,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Template.resx">
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="workspace.resx">
       <DependentUpon>workspace.cs</DependentUpon>
     </EmbeddedResource>
