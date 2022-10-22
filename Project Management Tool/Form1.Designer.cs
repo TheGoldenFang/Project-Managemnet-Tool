@@ -93,11 +93,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 139);
+            this.label4.Location = new System.Drawing.Point(29, 139);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 16);
+            this.label4.Size = new System.Drawing.Size(76, 16);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Email ID :";
+            this.label4.Text = "Username :";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel3
             // 
