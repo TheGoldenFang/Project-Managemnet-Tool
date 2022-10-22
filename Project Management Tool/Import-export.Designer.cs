@@ -560,73 +560,73 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(36, 483);
+            this.pictureBox19.Location = new System.Drawing.Point(36, 464);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 31);
+            this.pictureBox19.Size = new System.Drawing.Size(41, 34);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 30;
+            this.pictureBox19.TabIndex = 44;
             this.pictureBox19.TabStop = false;
             // 
             // pictureBox20
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(36, 423);
+            this.pictureBox20.Location = new System.Drawing.Point(36, 406);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 33);
+            this.pictureBox20.Size = new System.Drawing.Size(41, 34);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 31;
+            this.pictureBox20.TabIndex = 45;
             this.pictureBox20.TabStop = false;
             // 
             // pictureBox21
             // 
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(36, 371);
+            this.pictureBox21.Location = new System.Drawing.Point(36, 350);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(41, 32);
+            this.pictureBox21.Size = new System.Drawing.Size(41, 34);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 32;
+            this.pictureBox21.TabIndex = 46;
             this.pictureBox21.TabStop = false;
             // 
             // pictureBox22
             // 
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(36, 311);
+            this.pictureBox22.Location = new System.Drawing.Point(36, 292);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(41, 40);
+            this.pictureBox22.Size = new System.Drawing.Size(41, 34);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 33;
+            this.pictureBox22.TabIndex = 47;
             this.pictureBox22.TabStop = false;
             // 
             // pictureBox23
             // 
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(36, 245);
+            this.pictureBox23.Location = new System.Drawing.Point(36, 233);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(41, 46);
+            this.pictureBox23.Size = new System.Drawing.Size(41, 34);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 34;
+            this.pictureBox23.TabIndex = 48;
             this.pictureBox23.TabStop = false;
             // 
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(36, 186);
+            this.pictureBox24.Location = new System.Drawing.Point(36, 177);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(41, 39);
+            this.pictureBox24.Size = new System.Drawing.Size(41, 34);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 35;
+            this.pictureBox24.TabIndex = 49;
             this.pictureBox24.TabStop = false;
             // 
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(36, 136);
+            this.pictureBox25.Location = new System.Drawing.Point(36, 122);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(41, 34);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 36;
+            this.pictureBox25.TabIndex = 50;
             this.pictureBox25.TabStop = false;
             // 
             // Import_export
@@ -636,14 +636,14 @@
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox25);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Import_export";
             this.Text = "Import_export";
