@@ -26,5 +26,15 @@ namespace Project_Management_Tool
         {
 
         }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
