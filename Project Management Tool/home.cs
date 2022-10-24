@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_Management_Tool
 {
-    public partial class Form2 : Form
+    public partial class home : Form
     {
-        public Form2()
+        public home()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

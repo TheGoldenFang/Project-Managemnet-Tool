@@ -19,9 +19,9 @@ namespace Project_Management_Tool.Project_Management_Tool_Classes
         public string OrganizationId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int PhoneNumber { get; set; }
+        public String PhoneNumber { get; set; }
 
-        static string myconnstrng = ConfigurationManager.ConnectionStrings[" "].ConnectionString;
+        static string myconnstrng = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 
         //Inserting data into database
         public bool Register(Name n)
@@ -33,19 +33,18 @@ namespace Project_Management_Tool.Project_Management_Tool_Classes
             try
             {
                 //Create sql query to insert into data
-                string sql = "INSERT INTO ";
+                string sql = "INSERT INTO user_profile (Email,Username,Password,Org,OrgID,FName,LName,Phno) VALUES (@Email,@Username,@Password,@Org,@OrgID,@FName,@LName,@Phno)";
                 //Creating sql command using sq and conn
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 //Create parameters to add data
-                cmd.Parameters.AddWithValue();  //Adding first name
-                cmd.Parameters.AddWithValue(); //Adding last name
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
-                cmd.Parameters.AddWithValue();
+                cmd.Parameters.AddWithValue("@Email",n.EmailId);  //Adding first name
+                cmd.Parameters.AddWithValue("@Username",n.Username); //Adding last name
+                cmd.Parameters.AddWithValue("@Password",n.Password);
+                cmd.Parameters.AddWithValue("@Org",n.Organization);
+                cmd.Parameters.AddWithValue("OrgID",n.OrganizationId);
+                cmd.Parameters.AddWithValue("@Fname",n.FirstName);
+                cmd.Parameters.AddWithValue("@LName",n.LastName);
+                cmd.Parameters.AddWithValue("@Phno", n.PhoneNumber);
                 //Connection open here
                 conn.Open();
                 int rows=cmd.ExecuteNonQuery();
