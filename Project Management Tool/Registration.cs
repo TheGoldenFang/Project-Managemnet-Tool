@@ -46,8 +46,9 @@ namespace Project_Management_Tool
 
         private void label6_Click(object sender, EventArgs e)
         {
+            this.Close();
             Login form1 = new Login();
-            form1.Show();
+            form1.ShowDialog();
         }
     }
 }

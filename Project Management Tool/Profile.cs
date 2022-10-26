@@ -36,5 +36,10 @@ namespace Project_Management_Tool
         {
 
         }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

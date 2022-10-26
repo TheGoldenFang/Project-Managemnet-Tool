@@ -280,10 +280,10 @@ namespace Project_Management_Tool
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private EventHandler label7_Click;
-        private EventHandler label6_Click;
         private EventHandler pictureBox2_Click;
         private EventHandler label2_Click;
         private EventHandler label4_Click;
+        private EventHandler label6_Click_1;
     }
 }
 

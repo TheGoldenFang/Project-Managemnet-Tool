@@ -21,43 +21,13 @@ namespace Project_Management_Tool
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(myconnstrng);
-            try
-            {
-                //Create sql query to check for the validity of data 
-                string checkuser = "SELECT * FROM user_profile WHERE Username=       ";
-                //Creating sql command using sq and conn
-                SqlCommand cmd = new SqlCommand(checkuser, conn);
-                //Connection open here
-                conn.Open();
-                //Excecutethe query 
-                cmd.ExecuteNonQuery();
-                //If the query runs successfully then it should open home page 
-                if ()
-                {
-                    home form3 = new home();
-                    form3.Show();
-                }
-                //else it should display invalid credentials
-                else
-                {
-                    MessageBox.Show("Invalid Credentials");
-                }
-            }
-            catch (Exception ex)
-            {
 
-            }
-            finally
-            {
-                conn.Close();
-            }
         }
-
         private void label6_Click_1(object sender, EventArgs e)
         {
+            this.Close();
             Registration form2 = new Registration();
-            form2.Show();
+            form2.ShowDialog();
         }
     }
 }
