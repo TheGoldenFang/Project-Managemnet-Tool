@@ -17,34 +17,42 @@ namespace Project_Management_Tool
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void temphome_Click(object sender, EventArgs e)
+        {
+            this.Hide(); 
+            home form8=new home();  
+            form8.Show();
+        }
+
+        private void tempprofile_Click(object sender, EventArgs e)
+        {
+            this.Hide(); 
+            Profile form5 = new Profile();
+            form5.Show();
+        }
+
+        private void tempquestion_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void tempimpexp_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); 
+            Import_export form4 = new Import_export();
+            form4.Show();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void tempSettings_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); 
+            Settings form6 = new Settings();
+            form6.Show();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void tempClose_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox24_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

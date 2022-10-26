@@ -18,21 +18,36 @@ namespace Project_Management_Tool
             InitializeComponent();
         }
         Name user=new Name();
-        private void button1_Click(object sender, EventArgs e)
+
+
+   
+        private void regClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void regLoginRedirect_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login form1 = new Login();
+            form1.Show();
+        }
+
+        private void btbregister_Click(object sender, EventArgs e)
         {
             //Get values from the input fields
-            user.EmailId = textBox1.Text;
-            user.Username=textBox3.Text;
-            user.Password=textBox2.Text;
-            user.ConfirmPassword=textBox4.Text;
-            user.Organization=textBox6.Text;
-            user.OrganizationId=textBox7.Text;
-            user.FirstName=textBox10.Text;
-            user.LastName=textBox8.Text;
-            user.PhoneNumber = textBox9.Text;
+            user.EmailId = txtEmail.Text;
+            user.Username = txtUsername.Text;
+            user.Password = txtPassword.Text;
+            user.ConfirmPassword = txtConfirmPass.Text;
+            user.Organization = txtOrg.Text;
+            user.OrganizationId = txtOrgID.Text;
+            user.FirstName = txtFName.Text;
+            user.LastName = txtLName.Text;
+            user.PhoneNumber = txtPhno.Text;
 
             //Inserting data into database
-            bool success=user.Register(user);
+            bool success = user.Register(user);
             if (success)
             {
                 MessageBox.Show("Successful");
@@ -41,14 +56,7 @@ namespace Project_Management_Tool
             {
                 MessageBox.Show("Failed");
             }
-
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Login form1 = new Login();
-            form1.ShowDialog();
-        }
     }
 }

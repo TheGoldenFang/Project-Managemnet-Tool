@@ -29,885 +29,864 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Template));
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2.SuspendLayout();
-            this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.TemplatePage = new System.Windows.Forms.Panel();
+            this.circlespokediagram = new System.Windows.Forms.Panel();
+            this.lblcirspokediagram = new System.Windows.Forms.Label();
+            this.piccircspokediagram = new System.Windows.Forms.PictureBox();
+            this.basicelectrical = new System.Windows.Forms.Panel();
+            this.lblbasicelectrical = new System.Windows.Forms.Label();
+            this.picbasicelectrical = new System.Windows.Forms.PictureBox();
+            this.ganttcharts = new System.Windows.Forms.Panel();
+            this.lblGanttcharts = new System.Windows.Forms.Label();
+            this.picGanttCharts = new System.Windows.Forms.PictureBox();
+            this.UMLModelling = new System.Windows.Forms.Panel();
+            this.lblUMLmodelling = new System.Windows.Forms.Label();
+            this.picUMLmodelling = new System.Windows.Forms.PictureBox();
+            this.floormap = new System.Windows.Forms.Panel();
+            this.lblFloormap = new System.Windows.Forms.Label();
+            this.picFloormap = new System.Windows.Forms.PictureBox();
+            this.networkdiagram = new System.Windows.Forms.Panel();
+            this.lblnetworkdiagram = new System.Windows.Forms.Label();
+            this.picNetworkDiagram = new System.Windows.Forms.PictureBox();
+            this.conceptmap = new System.Windows.Forms.Panel();
+            this.lblconceptmap = new System.Windows.Forms.Label();
+            this.picConceptMap = new System.Windows.Forms.PictureBox();
+            this.orgchart = new System.Windows.Forms.Panel();
+            this.lblOrgChart = new System.Windows.Forms.Label();
+            this.picOrgChart = new System.Windows.Forms.PictureBox();
+            this.roadmap = new System.Windows.Forms.Panel();
+            this.lblroadmap = new System.Windows.Forms.Label();
+            this.picroadmap = new System.Windows.Forms.PictureBox();
+            this.genogram = new System.Windows.Forms.Panel();
+            this.lblgenogram = new System.Windows.Forms.Label();
+            this.picgenogram = new System.Windows.Forms.PictureBox();
+            this.mindmap = new System.Windows.Forms.Panel();
+            this.lblmindmap = new System.Windows.Forms.Label();
+            this.picMindmap = new System.Windows.Forms.PictureBox();
+            this.flowchart = new System.Windows.Forms.Panel();
+            this.lblFlowchart = new System.Windows.Forms.Label();
+            this.picFlowchart = new System.Windows.Forms.PictureBox();
+            this.blockdiagram = new System.Windows.Forms.Panel();
+            this.lblblockdiagram = new System.Windows.Forms.Label();
+            this.picblockdiagram = new System.Windows.Forms.PictureBox();
+            this.blankdiagram = new System.Windows.Forms.Panel();
+            this.lblblankkdiagram = new System.Windows.Forms.Label();
+            this.picblankdiagram = new System.Windows.Forms.PictureBox();
+            this.lblRecommended = new System.Windows.Forms.Label();
+            this.homepanel = new System.Windows.Forms.Panel();
+            this.tempuseravatar = new System.Windows.Forms.PictureBox();
+            this.tempappicon = new System.Windows.Forms.PictureBox();
+            this.tempClose = new System.Windows.Forms.PictureBox();
+            this.lblhomefromimpexp = new System.Windows.Forms.Label();
+            this.tempSettings = new System.Windows.Forms.PictureBox();
+            this.tempimpexp = new System.Windows.Forms.PictureBox();
+            this.tempquestion = new System.Windows.Forms.PictureBox();
+            this.temptemplate = new System.Windows.Forms.PictureBox();
+            this.tempprofile = new System.Windows.Forms.PictureBox();
+            this.temphome = new System.Windows.Forms.PictureBox();
+            this.TemplatePage.SuspendLayout();
+            this.circlespokediagram.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.piccircspokediagram)).BeginInit();
+            this.basicelectrical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbasicelectrical)).BeginInit();
+            this.ganttcharts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGanttCharts)).BeginInit();
+            this.UMLModelling.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUMLmodelling)).BeginInit();
+            this.floormap.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFloormap)).BeginInit();
+            this.networkdiagram.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picNetworkDiagram)).BeginInit();
+            this.conceptmap.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picConceptMap)).BeginInit();
+            this.orgchart.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picOrgChart)).BeginInit();
+            this.roadmap.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picroadmap)).BeginInit();
+            this.genogram.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picgenogram)).BeginInit();
+            this.mindmap.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picMindmap)).BeginInit();
+            this.flowchart.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFlowchart)).BeginInit();
+            this.blockdiagram.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picblockdiagram)).BeginInit();
+            this.blankdiagram.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picblankdiagram)).BeginInit();
+            this.homepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tempuseravatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempappicon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempSettings)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempimpexp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempquestion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.temptemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempprofile)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.temphome)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel19);
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Location = new System.Drawing.Point(2, 1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1245, 100);
-            this.panel2.TabIndex = 16;
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.label18);
-            this.panel19.Controls.Add(this.pictureBox17);
-            this.panel19.Location = new System.Drawing.Point(1105, 0);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(140, 100);
-            this.panel19.TabIndex = 12;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(7, 20);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 39);
-            this.label18.TabIndex = 27;
-            this.label18.Text = "...";
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox17.Location = new System.Drawing.Point(60, 20);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox17.TabIndex = 26;
-            this.pictureBox17.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.pictureBox3);
-            this.panel6.Location = new System.Drawing.Point(1428, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(140, 100);
-            this.panel6.TabIndex = 11;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(7, 20);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 39);
-            this.label14.TabIndex = 27;
-            this.label14.Text = "...";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox3.Location = new System.Drawing.Point(60, 20);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox3.TabIndex = 26;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(141, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(222, 29);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Home < Template";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(0, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(120, 100);
-            this.panel5.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(40, 517);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 37;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(40, 459);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 38;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(40, 403);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 39;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(40, 345);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 40;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(40, 286);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 41;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(40, 230);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 42;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Click += new System.EventHandler(this.pictureBox24_Click);
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(40, 175);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 43;
-            this.pictureBox25.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.panel18);
-            this.panel1.Controls.Add(this.panel17);
-            this.panel1.Controls.Add(this.panel16);
-            this.panel1.Controls.Add(this.panel10);
-            this.panel1.Controls.Add(this.panel15);
-            this.panel1.Controls.Add(this.panel14);
-            this.panel1.Controls.Add(this.panel13);
-            this.panel1.Controls.Add(this.panel12);
-            this.panel1.Controls.Add(this.panel11);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel7);
-            this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.panel9);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(117, 107);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 541);
-            this.panel1.TabIndex = 44;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // panel18
-            // 
-            this.panel18.Controls.Add(this.label17);
-            this.panel18.Controls.Add(this.pictureBox16);
-            this.panel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel18.Location = new System.Drawing.Point(698, 394);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(183, 135);
-            this.panel18.TabIndex = 34;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(6, 101);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(174, 20);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "Circle-Spoke Diagram";
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 3;
-            this.pictureBox16.TabStop = false;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.label16);
-            this.panel17.Controls.Add(this.pictureBox15);
-            this.panel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel17.Location = new System.Drawing.Point(474, 394);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(183, 135);
-            this.panel17.TabIndex = 33;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(34, 101);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(127, 20);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "Basic Electrical";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.label15);
-            this.panel16.Controls.Add(this.pictureBox14);
-            this.panel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel16.Location = new System.Drawing.Point(257, 394);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(183, 135);
-            this.panel16.TabIndex = 32;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(45, 101);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(105, 20);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Gantt Charts";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 3;
-            this.pictureBox14.TabStop = false;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.label8);
-            this.panel10.Controls.Add(this.pictureBox8);
-            this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel10.Location = new System.Drawing.Point(32, 394);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(183, 135);
-            this.panel10.TabIndex = 31;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(37, 101);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(117, 20);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "UML Modeling";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panel15
-            // 
-            this.panel15.Controls.Add(this.label13);
-            this.panel15.Controls.Add(this.pictureBox13);
-            this.panel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel15.Location = new System.Drawing.Point(911, 228);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(183, 135);
-            this.panel15.TabIndex = 30;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(50, 104);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 20);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Floor Map";
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 3;
-            this.pictureBox13.TabStop = false;
-            // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.label12);
-            this.panel14.Controls.Add(this.pictureBox12);
-            this.panel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel14.Location = new System.Drawing.Point(698, 228);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(183, 135);
-            this.panel14.TabIndex = 29;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(24, 102);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(139, 20);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Network Diagram";
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 3;
-            this.pictureBox12.TabStop = false;
-            // 
-            // panel13
-            // 
-            this.panel13.Controls.Add(this.label11);
-            this.panel13.Controls.Add(this.pictureBox11);
-            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel13.Location = new System.Drawing.Point(474, 228);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(183, 135);
-            this.panel13.TabIndex = 28;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(45, 102);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 20);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Concept Map";
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 3;
-            this.pictureBox11.TabStop = false;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.label10);
-            this.panel12.Controls.Add(this.pictureBox10);
-            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel12.Location = new System.Drawing.Point(257, 228);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(183, 135);
-            this.panel12.TabIndex = 27;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(5, 102);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(175, 20);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Org Chart(Automated)";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 3;
-            this.pictureBox10.TabStop = false;
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.label9);
-            this.panel11.Controls.Add(this.pictureBox9);
-            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel11.Location = new System.Drawing.Point(32, 228);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(183, 135);
-            this.panel11.TabIndex = 15;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(45, 104);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 20);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Road Map";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(911, 67);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(183, 135);
-            this.panel3.TabIndex = 26;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(47, 102);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Genogram";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Controls.Add(this.pictureBox5);
-            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel7.Location = new System.Drawing.Point(698, 67);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(183, 135);
-            this.panel7.TabIndex = 25;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 102);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Mind Map";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.label5);
-            this.panel8.Controls.Add(this.pictureBox6);
-            this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel8.Location = new System.Drawing.Point(474, 67);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(183, 135);
-            this.panel8.TabIndex = 24;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(28, 104);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Basic FlowChart";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.label7);
-            this.panel9.Controls.Add(this.pictureBox7);
-            this.panel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel9.Location = new System.Drawing.Point(257, 67);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(183, 135);
-            this.panel9.TabIndex = 23;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(35, 104);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(120, 20);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Block Diagram";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(81, 72);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel4.Location = new System.Drawing.Point(32, 67);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(183, 135);
-            this.panel4.TabIndex = 14;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 104);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Blank Diagram";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(49, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(90, 72);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Recommended";
+            // TemplatePage
+            // 
+            this.TemplatePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TemplatePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TemplatePage.Controls.Add(this.circlespokediagram);
+            this.TemplatePage.Controls.Add(this.basicelectrical);
+            this.TemplatePage.Controls.Add(this.ganttcharts);
+            this.TemplatePage.Controls.Add(this.UMLModelling);
+            this.TemplatePage.Controls.Add(this.floormap);
+            this.TemplatePage.Controls.Add(this.networkdiagram);
+            this.TemplatePage.Controls.Add(this.conceptmap);
+            this.TemplatePage.Controls.Add(this.orgchart);
+            this.TemplatePage.Controls.Add(this.roadmap);
+            this.TemplatePage.Controls.Add(this.genogram);
+            this.TemplatePage.Controls.Add(this.mindmap);
+            this.TemplatePage.Controls.Add(this.flowchart);
+            this.TemplatePage.Controls.Add(this.blockdiagram);
+            this.TemplatePage.Controls.Add(this.blankdiagram);
+            this.TemplatePage.Controls.Add(this.lblRecommended);
+            this.TemplatePage.Location = new System.Drawing.Point(100, 77);
+            this.TemplatePage.Margin = new System.Windows.Forms.Padding(2);
+            this.TemplatePage.Name = "TemplatePage";
+            this.TemplatePage.Size = new System.Drawing.Size(833, 440);
+            this.TemplatePage.TabIndex = 45;
+            // 
+            // circlespokediagram
+            // 
+            this.circlespokediagram.Controls.Add(this.lblcirspokediagram);
+            this.circlespokediagram.Controls.Add(this.piccircspokediagram);
+            this.circlespokediagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.circlespokediagram.Location = new System.Drawing.Point(524, 320);
+            this.circlespokediagram.Margin = new System.Windows.Forms.Padding(2);
+            this.circlespokediagram.Name = "circlespokediagram";
+            this.circlespokediagram.Size = new System.Drawing.Size(148, 110);
+            this.circlespokediagram.TabIndex = 34;
+            // 
+            // lblcirspokediagram
+            // 
+            this.lblcirspokediagram.AutoSize = true;
+            this.lblcirspokediagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcirspokediagram.Location = new System.Drawing.Point(4, 82);
+            this.lblcirspokediagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcirspokediagram.Name = "lblcirspokediagram";
+            this.lblcirspokediagram.Size = new System.Drawing.Size(135, 17);
+            this.lblcirspokediagram.TabIndex = 2;
+            this.lblcirspokediagram.Text = "Circle-Spoke Diagram";
+            // 
+            // piccircspokediagram
+            // 
+            this.piccircspokediagram.Image = ((System.Drawing.Image)(resources.GetObject("piccircspokediagram.Image")));
+            this.piccircspokediagram.Location = new System.Drawing.Point(37, 16);
+            this.piccircspokediagram.Margin = new System.Windows.Forms.Padding(2);
+            this.piccircspokediagram.Name = "piccircspokediagram";
+            this.piccircspokediagram.Size = new System.Drawing.Size(61, 58);
+            this.piccircspokediagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.piccircspokediagram.TabIndex = 3;
+            this.piccircspokediagram.TabStop = false;
+            // 
+            // basicelectrical
+            // 
+            this.basicelectrical.Controls.Add(this.lblbasicelectrical);
+            this.basicelectrical.Controls.Add(this.picbasicelectrical);
+            this.basicelectrical.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.basicelectrical.Location = new System.Drawing.Point(356, 320);
+            this.basicelectrical.Margin = new System.Windows.Forms.Padding(2);
+            this.basicelectrical.Name = "basicelectrical";
+            this.basicelectrical.Size = new System.Drawing.Size(137, 110);
+            this.basicelectrical.TabIndex = 33;
+            // 
+            // lblbasicelectrical
+            // 
+            this.lblbasicelectrical.AutoSize = true;
+            this.lblbasicelectrical.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbasicelectrical.Location = new System.Drawing.Point(26, 82);
+            this.lblbasicelectrical.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblbasicelectrical.Name = "lblbasicelectrical";
+            this.lblbasicelectrical.Size = new System.Drawing.Size(92, 17);
+            this.lblbasicelectrical.TabIndex = 2;
+            this.lblbasicelectrical.Text = "Basic Electrical";
+            // 
+            // picbasicelectrical
+            // 
+            this.picbasicelectrical.Image = ((System.Drawing.Image)(resources.GetObject("picbasicelectrical.Image")));
+            this.picbasicelectrical.Location = new System.Drawing.Point(37, 16);
+            this.picbasicelectrical.Margin = new System.Windows.Forms.Padding(2);
+            this.picbasicelectrical.Name = "picbasicelectrical";
+            this.picbasicelectrical.Size = new System.Drawing.Size(61, 58);
+            this.picbasicelectrical.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picbasicelectrical.TabIndex = 3;
+            this.picbasicelectrical.TabStop = false;
+            // 
+            // ganttcharts
+            // 
+            this.ganttcharts.Controls.Add(this.lblGanttcharts);
+            this.ganttcharts.Controls.Add(this.picGanttCharts);
+            this.ganttcharts.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ganttcharts.Location = new System.Drawing.Point(193, 320);
+            this.ganttcharts.Margin = new System.Windows.Forms.Padding(2);
+            this.ganttcharts.Name = "ganttcharts";
+            this.ganttcharts.Size = new System.Drawing.Size(137, 110);
+            this.ganttcharts.TabIndex = 32;
+            // 
+            // lblGanttcharts
+            // 
+            this.lblGanttcharts.AutoSize = true;
+            this.lblGanttcharts.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGanttcharts.Location = new System.Drawing.Point(34, 82);
+            this.lblGanttcharts.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblGanttcharts.Name = "lblGanttcharts";
+            this.lblGanttcharts.Size = new System.Drawing.Size(80, 17);
+            this.lblGanttcharts.TabIndex = 2;
+            this.lblGanttcharts.Text = "Gantt Charts";
+            // 
+            // picGanttCharts
+            // 
+            this.picGanttCharts.Image = ((System.Drawing.Image)(resources.GetObject("picGanttCharts.Image")));
+            this.picGanttCharts.Location = new System.Drawing.Point(37, 16);
+            this.picGanttCharts.Margin = new System.Windows.Forms.Padding(2);
+            this.picGanttCharts.Name = "picGanttCharts";
+            this.picGanttCharts.Size = new System.Drawing.Size(61, 58);
+            this.picGanttCharts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picGanttCharts.TabIndex = 3;
+            this.picGanttCharts.TabStop = false;
+            // 
+            // UMLModelling
+            // 
+            this.UMLModelling.Controls.Add(this.lblUMLmodelling);
+            this.UMLModelling.Controls.Add(this.picUMLmodelling);
+            this.UMLModelling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UMLModelling.Location = new System.Drawing.Point(24, 320);
+            this.UMLModelling.Margin = new System.Windows.Forms.Padding(2);
+            this.UMLModelling.Name = "UMLModelling";
+            this.UMLModelling.Size = new System.Drawing.Size(137, 110);
+            this.UMLModelling.TabIndex = 31;
+            // 
+            // lblUMLmodelling
+            // 
+            this.lblUMLmodelling.AutoSize = true;
+            this.lblUMLmodelling.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUMLmodelling.Location = new System.Drawing.Point(26, 82);
+            this.lblUMLmodelling.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUMLmodelling.Name = "lblUMLmodelling";
+            this.lblUMLmodelling.Size = new System.Drawing.Size(95, 17);
+            this.lblUMLmodelling.TabIndex = 2;
+            this.lblUMLmodelling.Text = "UML Modeling";
+            // 
+            // picUMLmodelling
+            // 
+            this.picUMLmodelling.Image = ((System.Drawing.Image)(resources.GetObject("picUMLmodelling.Image")));
+            this.picUMLmodelling.Location = new System.Drawing.Point(37, 16);
+            this.picUMLmodelling.Margin = new System.Windows.Forms.Padding(2);
+            this.picUMLmodelling.Name = "picUMLmodelling";
+            this.picUMLmodelling.Size = new System.Drawing.Size(61, 58);
+            this.picUMLmodelling.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUMLmodelling.TabIndex = 3;
+            this.picUMLmodelling.TabStop = false;
+            // 
+            // floormap
+            // 
+            this.floormap.Controls.Add(this.lblFloormap);
+            this.floormap.Controls.Add(this.picFloormap);
+            this.floormap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.floormap.Location = new System.Drawing.Point(683, 185);
+            this.floormap.Margin = new System.Windows.Forms.Padding(2);
+            this.floormap.Name = "floormap";
+            this.floormap.Size = new System.Drawing.Size(137, 110);
+            this.floormap.TabIndex = 30;
+            // 
+            // lblFloormap
+            // 
+            this.lblFloormap.AutoSize = true;
+            this.lblFloormap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFloormap.Location = new System.Drawing.Point(38, 84);
+            this.lblFloormap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFloormap.Name = "lblFloormap";
+            this.lblFloormap.Size = new System.Drawing.Size(69, 17);
+            this.lblFloormap.TabIndex = 2;
+            this.lblFloormap.Text = "Floor Map";
+            // 
+            // picFloormap
+            // 
+            this.picFloormap.Image = ((System.Drawing.Image)(resources.GetObject("picFloormap.Image")));
+            this.picFloormap.Location = new System.Drawing.Point(37, 16);
+            this.picFloormap.Margin = new System.Windows.Forms.Padding(2);
+            this.picFloormap.Name = "picFloormap";
+            this.picFloormap.Size = new System.Drawing.Size(61, 58);
+            this.picFloormap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFloormap.TabIndex = 3;
+            this.picFloormap.TabStop = false;
+            // 
+            // networkdiagram
+            // 
+            this.networkdiagram.Controls.Add(this.lblnetworkdiagram);
+            this.networkdiagram.Controls.Add(this.picNetworkDiagram);
+            this.networkdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.networkdiagram.Location = new System.Drawing.Point(524, 185);
+            this.networkdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.networkdiagram.Name = "networkdiagram";
+            this.networkdiagram.Size = new System.Drawing.Size(137, 110);
+            this.networkdiagram.TabIndex = 29;
+            // 
+            // lblnetworkdiagram
+            // 
+            this.lblnetworkdiagram.AutoSize = true;
+            this.lblnetworkdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnetworkdiagram.Location = new System.Drawing.Point(18, 83);
+            this.lblnetworkdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblnetworkdiagram.Name = "lblnetworkdiagram";
+            this.lblnetworkdiagram.Size = new System.Drawing.Size(111, 17);
+            this.lblnetworkdiagram.TabIndex = 2;
+            this.lblnetworkdiagram.Text = "Network Diagram";
+            // 
+            // picNetworkDiagram
+            // 
+            this.picNetworkDiagram.Image = ((System.Drawing.Image)(resources.GetObject("picNetworkDiagram.Image")));
+            this.picNetworkDiagram.Location = new System.Drawing.Point(37, 16);
+            this.picNetworkDiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picNetworkDiagram.Name = "picNetworkDiagram";
+            this.picNetworkDiagram.Size = new System.Drawing.Size(61, 58);
+            this.picNetworkDiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picNetworkDiagram.TabIndex = 3;
+            this.picNetworkDiagram.TabStop = false;
+            // 
+            // conceptmap
+            // 
+            this.conceptmap.Controls.Add(this.lblconceptmap);
+            this.conceptmap.Controls.Add(this.picConceptMap);
+            this.conceptmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conceptmap.Location = new System.Drawing.Point(356, 185);
+            this.conceptmap.Margin = new System.Windows.Forms.Padding(2);
+            this.conceptmap.Name = "conceptmap";
+            this.conceptmap.Size = new System.Drawing.Size(137, 110);
+            this.conceptmap.TabIndex = 28;
+            // 
+            // lblconceptmap
+            // 
+            this.lblconceptmap.AutoSize = true;
+            this.lblconceptmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblconceptmap.Location = new System.Drawing.Point(27, 83);
+            this.lblconceptmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblconceptmap.Name = "lblconceptmap";
+            this.lblconceptmap.Size = new System.Drawing.Size(87, 17);
+            this.lblconceptmap.TabIndex = 2;
+            this.lblconceptmap.Text = "Concept Map";
+            // 
+            // picConceptMap
+            // 
+            this.picConceptMap.Image = ((System.Drawing.Image)(resources.GetObject("picConceptMap.Image")));
+            this.picConceptMap.Location = new System.Drawing.Point(37, 16);
+            this.picConceptMap.Margin = new System.Windows.Forms.Padding(2);
+            this.picConceptMap.Name = "picConceptMap";
+            this.picConceptMap.Size = new System.Drawing.Size(61, 58);
+            this.picConceptMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picConceptMap.TabIndex = 3;
+            this.picConceptMap.TabStop = false;
+            // 
+            // orgchart
+            // 
+            this.orgchart.Controls.Add(this.lblOrgChart);
+            this.orgchart.Controls.Add(this.picOrgChart);
+            this.orgchart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orgchart.Location = new System.Drawing.Point(193, 185);
+            this.orgchart.Margin = new System.Windows.Forms.Padding(2);
+            this.orgchart.Name = "orgchart";
+            this.orgchart.Size = new System.Drawing.Size(137, 110);
+            this.orgchart.TabIndex = 27;
+            // 
+            // lblOrgChart
+            // 
+            this.lblOrgChart.AutoSize = true;
+            this.lblOrgChart.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrgChart.Location = new System.Drawing.Point(4, 83);
+            this.lblOrgChart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblOrgChart.Name = "lblOrgChart";
+            this.lblOrgChart.Size = new System.Drawing.Size(138, 17);
+            this.lblOrgChart.TabIndex = 2;
+            this.lblOrgChart.Text = "Org Chart(Automated)";
+            // 
+            // picOrgChart
+            // 
+            this.picOrgChart.Image = ((System.Drawing.Image)(resources.GetObject("picOrgChart.Image")));
+            this.picOrgChart.Location = new System.Drawing.Point(37, 16);
+            this.picOrgChart.Margin = new System.Windows.Forms.Padding(2);
+            this.picOrgChart.Name = "picOrgChart";
+            this.picOrgChart.Size = new System.Drawing.Size(61, 58);
+            this.picOrgChart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picOrgChart.TabIndex = 3;
+            this.picOrgChart.TabStop = false;
+            // 
+            // roadmap
+            // 
+            this.roadmap.Controls.Add(this.lblroadmap);
+            this.roadmap.Controls.Add(this.picroadmap);
+            this.roadmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roadmap.Location = new System.Drawing.Point(24, 185);
+            this.roadmap.Margin = new System.Windows.Forms.Padding(2);
+            this.roadmap.Name = "roadmap";
+            this.roadmap.Size = new System.Drawing.Size(137, 110);
+            this.roadmap.TabIndex = 15;
+            // 
+            // lblroadmap
+            // 
+            this.lblroadmap.AutoSize = true;
+            this.lblroadmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroadmap.Location = new System.Drawing.Point(34, 84);
+            this.lblroadmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblroadmap.Name = "lblroadmap";
+            this.lblroadmap.Size = new System.Drawing.Size(70, 17);
+            this.lblroadmap.TabIndex = 2;
+            this.lblroadmap.Text = "Road Map";
+            // 
+            // picroadmap
+            // 
+            this.picroadmap.Image = ((System.Drawing.Image)(resources.GetObject("picroadmap.Image")));
+            this.picroadmap.Location = new System.Drawing.Point(37, 16);
+            this.picroadmap.Margin = new System.Windows.Forms.Padding(2);
+            this.picroadmap.Name = "picroadmap";
+            this.picroadmap.Size = new System.Drawing.Size(61, 58);
+            this.picroadmap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picroadmap.TabIndex = 3;
+            this.picroadmap.TabStop = false;
+            // 
+            // genogram
+            // 
+            this.genogram.Controls.Add(this.lblgenogram);
+            this.genogram.Controls.Add(this.picgenogram);
+            this.genogram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genogram.Location = new System.Drawing.Point(683, 54);
+            this.genogram.Margin = new System.Windows.Forms.Padding(2);
+            this.genogram.Name = "genogram";
+            this.genogram.Size = new System.Drawing.Size(137, 110);
+            this.genogram.TabIndex = 26;
+            // 
+            // lblgenogram
+            // 
+            this.lblgenogram.AutoSize = true;
+            this.lblgenogram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgenogram.Location = new System.Drawing.Point(35, 83);
+            this.lblgenogram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblgenogram.Name = "lblgenogram";
+            this.lblgenogram.Size = new System.Drawing.Size(70, 17);
+            this.lblgenogram.TabIndex = 2;
+            this.lblgenogram.Text = "Genogram";
+            // 
+            // picgenogram
+            // 
+            this.picgenogram.Image = ((System.Drawing.Image)(resources.GetObject("picgenogram.Image")));
+            this.picgenogram.Location = new System.Drawing.Point(37, 16);
+            this.picgenogram.Margin = new System.Windows.Forms.Padding(2);
+            this.picgenogram.Name = "picgenogram";
+            this.picgenogram.Size = new System.Drawing.Size(61, 58);
+            this.picgenogram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picgenogram.TabIndex = 3;
+            this.picgenogram.TabStop = false;
+            // 
+            // mindmap
+            // 
+            this.mindmap.Controls.Add(this.lblmindmap);
+            this.mindmap.Controls.Add(this.picMindmap);
+            this.mindmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mindmap.Location = new System.Drawing.Point(524, 54);
+            this.mindmap.Margin = new System.Windows.Forms.Padding(2);
+            this.mindmap.Name = "mindmap";
+            this.mindmap.Size = new System.Drawing.Size(137, 110);
+            this.mindmap.TabIndex = 25;
+            // 
+            // lblmindmap
+            // 
+            this.lblmindmap.AutoSize = true;
+            this.lblmindmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmindmap.Location = new System.Drawing.Point(36, 83);
+            this.lblmindmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblmindmap.Name = "lblmindmap";
+            this.lblmindmap.Size = new System.Drawing.Size(69, 17);
+            this.lblmindmap.TabIndex = 2;
+            this.lblmindmap.Text = "Mind Map";
+            // 
+            // picMindmap
+            // 
+            this.picMindmap.Image = ((System.Drawing.Image)(resources.GetObject("picMindmap.Image")));
+            this.picMindmap.Location = new System.Drawing.Point(37, 16);
+            this.picMindmap.Margin = new System.Windows.Forms.Padding(2);
+            this.picMindmap.Name = "picMindmap";
+            this.picMindmap.Size = new System.Drawing.Size(61, 58);
+            this.picMindmap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMindmap.TabIndex = 3;
+            this.picMindmap.TabStop = false;
+            // 
+            // flowchart
+            // 
+            this.flowchart.Controls.Add(this.lblFlowchart);
+            this.flowchart.Controls.Add(this.picFlowchart);
+            this.flowchart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowchart.Location = new System.Drawing.Point(356, 54);
+            this.flowchart.Margin = new System.Windows.Forms.Padding(2);
+            this.flowchart.Name = "flowchart";
+            this.flowchart.Size = new System.Drawing.Size(137, 110);
+            this.flowchart.TabIndex = 24;
+            // 
+            // lblFlowchart
+            // 
+            this.lblFlowchart.AutoSize = true;
+            this.lblFlowchart.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFlowchart.Location = new System.Drawing.Point(21, 84);
+            this.lblFlowchart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFlowchart.Name = "lblFlowchart";
+            this.lblFlowchart.Size = new System.Drawing.Size(98, 17);
+            this.lblFlowchart.TabIndex = 2;
+            this.lblFlowchart.Text = "Basic FlowChart";
+            // 
+            // picFlowchart
+            // 
+            this.picFlowchart.Image = ((System.Drawing.Image)(resources.GetObject("picFlowchart.Image")));
+            this.picFlowchart.Location = new System.Drawing.Point(37, 16);
+            this.picFlowchart.Margin = new System.Windows.Forms.Padding(2);
+            this.picFlowchart.Name = "picFlowchart";
+            this.picFlowchart.Size = new System.Drawing.Size(61, 58);
+            this.picFlowchart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFlowchart.TabIndex = 3;
+            this.picFlowchart.TabStop = false;
+            // 
+            // blockdiagram
+            // 
+            this.blockdiagram.Controls.Add(this.lblblockdiagram);
+            this.blockdiagram.Controls.Add(this.picblockdiagram);
+            this.blockdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blockdiagram.Location = new System.Drawing.Point(193, 54);
+            this.blockdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.blockdiagram.Name = "blockdiagram";
+            this.blockdiagram.Size = new System.Drawing.Size(137, 110);
+            this.blockdiagram.TabIndex = 23;
+            // 
+            // lblblockdiagram
+            // 
+            this.lblblockdiagram.AutoSize = true;
+            this.lblblockdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblblockdiagram.Location = new System.Drawing.Point(26, 84);
+            this.lblblockdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblblockdiagram.Name = "lblblockdiagram";
+            this.lblblockdiagram.Size = new System.Drawing.Size(92, 17);
+            this.lblblockdiagram.TabIndex = 2;
+            this.lblblockdiagram.Text = "Block Diagram";
+            // 
+            // picblockdiagram
+            // 
+            this.picblockdiagram.Image = ((System.Drawing.Image)(resources.GetObject("picblockdiagram.Image")));
+            this.picblockdiagram.Location = new System.Drawing.Point(37, 16);
+            this.picblockdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picblockdiagram.Name = "picblockdiagram";
+            this.picblockdiagram.Size = new System.Drawing.Size(61, 58);
+            this.picblockdiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picblockdiagram.TabIndex = 3;
+            this.picblockdiagram.TabStop = false;
+            // 
+            // blankdiagram
+            // 
+            this.blankdiagram.Controls.Add(this.lblblankkdiagram);
+            this.blankdiagram.Controls.Add(this.picblankdiagram);
+            this.blankdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blankdiagram.Location = new System.Drawing.Point(24, 54);
+            this.blankdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.blankdiagram.Name = "blankdiagram";
+            this.blankdiagram.Size = new System.Drawing.Size(137, 110);
+            this.blankdiagram.TabIndex = 14;
+            // 
+            // lblblankkdiagram
+            // 
+            this.lblblankkdiagram.AutoSize = true;
+            this.lblblankkdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblblankkdiagram.Location = new System.Drawing.Point(23, 84);
+            this.lblblankkdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblblankkdiagram.Name = "lblblankkdiagram";
+            this.lblblankkdiagram.Size = new System.Drawing.Size(92, 17);
+            this.lblblankkdiagram.TabIndex = 2;
+            this.lblblankkdiagram.Text = "Blank Diagram";
+            // 
+            // picblankdiagram
+            // 
+            this.picblankdiagram.Image = ((System.Drawing.Image)(resources.GetObject("picblankdiagram.Image")));
+            this.picblankdiagram.Location = new System.Drawing.Point(37, 16);
+            this.picblankdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picblankdiagram.Name = "picblankdiagram";
+            this.picblankdiagram.Size = new System.Drawing.Size(68, 58);
+            this.picblankdiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picblankdiagram.TabIndex = 3;
+            this.picblankdiagram.TabStop = false;
+            // 
+            // lblRecommended
+            // 
+            this.lblRecommended.AutoSize = true;
+            this.lblRecommended.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecommended.Location = new System.Drawing.Point(20, 15);
+            this.lblRecommended.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRecommended.Name = "lblRecommended";
+            this.lblRecommended.Size = new System.Drawing.Size(115, 21);
+            this.lblRecommended.TabIndex = 0;
+            this.lblRecommended.Text = "Recommended";
+            // 
+            // homepanel
+            // 
+            this.homepanel.Controls.Add(this.tempuseravatar);
+            this.homepanel.Controls.Add(this.tempappicon);
+            this.homepanel.Controls.Add(this.tempClose);
+            this.homepanel.Controls.Add(this.lblhomefromimpexp);
+            this.homepanel.Location = new System.Drawing.Point(0, -8);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Name = "homepanel";
+            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.TabIndex = 46;
+            // 
+            // tempuseravatar
+            // 
+            this.tempuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tempuseravatar.Location = new System.Drawing.Point(857, 26);
+            this.tempuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.tempuseravatar.Name = "tempuseravatar";
+            this.tempuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.tempuseravatar.TabIndex = 31;
+            this.tempuseravatar.TabStop = false;
+            // 
+            // tempappicon
+            // 
+            this.tempappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tempappicon.Location = new System.Drawing.Point(10, 9);
+            this.tempappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.tempappicon.Name = "tempappicon";
+            this.tempappicon.Size = new System.Drawing.Size(69, 67);
+            this.tempappicon.TabIndex = 30;
+            this.tempappicon.TabStop = false;
+            // 
+            // tempClose
+            // 
+            this.tempClose.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tempClose.Image = ((System.Drawing.Image)(resources.GetObject("tempClose.Image")));
+            this.tempClose.Location = new System.Drawing.Point(911, 9);
+            this.tempClose.Margin = new System.Windows.Forms.Padding(2);
+            this.tempClose.Name = "tempClose";
+            this.tempClose.Size = new System.Drawing.Size(30, 25);
+            this.tempClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tempClose.TabIndex = 29;
+            this.tempClose.TabStop = false;
+            this.tempClose.Click += new System.EventHandler(this.tempClose_Click);
+            // 
+            // lblhomefromimpexp
+            // 
+            this.lblhomefromimpexp.AutoSize = true;
+            this.lblhomefromimpexp.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblhomefromimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 32);
+            this.lblhomefromimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhomefromimpexp.Name = "lblhomefromimpexp";
+            this.lblhomefromimpexp.Size = new System.Drawing.Size(159, 25);
+            this.lblhomefromimpexp.TabIndex = 10;
+            this.lblhomefromimpexp.Text = "Home<Template";
+            // 
+            // tempSettings
+            // 
+            this.tempSettings.Image = ((System.Drawing.Image)(resources.GetObject("tempSettings.Image")));
+            this.tempSettings.Location = new System.Drawing.Point(34, 388);
+            this.tempSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.tempSettings.Name = "tempSettings";
+            this.tempSettings.Size = new System.Drawing.Size(31, 28);
+            this.tempSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tempSettings.TabIndex = 51;
+            this.tempSettings.TabStop = false;
+            this.tempSettings.Click += new System.EventHandler(this.tempSettings_Click);
+            // 
+            // tempimpexp
+            // 
+            this.tempimpexp.Image = ((System.Drawing.Image)(resources.GetObject("tempimpexp.Image")));
+            this.tempimpexp.Location = new System.Drawing.Point(34, 341);
+            this.tempimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.tempimpexp.Name = "tempimpexp";
+            this.tempimpexp.Size = new System.Drawing.Size(31, 28);
+            this.tempimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tempimpexp.TabIndex = 52;
+            this.tempimpexp.TabStop = false;
+            this.tempimpexp.Click += new System.EventHandler(this.tempimpexp_Click);
+            // 
+            // tempquestion
+            // 
+            this.tempquestion.Image = ((System.Drawing.Image)(resources.GetObject("tempquestion.Image")));
+            this.tempquestion.Location = new System.Drawing.Point(34, 295);
+            this.tempquestion.Margin = new System.Windows.Forms.Padding(2);
+            this.tempquestion.Name = "tempquestion";
+            this.tempquestion.Size = new System.Drawing.Size(31, 28);
+            this.tempquestion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tempquestion.TabIndex = 53;
+            this.tempquestion.TabStop = false;
+            this.tempquestion.Click += new System.EventHandler(this.tempquestion_Click);
+            // 
+            // temptemplate
+            // 
+            this.temptemplate.Image = ((System.Drawing.Image)(resources.GetObject("temptemplate.Image")));
+            this.temptemplate.Location = new System.Drawing.Point(34, 248);
+            this.temptemplate.Margin = new System.Windows.Forms.Padding(2);
+            this.temptemplate.Name = "temptemplate";
+            this.temptemplate.Size = new System.Drawing.Size(31, 28);
+            this.temptemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.temptemplate.TabIndex = 54;
+            this.temptemplate.TabStop = false;
+            // 
+            // tempprofile
+            // 
+            this.tempprofile.Image = ((System.Drawing.Image)(resources.GetObject("tempprofile.Image")));
+            this.tempprofile.Location = new System.Drawing.Point(34, 200);
+            this.tempprofile.Margin = new System.Windows.Forms.Padding(2);
+            this.tempprofile.Name = "tempprofile";
+            this.tempprofile.Size = new System.Drawing.Size(31, 28);
+            this.tempprofile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tempprofile.TabIndex = 55;
+            this.tempprofile.TabStop = false;
+            this.tempprofile.Click += new System.EventHandler(this.tempprofile_Click);
+            // 
+            // temphome
+            // 
+            this.temphome.BackColor = System.Drawing.SystemColors.Control;
+            this.temphome.Image = ((System.Drawing.Image)(resources.GetObject("temphome.Image")));
+            this.temphome.Location = new System.Drawing.Point(34, 156);
+            this.temphome.Margin = new System.Windows.Forms.Padding(2);
+            this.temphome.Name = "temphome";
+            this.temphome.Size = new System.Drawing.Size(31, 28);
+            this.temphome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.temphome.TabIndex = 56;
+            this.temphome.TabStop = false;
+            this.temphome.Click += new System.EventHandler(this.temphome_Click);
             // 
             // Template
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(1259, 681);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.panel2);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.Controls.Add(this.tempSettings);
+            this.Controls.Add(this.tempimpexp);
+            this.Controls.Add(this.tempquestion);
+            this.Controls.Add(this.temptemplate);
+            this.Controls.Add(this.tempprofile);
+            this.Controls.Add(this.temphome);
+            this.Controls.Add(this.homepanel);
+            this.Controls.Add(this.TemplatePage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Template";
             this.Text = "Template";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.TemplatePage.ResumeLayout(false);
+            this.TemplatePage.PerformLayout();
+            this.circlespokediagram.ResumeLayout(false);
+            this.circlespokediagram.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.piccircspokediagram)).EndInit();
+            this.basicelectrical.ResumeLayout(false);
+            this.basicelectrical.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbasicelectrical)).EndInit();
+            this.ganttcharts.ResumeLayout(false);
+            this.ganttcharts.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGanttCharts)).EndInit();
+            this.UMLModelling.ResumeLayout(false);
+            this.UMLModelling.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUMLmodelling)).EndInit();
+            this.floormap.ResumeLayout(false);
+            this.floormap.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFloormap)).EndInit();
+            this.networkdiagram.ResumeLayout(false);
+            this.networkdiagram.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picNetworkDiagram)).EndInit();
+            this.conceptmap.ResumeLayout(false);
+            this.conceptmap.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picConceptMap)).EndInit();
+            this.orgchart.ResumeLayout(false);
+            this.orgchart.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picOrgChart)).EndInit();
+            this.roadmap.ResumeLayout(false);
+            this.roadmap.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picroadmap)).EndInit();
+            this.genogram.ResumeLayout(false);
+            this.genogram.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picgenogram)).EndInit();
+            this.mindmap.ResumeLayout(false);
+            this.mindmap.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picMindmap)).EndInit();
+            this.flowchart.ResumeLayout(false);
+            this.flowchart.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFlowchart)).EndInit();
+            this.blockdiagram.ResumeLayout(false);
+            this.blockdiagram.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picblockdiagram)).EndInit();
+            this.blankdiagram.ResumeLayout(false);
+            this.blankdiagram.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picblankdiagram)).EndInit();
+            this.homepanel.ResumeLayout(false);
+            this.homepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tempuseravatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempappicon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempSettings)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempimpexp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempquestion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.temptemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempprofile)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.temphome)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Panel TemplatePage;
+        private System.Windows.Forms.Panel circlespokediagram;
+        private System.Windows.Forms.Label lblcirspokediagram;
+        private System.Windows.Forms.PictureBox piccircspokediagram;
+        private System.Windows.Forms.Panel basicelectrical;
+        private System.Windows.Forms.Label lblbasicelectrical;
+        private System.Windows.Forms.PictureBox picbasicelectrical;
+        private System.Windows.Forms.Panel ganttcharts;
+        private System.Windows.Forms.Label lblGanttcharts;
+        private System.Windows.Forms.PictureBox picGanttCharts;
+        private System.Windows.Forms.Panel UMLModelling;
+        private System.Windows.Forms.Label lblUMLmodelling;
+        private System.Windows.Forms.PictureBox picUMLmodelling;
+        private System.Windows.Forms.Panel floormap;
+        private System.Windows.Forms.Label lblFloormap;
+        private System.Windows.Forms.PictureBox picFloormap;
+        private System.Windows.Forms.Panel networkdiagram;
+        private System.Windows.Forms.Label lblnetworkdiagram;
+        private System.Windows.Forms.PictureBox picNetworkDiagram;
+        private System.Windows.Forms.Panel conceptmap;
+        private System.Windows.Forms.Label lblconceptmap;
+        private System.Windows.Forms.PictureBox picConceptMap;
+        private System.Windows.Forms.Panel orgchart;
+        private System.Windows.Forms.Label lblOrgChart;
+        private System.Windows.Forms.PictureBox picOrgChart;
+        private System.Windows.Forms.Panel roadmap;
+        private System.Windows.Forms.Label lblroadmap;
+        private System.Windows.Forms.PictureBox picroadmap;
+        private System.Windows.Forms.Panel genogram;
+        private System.Windows.Forms.Label lblgenogram;
+        private System.Windows.Forms.PictureBox picgenogram;
+        private System.Windows.Forms.Panel mindmap;
+        private System.Windows.Forms.Label lblmindmap;
+        private System.Windows.Forms.PictureBox picMindmap;
+        private System.Windows.Forms.Panel flowchart;
+        private System.Windows.Forms.Label lblFlowchart;
+        private System.Windows.Forms.PictureBox picFlowchart;
+        private System.Windows.Forms.Panel blockdiagram;
+        private System.Windows.Forms.Label lblblockdiagram;
+        private System.Windows.Forms.PictureBox picblockdiagram;
+        private System.Windows.Forms.Panel blankdiagram;
+        private System.Windows.Forms.Label lblblankkdiagram;
+        private System.Windows.Forms.PictureBox picblankdiagram;
+        private System.Windows.Forms.Label lblRecommended;
+        private System.Windows.Forms.Panel homepanel;
+        private System.Windows.Forms.PictureBox tempuseravatar;
+        private System.Windows.Forms.PictureBox tempappicon;
+        private System.Windows.Forms.PictureBox tempClose;
+        private System.Windows.Forms.Label lblhomefromimpexp;
+        private System.Windows.Forms.PictureBox tempSettings;
+        private System.Windows.Forms.PictureBox tempimpexp;
+        private System.Windows.Forms.PictureBox tempquestion;
+        private System.Windows.Forms.PictureBox temptemplate;
+        private System.Windows.Forms.PictureBox tempprofile;
+        private System.Windows.Forms.PictureBox temphome;
     }
 }

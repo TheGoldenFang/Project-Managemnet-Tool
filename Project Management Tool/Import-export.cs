@@ -22,29 +22,42 @@ namespace Project_Management_Tool
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void imphome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            home form8 = new home();
+            form8.Show();
+        }
+
+        private void impprofile_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile form5 = new Profile();
+            form5.Show();
+        }
+
+        private void imptemplate_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Template form3 = new Template();
+            form3.Show();
+        }
+
+        private void impquestion_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void impSettings_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Settings form6 = new Settings();
+            form6.Show();
         }
 
-        private void panel11_Paint(object sender, PaintEventArgs e)
+        private void impexpClose_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

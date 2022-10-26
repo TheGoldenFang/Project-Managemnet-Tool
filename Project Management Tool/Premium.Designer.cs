@@ -29,318 +29,355 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Premium));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.premiumPage = new System.Windows.Forms.Panel();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.btEnterprise = new System.Windows.Forms.Button();
+            this.btTeam = new System.Windows.Forms.Button();
+            this.btPersonal = new System.Windows.Forms.Button();
+            this.btFree = new System.Windows.Forms.Button();
+            this.lblEnterprisePriceDes = new System.Windows.Forms.Label();
+            this.lblEnterpricePrice = new System.Windows.Forms.Label();
+            this.lblEnterprise = new System.Windows.Forms.Label();
+            this.lblTeamPriceDes = new System.Windows.Forms.Label();
+            this.lblperpriceDes = new System.Windows.Forms.Label();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.lblPersonal = new System.Windows.Forms.Label();
+            this.lblperPrice = new System.Windows.Forms.Label();
+            this.lblTeam = new System.Windows.Forms.Label();
+            this.lblTeamPrice = new System.Windows.Forms.Label();
+            this.lblFree = new System.Windows.Forms.Label();
+            this.picEnterprise = new System.Windows.Forms.PictureBox();
+            this.picTeam = new System.Windows.Forms.PictureBox();
+            this.picPersonal = new System.Windows.Forms.PictureBox();
+            this.picFree = new System.Windows.Forms.PictureBox();
+            this.premiumClose = new System.Windows.Forms.PictureBox();
+            this.premiumPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnterprise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTeam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPersonal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.premiumClose)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // premiumPage
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(78, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 541);
-            this.panel1.TabIndex = 19;
+            this.premiumPage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.premiumPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.premiumPage.Controls.Add(this.premiumClose);
+            this.premiumPage.Controls.Add(this.lblDescription);
+            this.premiumPage.Controls.Add(this.btEnterprise);
+            this.premiumPage.Controls.Add(this.btTeam);
+            this.premiumPage.Controls.Add(this.btPersonal);
+            this.premiumPage.Controls.Add(this.btFree);
+            this.premiumPage.Controls.Add(this.lblEnterprisePriceDes);
+            this.premiumPage.Controls.Add(this.lblEnterpricePrice);
+            this.premiumPage.Controls.Add(this.lblEnterprise);
+            this.premiumPage.Controls.Add(this.lblTeamPriceDes);
+            this.premiumPage.Controls.Add(this.lblperpriceDes);
+            this.premiumPage.Controls.Add(this.lblPrice);
+            this.premiumPage.Controls.Add(this.lblPersonal);
+            this.premiumPage.Controls.Add(this.lblperPrice);
+            this.premiumPage.Controls.Add(this.lblTeam);
+            this.premiumPage.Controls.Add(this.lblTeamPrice);
+            this.premiumPage.Controls.Add(this.lblFree);
+            this.premiumPage.Controls.Add(this.picEnterprise);
+            this.premiumPage.Controls.Add(this.picTeam);
+            this.premiumPage.Controls.Add(this.picPersonal);
+            this.premiumPage.Controls.Add(this.picFree);
+            this.premiumPage.Location = new System.Drawing.Point(19, 21);
+            this.premiumPage.Margin = new System.Windows.Forms.Padding(2);
+            this.premiumPage.Name = "premiumPage";
+            this.premiumPage.Size = new System.Drawing.Size(655, 443);
+            this.premiumPage.TabIndex = 20;
             // 
-            // pictureBox1
+            // lblDescription
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(71, 48);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 120);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(33, 384);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(541, 45);
+            this.lblDescription.TabIndex = 26;
+            this.lblDescription.Text = resources.GetString("lblDescription.Text");
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
+            // btEnterprise
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(334, 48);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 120);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.btEnterprise.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEnterprise.Location = new System.Drawing.Point(470, 193);
+            this.btEnterprise.Margin = new System.Windows.Forms.Padding(2);
+            this.btEnterprise.Name = "btEnterprise";
+            this.btEnterprise.Size = new System.Drawing.Size(166, 180);
+            this.btEnterprise.TabIndex = 25;
+            this.btEnterprise.Text = "-One member only\r\n-Unlimited members\r\n-Unlimited block storage\r\n-All team feature" +
+    "s\r\n-Unlimited version history\r\n-Dedicated manager\r\n-Contact us for details\r\n";
+            this.btEnterprise.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btEnterprise.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
+            // btTeam
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(586, 48);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(124, 120);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(856, 48);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(124, 120);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label6.Location = new System.Drawing.Point(102, 182);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 26);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Free";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label3.Location = new System.Drawing.Point(594, 215);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 26);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "$8";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label4.Location = new System.Drawing.Point(594, 182);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 26);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Team";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label5.Location = new System.Drawing.Point(329, 217);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 26);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "$4";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label7.Location = new System.Drawing.Point(329, 182);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 26);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Personal";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label8.Location = new System.Drawing.Point(102, 217);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 26);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "$0";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label1.Location = new System.Drawing.Point(361, 223);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 18);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "flat price per month";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label2.Location = new System.Drawing.Point(627, 221);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 18);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "per member per month";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label9.Location = new System.Drawing.Point(860, 182);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 26);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Enterprise";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.label10.Location = new System.Drawing.Point(860, 213);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 26);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "$20";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label11.Location = new System.Drawing.Point(902, 217);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(159, 18);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "per member per month";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button1.Location = new System.Drawing.Point(44, 245);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 194);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "-Unlimited members \r\n-1000 block storage \r\n-5MB file upload limit ";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button2.Location = new System.Drawing.Point(285, 245);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(230, 194);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "-One member only\r\n-Unlimited block storage\r\n-No file upload limit \r\n-Advanced per" +
-    "missions\r\n-Priority support \r\n-Version history\r\n";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button3.Location = new System.Drawing.Point(572, 245);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(227, 194);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "-One member only\r\n-Unlimited members\r\n-Unlimited block storage\r\n-No file upload l" +
+            this.btTeam.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTeam.Location = new System.Drawing.Point(309, 193);
+            this.btTeam.Margin = new System.Windows.Forms.Padding(2);
+            this.btTeam.Name = "btTeam";
+            this.btTeam.Size = new System.Drawing.Size(157, 180);
+            this.btTeam.TabIndex = 24;
+            this.btTeam.Text = "-One member only\r\n-Unlimited members\r\n-Unlimited block storage\r\n-No file upload l" +
     "imit\r\n-Advanced permissions\r\n-Priority support \r\n-Version history\r\n-Admin tools\r" +
     "\n";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btTeam.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btTeam.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btPersonal
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button4.Location = new System.Drawing.Point(845, 245);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(223, 194);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "-One member only\r\n-Unlimited members\r\n-Unlimited block storage\r\n-All team feature" +
-    "s\r\n-Unlimited version history\r\n-Dedicated manager\r\n-Contact us for details\r\n";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btPersonal.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPersonal.Location = new System.Drawing.Point(140, 193);
+            this.btPersonal.Margin = new System.Windows.Forms.Padding(2);
+            this.btPersonal.Name = "btPersonal";
+            this.btPersonal.Size = new System.Drawing.Size(153, 180);
+            this.btPersonal.TabIndex = 23;
+            this.btPersonal.Text = "-One member only\r\n-Unlimited block storage\r\n-No file upload limit \r\n-Advanced per" +
+    "missions\r\n-Priority support \r\n-Version history\r\n";
+            this.btPersonal.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btPersonal.UseVisualStyleBackColor = true;
             // 
-            // label12
+            // btFree
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-            this.label12.Location = new System.Drawing.Point(264, 467);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(553, 45);
-            this.label12.TabIndex = 26;
-            this.label12.Text = resources.GetString("label12.Text");
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btFree.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btFree.Location = new System.Drawing.Point(2, 193);
+            this.btFree.Margin = new System.Windows.Forms.Padding(2);
+            this.btFree.Name = "btFree";
+            this.btFree.Size = new System.Drawing.Size(134, 180);
+            this.btFree.TabIndex = 22;
+            this.btFree.Text = "-Unlimited members \r\n-1000 block storage \r\n-5MB file upload limit ";
+            this.btFree.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btFree.UseVisualStyleBackColor = true;
+            // 
+            // lblEnterprisePriceDes
+            // 
+            this.lblEnterprisePriceDes.AutoSize = true;
+            this.lblEnterprisePriceDes.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterprisePriceDes.Location = new System.Drawing.Point(516, 171);
+            this.lblEnterprisePriceDes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEnterprisePriceDes.Name = "lblEnterprisePriceDes";
+            this.lblEnterprisePriceDes.Size = new System.Drawing.Size(131, 15);
+            this.lblEnterprisePriceDes.TabIndex = 21;
+            this.lblEnterprisePriceDes.Text = "per member per month";
+            // 
+            // lblEnterpricePrice
+            // 
+            this.lblEnterpricePrice.AutoSize = true;
+            this.lblEnterpricePrice.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterpricePrice.Location = new System.Drawing.Point(482, 168);
+            this.lblEnterpricePrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEnterpricePrice.Name = "lblEnterpricePrice";
+            this.lblEnterpricePrice.Size = new System.Drawing.Size(37, 23);
+            this.lblEnterpricePrice.TabIndex = 20;
+            this.lblEnterpricePrice.Text = "$20";
+            // 
+            // lblEnterprise
+            // 
+            this.lblEnterprise.AutoSize = true;
+            this.lblEnterprise.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterprise.Location = new System.Drawing.Point(482, 143);
+            this.lblEnterprise.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEnterprise.Name = "lblEnterprise";
+            this.lblEnterprise.Size = new System.Drawing.Size(86, 23);
+            this.lblEnterprise.TabIndex = 19;
+            this.lblEnterprise.Text = "Enterprise";
+            // 
+            // lblTeamPriceDes
+            // 
+            this.lblTeamPriceDes.AutoSize = true;
+            this.lblTeamPriceDes.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeamPriceDes.Location = new System.Drawing.Point(335, 173);
+            this.lblTeamPriceDes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTeamPriceDes.Name = "lblTeamPriceDes";
+            this.lblTeamPriceDes.Size = new System.Drawing.Size(131, 15);
+            this.lblTeamPriceDes.TabIndex = 18;
+            this.lblTeamPriceDes.Text = "per member per month";
+            // 
+            // lblperpriceDes
+            // 
+            this.lblperpriceDes.AutoSize = true;
+            this.lblperpriceDes.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblperpriceDes.Location = new System.Drawing.Point(181, 174);
+            this.lblperpriceDes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblperpriceDes.Name = "lblperpriceDes";
+            this.lblperpriceDes.Size = new System.Drawing.Size(112, 15);
+            this.lblperpriceDes.TabIndex = 17;
+            this.lblperpriceDes.Text = "flat price per month";
+            // 
+            // lblPrice
+            // 
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.Location = new System.Drawing.Point(20, 168);
+            this.lblPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(28, 23);
+            this.lblPrice.TabIndex = 16;
+            this.lblPrice.Text = "$0";
+            // 
+            // lblPersonal
+            // 
+            this.lblPersonal.AutoSize = true;
+            this.lblPersonal.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonal.Location = new System.Drawing.Point(157, 141);
+            this.lblPersonal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPersonal.Name = "lblPersonal";
+            this.lblPersonal.Size = new System.Drawing.Size(74, 23);
+            this.lblPersonal.TabIndex = 15;
+            this.lblPersonal.Text = "Personal";
+            // 
+            // lblperPrice
+            // 
+            this.lblperPrice.AutoSize = true;
+            this.lblperPrice.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblperPrice.Location = new System.Drawing.Point(157, 169);
+            this.lblperPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblperPrice.Name = "lblperPrice";
+            this.lblperPrice.Size = new System.Drawing.Size(25, 19);
+            this.lblperPrice.TabIndex = 14;
+            this.lblperPrice.Text = "$4";
+            // 
+            // lblTeam
+            // 
+            this.lblTeam.AutoSize = true;
+            this.lblTeam.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeam.Location = new System.Drawing.Point(311, 141);
+            this.lblTeam.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTeam.Name = "lblTeam";
+            this.lblTeam.Size = new System.Drawing.Size(50, 23);
+            this.lblTeam.TabIndex = 13;
+            this.lblTeam.Text = "Team";
+            // 
+            // lblTeamPrice
+            // 
+            this.lblTeamPrice.AutoSize = true;
+            this.lblTeamPrice.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeamPrice.Location = new System.Drawing.Point(311, 168);
+            this.lblTeamPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTeamPrice.Name = "lblTeamPrice";
+            this.lblTeamPrice.Size = new System.Drawing.Size(28, 23);
+            this.lblTeamPrice.TabIndex = 12;
+            this.lblTeamPrice.Text = "$8";
+            // 
+            // lblFree
+            // 
+            this.lblFree.AutoSize = true;
+            this.lblFree.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFree.Location = new System.Drawing.Point(20, 143);
+            this.lblFree.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFree.Name = "lblFree";
+            this.lblFree.Size = new System.Drawing.Size(42, 23);
+            this.lblFree.TabIndex = 9;
+            this.lblFree.Text = "Free";
+            // 
+            // picEnterprise
+            // 
+            this.picEnterprise.Image = ((System.Drawing.Image)(resources.GetObject("picEnterprise.Image")));
+            this.picEnterprise.Location = new System.Drawing.Point(481, 39);
+            this.picEnterprise.Margin = new System.Windows.Forms.Padding(2);
+            this.picEnterprise.Name = "picEnterprise";
+            this.picEnterprise.Size = new System.Drawing.Size(93, 98);
+            this.picEnterprise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picEnterprise.TabIndex = 3;
+            this.picEnterprise.TabStop = false;
+            // 
+            // picTeam
+            // 
+            this.picTeam.Image = ((System.Drawing.Image)(resources.GetObject("picTeam.Image")));
+            this.picTeam.Location = new System.Drawing.Point(315, 39);
+            this.picTeam.Margin = new System.Windows.Forms.Padding(2);
+            this.picTeam.Name = "picTeam";
+            this.picTeam.Size = new System.Drawing.Size(93, 98);
+            this.picTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTeam.TabIndex = 2;
+            this.picTeam.TabStop = false;
+            // 
+            // picPersonal
+            // 
+            this.picPersonal.Image = ((System.Drawing.Image)(resources.GetObject("picPersonal.Image")));
+            this.picPersonal.Location = new System.Drawing.Point(158, 39);
+            this.picPersonal.Margin = new System.Windows.Forms.Padding(2);
+            this.picPersonal.Name = "picPersonal";
+            this.picPersonal.Size = new System.Drawing.Size(93, 98);
+            this.picPersonal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPersonal.TabIndex = 1;
+            this.picPersonal.TabStop = false;
+            // 
+            // picFree
+            // 
+            this.picFree.Image = ((System.Drawing.Image)(resources.GetObject("picFree.Image")));
+            this.picFree.Location = new System.Drawing.Point(2, 39);
+            this.picFree.Margin = new System.Windows.Forms.Padding(2);
+            this.picFree.Name = "picFree";
+            this.picFree.Size = new System.Drawing.Size(93, 98);
+            this.picFree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFree.TabIndex = 0;
+            this.picFree.TabStop = false;
+            // 
+            // premiumClose
+            // 
+            this.premiumClose.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.premiumClose.Image = ((System.Drawing.Image)(resources.GetObject("premiumClose.Image")));
+            this.premiumClose.Location = new System.Drawing.Point(617, 2);
+            this.premiumClose.Margin = new System.Windows.Forms.Padding(2);
+            this.premiumClose.Name = "premiumClose";
+            this.premiumClose.Size = new System.Drawing.Size(30, 25);
+            this.premiumClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.premiumClose.TabIndex = 30;
+            this.premiumClose.TabStop = false;
+            this.premiumClose.Click += new System.EventHandler(this.premiumClose_Click);
             // 
             // Premium
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(1259, 681);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(691, 498);
+            this.Controls.Add(this.premiumPage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Premium";
             this.Text = "Premium";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.premiumPage.ResumeLayout(false);
+            this.premiumPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEnterprise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTeam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPersonal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.premiumClose)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel premiumPage;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Button btEnterprise;
+        private System.Windows.Forms.Button btTeam;
+        private System.Windows.Forms.Button btPersonal;
+        private System.Windows.Forms.Button btFree;
+        private System.Windows.Forms.Label lblEnterprisePriceDes;
+        private System.Windows.Forms.Label lblEnterpricePrice;
+        private System.Windows.Forms.Label lblEnterprise;
+        private System.Windows.Forms.Label lblTeamPriceDes;
+        private System.Windows.Forms.Label lblperpriceDes;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Label lblPersonal;
+        private System.Windows.Forms.Label lblperPrice;
+        private System.Windows.Forms.Label lblTeam;
+        private System.Windows.Forms.Label lblTeamPrice;
+        private System.Windows.Forms.Label lblFree;
+        private System.Windows.Forms.PictureBox picEnterprise;
+        private System.Windows.Forms.PictureBox picTeam;
+        private System.Windows.Forms.PictureBox picPersonal;
+        private System.Windows.Forms.PictureBox picFree;
+        private System.Windows.Forms.PictureBox premiumClose;
     }
 }

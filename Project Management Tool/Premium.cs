@@ -16,5 +16,12 @@ namespace Project_Management_Tool
         {
             InitializeComponent();
         }
+
+
+
+        private void premiumClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

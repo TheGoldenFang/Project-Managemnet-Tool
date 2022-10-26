@@ -29,276 +29,235 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2.SuspendLayout();
-            this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.homepanel = new System.Windows.Forms.Panel();
+            this.settingsuseravatar = new System.Windows.Forms.PictureBox();
+            this.settingsappicon = new System.Windows.Forms.PictureBox();
+            this.settingsClose = new System.Windows.Forms.PictureBox();
+            this.lblsettingstohome = new System.Windows.Forms.Label();
+            this.settingsSettings = new System.Windows.Forms.PictureBox();
+            this.settingsimpexp = new System.Windows.Forms.PictureBox();
+            this.settingsquestion = new System.Windows.Forms.PictureBox();
+            this.settingstemplate = new System.Windows.Forms.PictureBox();
+            this.settingsprofile = new System.Windows.Forms.PictureBox();
+            this.settingshome = new System.Windows.Forms.PictureBox();
+            this.SettingsPage = new System.Windows.Forms.Panel();
+            this.lblSettings = new System.Windows.Forms.Label();
+            this.homepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsuseravatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsappicon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsSettings)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsimpexp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsquestion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingstemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsprofile)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingshome)).BeginInit();
+            this.SettingsPage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel2
+            // homepanel
             // 
-            this.panel2.Controls.Add(this.panel19);
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Location = new System.Drawing.Point(12, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1245, 100);
-            this.panel2.TabIndex = 17;
+            this.homepanel.Controls.Add(this.settingsuseravatar);
+            this.homepanel.Controls.Add(this.settingsappicon);
+            this.homepanel.Controls.Add(this.settingsClose);
+            this.homepanel.Controls.Add(this.lblsettingstohome);
+            this.homepanel.Location = new System.Drawing.Point(1, 1);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Name = "homepanel";
+            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.TabIndex = 24;
             // 
-            // panel19
+            // settingsuseravatar
             // 
-            this.panel19.Controls.Add(this.label18);
-            this.panel19.Controls.Add(this.pictureBox17);
-            this.panel19.Location = new System.Drawing.Point(1105, 0);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(140, 100);
-            this.panel19.TabIndex = 12;
+            this.settingsuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.settingsuseravatar.Location = new System.Drawing.Point(857, 15);
+            this.settingsuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsuseravatar.Name = "settingsuseravatar";
+            this.settingsuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.settingsuseravatar.TabIndex = 31;
+            this.settingsuseravatar.TabStop = false;
             // 
-            // label18
+            // settingsappicon
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(7, 20);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 39);
-            this.label18.TabIndex = 27;
-            this.label18.Text = "...";
+            this.settingsappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.settingsappicon.Location = new System.Drawing.Point(10, 9);
+            this.settingsappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsappicon.Name = "settingsappicon";
+            this.settingsappicon.Size = new System.Drawing.Size(69, 67);
+            this.settingsappicon.TabIndex = 30;
+            this.settingsappicon.TabStop = false;
             // 
-            // pictureBox17
+            // settingsClose
             // 
-            this.pictureBox17.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox17.Location = new System.Drawing.Point(60, 20);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox17.TabIndex = 26;
-            this.pictureBox17.TabStop = false;
+            this.settingsClose.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.settingsClose.Image = ((System.Drawing.Image)(resources.GetObject("settingsClose.Image")));
+            this.settingsClose.Location = new System.Drawing.Point(911, 2);
+            this.settingsClose.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsClose.Name = "settingsClose";
+            this.settingsClose.Size = new System.Drawing.Size(30, 25);
+            this.settingsClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsClose.TabIndex = 29;
+            this.settingsClose.TabStop = false;
+            this.settingsClose.Click += new System.EventHandler(this.settingsClose_Click);
             // 
-            // panel6
+            // lblsettingstohome
             // 
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.pictureBox3);
-            this.panel6.Location = new System.Drawing.Point(1428, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(140, 100);
-            this.panel6.TabIndex = 11;
+            this.lblsettingstohome.AutoSize = true;
+            this.lblsettingstohome.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblsettingstohome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.lblsettingstohome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblsettingstohome.Location = new System.Drawing.Point(106, 32);
+            this.lblsettingstohome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblsettingstohome.Name = "lblsettingstohome";
+            this.lblsettingstohome.Size = new System.Drawing.Size(152, 24);
+            this.lblsettingstohome.TabIndex = 10;
+            this.lblsettingstohome.Text = "Home<Settings";
             // 
-            // label14
+            // settingsSettings
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(7, 20);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 39);
-            this.label14.TabIndex = 27;
-            this.label14.Text = "...";
+            this.settingsSettings.Image = ((System.Drawing.Image)(resources.GetObject("settingsSettings.Image")));
+            this.settingsSettings.Location = new System.Drawing.Point(21, 396);
+            this.settingsSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsSettings.Name = "settingsSettings";
+            this.settingsSettings.Size = new System.Drawing.Size(31, 28);
+            this.settingsSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsSettings.TabIndex = 58;
+            this.settingsSettings.TabStop = false;
+            this.settingsSettings.Click += new System.EventHandler(this.settingsSettings_Click);
             // 
-            // pictureBox3
+            // settingsimpexp
             // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox3.Location = new System.Drawing.Point(60, 20);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox3.TabIndex = 26;
-            this.pictureBox3.TabStop = false;
+            this.settingsimpexp.Image = ((System.Drawing.Image)(resources.GetObject("settingsimpexp.Image")));
+            this.settingsimpexp.Location = new System.Drawing.Point(21, 349);
+            this.settingsimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsimpexp.Name = "settingsimpexp";
+            this.settingsimpexp.Size = new System.Drawing.Size(31, 28);
+            this.settingsimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsimpexp.TabIndex = 59;
+            this.settingsimpexp.TabStop = false;
+            this.settingsimpexp.Click += new System.EventHandler(this.settingsimpexp_Click);
             // 
-            // label6
+            // settingsquestion
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(141, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(206, 29);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Home < Settings";
+            this.settingsquestion.Image = ((System.Drawing.Image)(resources.GetObject("settingsquestion.Image")));
+            this.settingsquestion.Location = new System.Drawing.Point(21, 303);
+            this.settingsquestion.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsquestion.Name = "settingsquestion";
+            this.settingsquestion.Size = new System.Drawing.Size(31, 28);
+            this.settingsquestion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsquestion.TabIndex = 60;
+            this.settingsquestion.TabStop = false;
+            this.settingsquestion.Click += new System.EventHandler(this.settingsquestion_Click);
             // 
-            // panel5
+            // settingstemplate
             // 
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(0, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(120, 100);
-            this.panel5.TabIndex = 0;
+            this.settingstemplate.Image = ((System.Drawing.Image)(resources.GetObject("settingstemplate.Image")));
+            this.settingstemplate.Location = new System.Drawing.Point(21, 256);
+            this.settingstemplate.Margin = new System.Windows.Forms.Padding(2);
+            this.settingstemplate.Name = "settingstemplate";
+            this.settingstemplate.Size = new System.Drawing.Size(31, 28);
+            this.settingstemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingstemplate.TabIndex = 61;
+            this.settingstemplate.TabStop = false;
+            this.settingstemplate.Click += new System.EventHandler(this.settingstemplate_Click);
             // 
-            // pictureBox2
+            // settingsprofile
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
+            this.settingsprofile.Image = ((System.Drawing.Image)(resources.GetObject("settingsprofile.Image")));
+            this.settingsprofile.Location = new System.Drawing.Point(21, 208);
+            this.settingsprofile.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsprofile.Name = "settingsprofile";
+            this.settingsprofile.Size = new System.Drawing.Size(31, 28);
+            this.settingsprofile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingsprofile.TabIndex = 62;
+            this.settingsprofile.TabStop = false;
+            this.settingsprofile.Click += new System.EventHandler(this.settingsprofile_Click);
             // 
-            // pictureBox19
+            // settingshome
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(49, 518);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 44;
-            this.pictureBox19.TabStop = false;
+            this.settingshome.BackColor = System.Drawing.SystemColors.Control;
+            this.settingshome.Image = ((System.Drawing.Image)(resources.GetObject("settingshome.Image")));
+            this.settingshome.Location = new System.Drawing.Point(21, 163);
+            this.settingshome.Margin = new System.Windows.Forms.Padding(2);
+            this.settingshome.Name = "settingshome";
+            this.settingshome.Size = new System.Drawing.Size(31, 28);
+            this.settingshome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.settingshome.TabIndex = 63;
+            this.settingshome.TabStop = false;
+            this.settingshome.Click += new System.EventHandler(this.settingshome_Click);
             // 
-            // pictureBox20
+            // SettingsPage
             // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(49, 460);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 45;
-            this.pictureBox20.TabStop = false;
+            this.SettingsPage.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.SettingsPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SettingsPage.Controls.Add(this.lblSettings);
+            this.SettingsPage.Location = new System.Drawing.Point(75, 111);
+            this.SettingsPage.Margin = new System.Windows.Forms.Padding(2);
+            this.SettingsPage.Name = "SettingsPage";
+            this.SettingsPage.Size = new System.Drawing.Size(842, 393);
+            this.SettingsPage.TabIndex = 65;
             // 
-            // pictureBox21
+            // lblSettings
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(49, 404);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 46;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(49, 346);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 47;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(49, 287);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 48;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(49, 231);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 49;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(49, 176);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 50;
-            this.pictureBox25.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(124, 109);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 541);
-            this.panel1.TabIndex = 51;
+            this.lblSettings.AutoSize = true;
+            this.lblSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.lblSettings.Location = new System.Drawing.Point(385, 21);
+            this.lblSettings.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSettings.Name = "lblSettings";
+            this.lblSettings.Size = new System.Drawing.Size(84, 24);
+            this.lblSettings.TabIndex = 9;
+            this.lblSettings.Text = "Settings";
             // 
             // Settings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(1259, 681);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.panel2);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.Controls.Add(this.SettingsPage);
+            this.Controls.Add(this.settingsSettings);
+            this.Controls.Add(this.settingsimpexp);
+            this.Controls.Add(this.settingsquestion);
+            this.Controls.Add(this.settingstemplate);
+            this.Controls.Add(this.settingsprofile);
+            this.Controls.Add(this.settingshome);
+            this.Controls.Add(this.homepanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Settings";
             this.Text = "Settings";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.homepanel.ResumeLayout(false);
+            this.homepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsuseravatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsappicon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsSettings)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsimpexp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsquestion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingstemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsprofile)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingshome)).EndInit();
+            this.SettingsPage.ResumeLayout(false);
+            this.SettingsPage.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel homepanel;
+        private System.Windows.Forms.PictureBox settingsuseravatar;
+        private System.Windows.Forms.PictureBox settingsappicon;
+        private System.Windows.Forms.PictureBox settingsClose;
+        private System.Windows.Forms.Label lblsettingstohome;
+        private System.Windows.Forms.PictureBox settingsSettings;
+        private System.Windows.Forms.PictureBox settingsimpexp;
+        private System.Windows.Forms.PictureBox settingsquestion;
+        private System.Windows.Forms.PictureBox settingstemplate;
+        private System.Windows.Forms.PictureBox settingsprofile;
+        private System.Windows.Forms.PictureBox settingshome;
+        private System.Windows.Forms.Panel SettingsPage;
+        private System.Windows.Forms.Label lblSettings;
     }
 }

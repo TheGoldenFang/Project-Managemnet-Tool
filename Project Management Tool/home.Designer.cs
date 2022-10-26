@@ -28,227 +28,388 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
+            this.homePage = new System.Windows.Forms.Panel();
+            this.settings = new System.Windows.Forms.Panel();
+            this.picsettings = new System.Windows.Forms.PictureBox();
+            this.btHomeSettings = new System.Windows.Forms.Button();
+            this.premium = new System.Windows.Forms.Panel();
+            this.picgopremium = new System.Windows.Forms.PictureBox();
+            this.btHomeToPremium = new System.Windows.Forms.Button();
+            this.accountdetails = new System.Windows.Forms.Panel();
+            this.picaccountdetails = new System.Windows.Forms.PictureBox();
+            this.btHomeAccDetails = new System.Windows.Forms.Button();
+            this.importexport = new System.Windows.Forms.Panel();
+            this.picimpexp = new System.Windows.Forms.PictureBox();
+            this.btHomeImpExp = new System.Windows.Forms.Button();
+            this.openfile = new System.Windows.Forms.Panel();
+            this.picopenfile = new System.Windows.Forms.PictureBox();
+            this.btHomeFile = new System.Windows.Forms.Button();
+            this.getstarted = new System.Windows.Forms.Panel();
+            this.btHomeGetStarted = new System.Windows.Forms.Button();
+            this.picgetstarted = new System.Windows.Forms.PictureBox();
+            this.homepanel = new System.Windows.Forms.Panel();
+            this.useravatar = new System.Windows.Forms.PictureBox();
+            this.appicon = new System.Windows.Forms.PictureBox();
+            this.homeClose = new System.Windows.Forms.PictureBox();
+            this.lblhome = new System.Windows.Forms.Label();
+            this.homePage.SuspendLayout();
+            this.settings.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picsettings)).BeginInit();
+            this.premium.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picgopremium)).BeginInit();
+            this.accountdetails.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picaccountdetails)).BeginInit();
+            this.importexport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picimpexp)).BeginInit();
+            this.openfile.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picopenfile)).BeginInit();
+            this.getstarted.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picgetstarted)).BeginInit();
+            this.homepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.useravatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appicon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeClose)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
+            // homePage
             // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Location = new System.Drawing.Point(2, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(945, 81);
-            this.panel2.TabIndex = 16;
+            this.homePage.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.homePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.homePage.Controls.Add(this.settings);
+            this.homePage.Controls.Add(this.premium);
+            this.homePage.Controls.Add(this.accountdetails);
+            this.homePage.Controls.Add(this.importexport);
+            this.homePage.Controls.Add(this.openfile);
+            this.homePage.Controls.Add(this.getstarted);
+            this.homePage.Location = new System.Drawing.Point(39, 102);
+            this.homePage.Margin = new System.Windows.Forms.Padding(2);
+            this.homePage.Name = "homePage";
+            this.homePage.Size = new System.Drawing.Size(850, 393);
+            this.homePage.TabIndex = 20;
             // 
-            // panel6
+            // settings
             // 
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.pictureBox3);
-            this.panel6.Location = new System.Drawing.Point(838, 2);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(105, 81);
-            this.panel6.TabIndex = 11;
+            this.settings.Controls.Add(this.picsettings);
+            this.settings.Controls.Add(this.btHomeSettings);
+            this.settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.settings.Location = new System.Drawing.Point(622, 237);
+            this.settings.Margin = new System.Windows.Forms.Padding(2);
+            this.settings.Name = "settings";
+            this.settings.Size = new System.Drawing.Size(141, 116);
+            this.settings.TabIndex = 17;
             // 
-            // label14
+            // picsettings
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(5, 16);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 31);
-            this.label14.TabIndex = 27;
-            this.label14.Text = "...";
+            this.picsettings.Image = ((System.Drawing.Image)(resources.GetObject("picsettings.Image")));
+            this.picsettings.Location = new System.Drawing.Point(37, 16);
+            this.picsettings.Margin = new System.Windows.Forms.Padding(2);
+            this.picsettings.Name = "picsettings";
+            this.picsettings.Size = new System.Drawing.Size(68, 58);
+            this.picsettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picsettings.TabIndex = 3;
+            this.picsettings.TabStop = false;
             // 
-            // pictureBox3
+            // btHomeSettings
             // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox3.Location = new System.Drawing.Point(45, 16);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.TabIndex = 26;
-            this.pictureBox3.TabStop = false;
+            this.btHomeSettings.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeSettings.Location = new System.Drawing.Point(25, 78);
+            this.btHomeSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeSettings.Name = "btHomeSettings";
+            this.btHomeSettings.Size = new System.Drawing.Size(103, 32);
+            this.btHomeSettings.TabIndex = 5;
+            this.btHomeSettings.Text = "Settings";
+            this.btHomeSettings.UseVisualStyleBackColor = true;
+            this.btHomeSettings.Click += new System.EventHandler(this.btHomeSettings_Click);
             // 
-            // label6
+            // premium
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(106, 32);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 24);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Home";
+            this.premium.Controls.Add(this.picgopremium);
+            this.premium.Controls.Add(this.btHomeToPremium);
+            this.premium.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.premium.Location = new System.Drawing.Point(351, 237);
+            this.premium.Margin = new System.Windows.Forms.Padding(2);
+            this.premium.Name = "premium";
+            this.premium.Size = new System.Drawing.Size(141, 116);
+            this.premium.TabIndex = 17;
             // 
-            // panel5
+            // picgopremium
             // 
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(0, 2);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(90, 81);
-            this.panel5.TabIndex = 0;
+            this.picgopremium.Image = ((System.Drawing.Image)(resources.GetObject("picgopremium.Image")));
+            this.picgopremium.Location = new System.Drawing.Point(37, 16);
+            this.picgopremium.Margin = new System.Windows.Forms.Padding(2);
+            this.picgopremium.Name = "picgopremium";
+            this.picgopremium.Size = new System.Drawing.Size(68, 58);
+            this.picgopremium.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picgopremium.TabIndex = 3;
+            this.picgopremium.TabStop = false;
             // 
-            // pictureBox2
+            // btHomeToPremium
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 16);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
+            this.btHomeToPremium.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeToPremium.Location = new System.Drawing.Point(17, 78);
+            this.btHomeToPremium.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeToPremium.Name = "btHomeToPremium";
+            this.btHomeToPremium.Size = new System.Drawing.Size(113, 32);
+            this.btHomeToPremium.TabIndex = 7;
+            this.btHomeToPremium.Text = "Go Premium!";
+            this.btHomeToPremium.UseVisualStyleBackColor = true;
+            this.btHomeToPremium.Click += new System.EventHandler(this.btHomeToPremium_Click);
             // 
-            // panel1
+            // accountdetails
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(40, 85);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(866, 437);
-            this.panel1.TabIndex = 19;
+            this.accountdetails.Controls.Add(this.picaccountdetails);
+            this.accountdetails.Controls.Add(this.btHomeAccDetails);
+            this.accountdetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountdetails.Location = new System.Drawing.Point(71, 237);
+            this.accountdetails.Margin = new System.Windows.Forms.Padding(2);
+            this.accountdetails.Name = "accountdetails";
+            this.accountdetails.Size = new System.Drawing.Size(141, 116);
+            this.accountdetails.TabIndex = 17;
             // 
-            // button2
+            // picaccountdetails
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(342, 42);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 32);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Get Started";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.picaccountdetails.Image = ((System.Drawing.Image)(resources.GetObject("picaccountdetails.Image")));
+            this.picaccountdetails.Location = new System.Drawing.Point(37, 16);
+            this.picaccountdetails.Margin = new System.Windows.Forms.Padding(2);
+            this.picaccountdetails.Name = "picaccountdetails";
+            this.picaccountdetails.Size = new System.Drawing.Size(68, 58);
+            this.picaccountdetails.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picaccountdetails.TabIndex = 3;
+            this.picaccountdetails.TabStop = false;
             // 
-            // button3
+            // btHomeAccDetails
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(342, 149);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 32);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Import/Export";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btHomeAccDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeAccDetails.Location = new System.Drawing.Point(10, 78);
+            this.btHomeAccDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeAccDetails.Name = "btHomeAccDetails";
+            this.btHomeAccDetails.Size = new System.Drawing.Size(126, 32);
+            this.btHomeAccDetails.TabIndex = 4;
+            this.btHomeAccDetails.Text = "Account details";
+            this.btHomeAccDetails.UseVisualStyleBackColor = true;
+            this.btHomeAccDetails.Click += new System.EventHandler(this.btHomeAccDetails_Click);
             // 
-            // button4
+            // importexport
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button4.Location = new System.Drawing.Point(342, 213);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(146, 32);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Account details";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.importexport.Controls.Add(this.picimpexp);
+            this.importexport.Controls.Add(this.btHomeImpExp);
+            this.importexport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.importexport.Location = new System.Drawing.Point(622, 76);
+            this.importexport.Margin = new System.Windows.Forms.Padding(2);
+            this.importexport.Name = "importexport";
+            this.importexport.Size = new System.Drawing.Size(141, 116);
+            this.importexport.TabIndex = 17;
             // 
-            // button5
+            // picimpexp
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button5.Location = new System.Drawing.Point(342, 329);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(146, 32);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Settings";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.picimpexp.Image = ((System.Drawing.Image)(resources.GetObject("picimpexp.Image")));
+            this.picimpexp.Location = new System.Drawing.Point(37, 16);
+            this.picimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.picimpexp.Name = "picimpexp";
+            this.picimpexp.Size = new System.Drawing.Size(68, 58);
+            this.picimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picimpexp.TabIndex = 3;
+            this.picimpexp.TabStop = false;
             // 
-            // button1
+            // btHomeImpExp
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(342, 94);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 32);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Open File";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btHomeImpExp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeImpExp.Location = new System.Drawing.Point(13, 78);
+            this.btHomeImpExp.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeImpExp.Name = "btHomeImpExp";
+            this.btHomeImpExp.Size = new System.Drawing.Size(115, 32);
+            this.btHomeImpExp.TabIndex = 3;
+            this.btHomeImpExp.Text = "Import/Export";
+            this.btHomeImpExp.UseVisualStyleBackColor = true;
+            this.btHomeImpExp.Click += new System.EventHandler(this.btHomeImpExp_Click);
             // 
-            // button6
+            // openfile
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button6.Location = new System.Drawing.Point(342, 271);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(146, 32);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Go Premium!";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.openfile.Controls.Add(this.picopenfile);
+            this.openfile.Controls.Add(this.btHomeFile);
+            this.openfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.openfile.Location = new System.Drawing.Point(351, 76);
+            this.openfile.Margin = new System.Windows.Forms.Padding(2);
+            this.openfile.Name = "openfile";
+            this.openfile.Size = new System.Drawing.Size(141, 116);
+            this.openfile.TabIndex = 16;
+            // 
+            // picopenfile
+            // 
+            this.picopenfile.Image = ((System.Drawing.Image)(resources.GetObject("picopenfile.Image")));
+            this.picopenfile.Location = new System.Drawing.Point(37, 16);
+            this.picopenfile.Margin = new System.Windows.Forms.Padding(2);
+            this.picopenfile.Name = "picopenfile";
+            this.picopenfile.Size = new System.Drawing.Size(68, 58);
+            this.picopenfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picopenfile.TabIndex = 3;
+            this.picopenfile.TabStop = false;
+            // 
+            // btHomeFile
+            // 
+            this.btHomeFile.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeFile.Location = new System.Drawing.Point(15, 78);
+            this.btHomeFile.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeFile.Name = "btHomeFile";
+            this.btHomeFile.Size = new System.Drawing.Size(117, 32);
+            this.btHomeFile.TabIndex = 6;
+            this.btHomeFile.Text = "Open File";
+            this.btHomeFile.UseVisualStyleBackColor = true;
+            this.btHomeFile.Click += new System.EventHandler(this.btHomeFile_Click);
+            // 
+            // getstarted
+            // 
+            this.getstarted.Controls.Add(this.btHomeGetStarted);
+            this.getstarted.Controls.Add(this.picgetstarted);
+            this.getstarted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getstarted.Location = new System.Drawing.Point(71, 76);
+            this.getstarted.Margin = new System.Windows.Forms.Padding(2);
+            this.getstarted.Name = "getstarted";
+            this.getstarted.Size = new System.Drawing.Size(141, 116);
+            this.getstarted.TabIndex = 15;
+            // 
+            // btHomeGetStarted
+            // 
+            this.btHomeGetStarted.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHomeGetStarted.Location = new System.Drawing.Point(25, 82);
+            this.btHomeGetStarted.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeGetStarted.Name = "btHomeGetStarted";
+            this.btHomeGetStarted.Size = new System.Drawing.Size(99, 32);
+            this.btHomeGetStarted.TabIndex = 7;
+            this.btHomeGetStarted.Text = "Get Started";
+            this.btHomeGetStarted.UseVisualStyleBackColor = true;
+            this.btHomeGetStarted.Click += new System.EventHandler(this.btHomeGetStarted_Click);
+            // 
+            // picgetstarted
+            // 
+            this.picgetstarted.Image = ((System.Drawing.Image)(resources.GetObject("picgetstarted.Image")));
+            this.picgetstarted.Location = new System.Drawing.Point(37, 16);
+            this.picgetstarted.Margin = new System.Windows.Forms.Padding(2);
+            this.picgetstarted.Name = "picgetstarted";
+            this.picgetstarted.Size = new System.Drawing.Size(68, 58);
+            this.picgetstarted.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picgetstarted.TabIndex = 3;
+            this.picgetstarted.TabStop = false;
+            // 
+            // homepanel
+            // 
+            this.homepanel.Controls.Add(this.useravatar);
+            this.homepanel.Controls.Add(this.appicon);
+            this.homepanel.Controls.Add(this.homeClose);
+            this.homepanel.Controls.Add(this.lblhome);
+            this.homepanel.Location = new System.Drawing.Point(1, 2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Name = "homepanel";
+            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.TabIndex = 21;
+            // 
+            // useravatar
+            // 
+            this.useravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.useravatar.Location = new System.Drawing.Point(857, 15);
+            this.useravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.useravatar.Name = "useravatar";
+            this.useravatar.Size = new System.Drawing.Size(50, 50);
+            this.useravatar.TabIndex = 31;
+            this.useravatar.TabStop = false;
+
+            // 
+            // appicon
+            // 
+            this.appicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.appicon.Location = new System.Drawing.Point(10, 9);
+            this.appicon.Margin = new System.Windows.Forms.Padding(2);
+            this.appicon.Name = "appicon";
+            this.appicon.Size = new System.Drawing.Size(69, 67);
+            this.appicon.TabIndex = 30;
+            this.appicon.TabStop = false;
+            // 
+            // homeClose
+            // 
+            this.homeClose.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.homeClose.Image = ((System.Drawing.Image)(resources.GetObject("homeClose.Image")));
+            this.homeClose.Location = new System.Drawing.Point(911, 2);
+            this.homeClose.Margin = new System.Windows.Forms.Padding(2);
+            this.homeClose.Name = "homeClose";
+            this.homeClose.Size = new System.Drawing.Size(30, 25);
+            this.homeClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.homeClose.TabIndex = 29;
+            this.homeClose.TabStop = false;
+            this.homeClose.Click += new System.EventHandler(this.homeClose_Click);
+            // 
+            // lblhome
+            // 
+            this.lblhome.AutoSize = true;
+            this.lblhome.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblhome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.lblhome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblhome.Location = new System.Drawing.Point(106, 32);
+            this.lblhome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhome.Name = "lblhome";
+            this.lblhome.Size = new System.Drawing.Size(66, 24);
+            this.lblhome.TabIndex = 10;
+            this.lblhome.Text = "Home";
             // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(944, 553);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.homepanel);
+            this.Controls.Add(this.homePage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "home";
             this.Text = "home";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
+            this.homePage.ResumeLayout(false);
+            this.settings.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picsettings)).EndInit();
+            this.premium.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picgopremium)).EndInit();
+            this.accountdetails.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picaccountdetails)).EndInit();
+            this.importexport.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picimpexp)).EndInit();
+            this.openfile.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picopenfile)).EndInit();
+            this.getstarted.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picgetstarted)).EndInit();
+            this.homepanel.ResumeLayout(false);
+            this.homepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.useravatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appicon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeClose)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel homePage;
+        private System.Windows.Forms.Button btHomeToPremium;
+        private System.Windows.Forms.Button btHomeFile;
+        private System.Windows.Forms.Button btHomeSettings;
+        private System.Windows.Forms.Button btHomeAccDetails;
+        private System.Windows.Forms.Button btHomeImpExp;
+        private System.Windows.Forms.Panel homepanel;
+        private System.Windows.Forms.Label lblhome;
+        private System.Windows.Forms.PictureBox homeClose;
+        private System.Windows.Forms.PictureBox appicon;
+        private System.Windows.Forms.PictureBox useravatar;
+        private System.Windows.Forms.Panel settings;
+        private System.Windows.Forms.PictureBox picsettings;
+        private System.Windows.Forms.Panel premium;
+        private System.Windows.Forms.PictureBox picgopremium;
+        private System.Windows.Forms.Panel accountdetails;
+        private System.Windows.Forms.PictureBox picaccountdetails;
+        private System.Windows.Forms.Panel importexport;
+        private System.Windows.Forms.PictureBox picimpexp;
+        private System.Windows.Forms.Panel openfile;
+        private System.Windows.Forms.PictureBox picopenfile;
+        private System.Windows.Forms.Panel getstarted;
+        private System.Windows.Forms.Button btHomeGetStarted;
+        private System.Windows.Forms.PictureBox picgetstarted;
     }
 }

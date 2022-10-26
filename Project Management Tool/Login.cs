@@ -19,15 +19,21 @@ namespace Project_Management_Tool
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void btblogin_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            home form8 = new home();
+            form8.Show();
         }
-        private void label6_Click_1(object sender, EventArgs e)
+        private void lblRegister_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registration form2 = new Registration();
+            form2.Show();
+        }
+        private void loginClose_Click(object sender, EventArgs e)
         {
             this.Close();
-            Registration form2 = new Registration();
-            form2.ShowDialog();
         }
     }
 }

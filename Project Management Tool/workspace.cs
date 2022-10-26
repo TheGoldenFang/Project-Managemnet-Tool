@@ -21,5 +21,30 @@ namespace Project_Management_Tool
         {
 
         }
+
+        private void lblDesign_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblshapes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void basicdiagramspannel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void workspaceClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

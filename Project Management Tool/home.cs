@@ -16,35 +16,50 @@ namespace Project_Management_Tool
         {
             InitializeComponent();
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void btHomeImpExp_Click(object sender, EventArgs e)
         {
-            Profile form5 = new Profile();
-            form5.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Template form3 = new Template();
-            form3.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
+            this.Hide();
             Import_export form4 = new Import_export();
             form4.Show();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btHomeAccDetails_Click(object sender, EventArgs e)
         {
-            Settings form6 = new Settings();
-            form6.Show();
+            this.Hide();
+            Profile form5 = new Profile();
+            form5.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btHomeToPremium_Click(object sender, EventArgs e)
         {
             Premium form7 = new Premium();
             form7.ShowDialog();
         }
+
+        private void btHomeSettings_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Settings form6 = new Settings();
+            form6.Show();
+        }
+
+        private void btHomeFile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btHomeGetStarted_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Template form3 = new Template();
+            form3.Show();
+        }
+
+        private void homeClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
     }
 }

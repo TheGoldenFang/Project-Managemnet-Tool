@@ -29,338 +29,618 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(workspace));
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.homepanel = new System.Windows.Forms.Panel();
+            this.workspaceuseravatar = new System.Windows.Forms.PictureBox();
+            this.workspaceappicon = new System.Windows.Forms.PictureBox();
+            this.workspaceClose = new System.Windows.Forms.PictureBox();
+            this.lblworkspace = new System.Windows.Forms.Label();
+            this.WorkspacePage = new System.Windows.Forms.Panel();
+            this.userspannel = new System.Windows.Forms.Panel();
+            this.picuser3 = new System.Windows.Forms.PictureBox();
+            this.picuser2 = new System.Windows.Forms.PictureBox();
+            this.picuser1 = new System.Windows.Forms.PictureBox();
+            this.lblUsers = new System.Windows.Forms.Label();
+            this.lblwelcome = new System.Windows.Forms.Label();
+            this.basicdiagramspannel = new System.Windows.Forms.Panel();
+            this.Optionspannel = new System.Windows.Forms.Panel();
+            this.picCut = new System.Windows.Forms.PictureBox();
+            this.lblClipboard = new System.Windows.Forms.Label();
+            this.Fontendpannel = new System.Windows.Forms.Panel();
+            this.lblFont = new System.Windows.Forms.Label();
+            this.filepannel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.lblShare = new System.Windows.Forms.Label();
+            this.lblAdv = new System.Windows.Forms.Label();
+            this.lblView = new System.Windows.Forms.Label();
+            this.lblDesign = new System.Windows.Forms.Label();
+            this.lblFile = new System.Windows.Forms.Label();
+            this.lblHome = new System.Windows.Forms.Label();
+            this.lblInsert = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.lblshapes = new System.Windows.Forms.Label();
+            this.picPaste = new System.Windows.Forms.PictureBox();
+            this.picCopy = new System.Windows.Forms.PictureBox();
+            this.picPaint = new System.Windows.Forms.PictureBox();
+            this.picBold = new System.Windows.Forms.PictureBox();
+            this.picItalic = new System.Windows.Forms.PictureBox();
+            this.picUnderline = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPicStrikeThrough = new System.Windows.Forms.PictureBox();
+            this.btFont = new System.Windows.Forms.Button();
+            this.btSize = new System.Windows.Forms.Button();
+            this.picoptions = new System.Windows.Forms.PictureBox();
+            this.picoptions1 = new System.Windows.Forms.PictureBox();
+            this.homepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceClose)).BeginInit();
+            this.WorkspacePage.SuspendLayout();
+            this.userspannel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser1)).BeginInit();
+            this.Optionspannel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCut)).BeginInit();
+            this.Fontendpannel.SuspendLayout();
+            this.filepannel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCopy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBold)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picItalic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
+            // homepanel
             // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1315, 100);
-            this.panel2.TabIndex = 16;
+            this.homepanel.Controls.Add(this.workspaceuseravatar);
+            this.homepanel.Controls.Add(this.workspaceappicon);
+            this.homepanel.Controls.Add(this.workspaceClose);
+            this.homepanel.Controls.Add(this.lblworkspace);
+            this.homepanel.Location = new System.Drawing.Point(0, 2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Name = "homepanel";
+            this.homepanel.Size = new System.Drawing.Size(943, 63);
+            this.homepanel.TabIndex = 23;
             // 
-            // panel6
+            // workspaceuseravatar
             // 
-            this.panel6.Controls.Add(this.panel4);
-            this.panel6.Location = new System.Drawing.Point(926, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(402, 100);
-            this.panel6.TabIndex = 11;
+            this.workspaceuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.workspaceuseravatar.Location = new System.Drawing.Point(857, 6);
+            this.workspaceuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceuseravatar.Name = "workspaceuseravatar";
+            this.workspaceuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.workspaceuseravatar.TabIndex = 31;
+            this.workspaceuseravatar.TabStop = false;
             // 
-            // panel4
+            // workspaceappicon
             // 
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.pictureBox5);
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.pictureBox8);
-            this.panel4.Location = new System.Drawing.Point(282, 97);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(120, 596);
-            this.panel4.TabIndex = 18;
+            this.workspaceappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.workspaceappicon.Location = new System.Drawing.Point(10, 9);
+            this.workspaceappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceappicon.Name = "workspaceappicon";
+            this.workspaceappicon.Size = new System.Drawing.Size(56, 47);
+            this.workspaceappicon.TabIndex = 30;
+            this.workspaceappicon.TabStop = false;
+            // 
+            // workspaceClose
+            // 
+            this.workspaceClose.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.workspaceClose.Image = ((System.Drawing.Image)(resources.GetObject("workspaceClose.Image")));
+            this.workspaceClose.Location = new System.Drawing.Point(911, 2);
+            this.workspaceClose.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceClose.Name = "workspaceClose";
+            this.workspaceClose.Size = new System.Drawing.Size(30, 25);
+            this.workspaceClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.workspaceClose.TabIndex = 29;
+            this.workspaceClose.TabStop = false;
+            this.workspaceClose.Click += new System.EventHandler(this.workspaceClose_Click);
+            // 
+            // lblworkspace
+            // 
+            this.lblworkspace.AutoSize = true;
+            this.lblworkspace.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblworkspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.lblworkspace.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblworkspace.Location = new System.Drawing.Point(86, 21);
+            this.lblworkspace.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblworkspace.Name = "lblworkspace";
+            this.lblworkspace.Size = new System.Drawing.Size(117, 24);
+            this.lblworkspace.TabIndex = 10;
+            this.lblworkspace.Text = "WorkSpace";
+            // 
+            // WorkspacePage
+            // 
+            this.WorkspacePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.WorkspacePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WorkspacePage.Controls.Add(this.userspannel);
+            this.WorkspacePage.Controls.Add(this.lblwelcome);
+            this.WorkspacePage.Controls.Add(this.basicdiagramspannel);
+            this.WorkspacePage.Controls.Add(this.Optionspannel);
+            this.WorkspacePage.Controls.Add(this.filepannel);
+            this.WorkspacePage.Location = new System.Drawing.Point(25, 81);
+            this.WorkspacePage.Margin = new System.Windows.Forms.Padding(2);
+            this.WorkspacePage.Name = "WorkspacePage";
+            this.WorkspacePage.Size = new System.Drawing.Size(896, 452);
+            this.WorkspacePage.TabIndex = 65;
+            // 
+            // userspannel
+            // 
+            this.userspannel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.userspannel.Controls.Add(this.picuser3);
+            this.userspannel.Controls.Add(this.picuser2);
+            this.userspannel.Controls.Add(this.picuser1);
+            this.userspannel.Controls.Add(this.lblUsers);
+            this.userspannel.Location = new System.Drawing.Point(831, 89);
+            this.userspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.userspannel.Name = "userspannel";
+            this.userspannel.Size = new System.Drawing.Size(63, 360);
+            this.userspannel.TabIndex = 27;
+            // 
+            // picuser3
+            // 
+            this.picuser3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.picuser3.Location = new System.Drawing.Point(17, 137);
+            this.picuser3.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser3.Name = "picuser3";
+            this.picuser3.Size = new System.Drawing.Size(37, 32);
+            this.picuser3.TabIndex = 34;
+            this.picuser3.TabStop = false;
+            // 
+            // picuser2
+            // 
+            this.picuser2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.picuser2.Location = new System.Drawing.Point(17, 84);
+            this.picuser2.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser2.Name = "picuser2";
+            this.picuser2.Size = new System.Drawing.Size(37, 32);
+            this.picuser2.TabIndex = 33;
+            this.picuser2.TabStop = false;
+            // 
+            // picuser1
+            // 
+            this.picuser1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.picuser1.Location = new System.Drawing.Point(17, 37);
+            this.picuser1.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser1.Name = "picuser1";
+            this.picuser1.Size = new System.Drawing.Size(37, 32);
+            this.picuser1.TabIndex = 32;
+            this.picuser1.TabStop = false;
+            // 
+            // lblUsers
+            // 
+            this.lblUsers.AutoSize = true;
+            this.lblUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblUsers.Location = new System.Drawing.Point(13, 7);
+            this.lblUsers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsers.Name = "lblUsers";
+            this.lblUsers.Size = new System.Drawing.Size(45, 17);
+            this.lblUsers.TabIndex = 29;
+            this.lblUsers.Text = "Users";
+            // 
+            // lblwelcome
+            // 
+            this.lblwelcome.AutoSize = true;
+            this.lblwelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblwelcome.Location = new System.Drawing.Point(307, 190);
+            this.lblwelcome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblwelcome.Name = "lblwelcome";
+            this.lblwelcome.Size = new System.Drawing.Size(366, 102);
+            this.lblwelcome.TabIndex = 26;
+            this.lblwelcome.Text = resources.GetString("lblwelcome.Text");
+            this.lblwelcome.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // basicdiagramspannel
+            // 
+            this.basicdiagramspannel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.basicdiagramspannel.Location = new System.Drawing.Point(-1, 89);
+            this.basicdiagramspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.basicdiagramspannel.Name = "basicdiagramspannel";
+            this.basicdiagramspannel.Size = new System.Drawing.Size(165, 365);
+            this.basicdiagramspannel.TabIndex = 24;
+            this.basicdiagramspannel.Paint += new System.Windows.Forms.PaintEventHandler(this.basicdiagramspannel_Paint);
+            // 
+            // Optionspannel
+            // 
+            this.Optionspannel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Optionspannel.Controls.Add(this.lblShare);
+            this.Optionspannel.Controls.Add(this.pictureBox1);
+            this.Optionspannel.Controls.Add(this.picCopy);
+            this.Optionspannel.Controls.Add(this.picPaint);
+            this.Optionspannel.Controls.Add(this.picCut);
+            this.Optionspannel.Controls.Add(this.lblClipboard);
+            this.Optionspannel.Controls.Add(this.picPaste);
+            this.Optionspannel.Controls.Add(this.Fontendpannel);
+            this.Optionspannel.Location = new System.Drawing.Point(-1, 34);
+            this.Optionspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.Optionspannel.Name = "Optionspannel";
+            this.Optionspannel.Size = new System.Drawing.Size(896, 54);
+            this.Optionspannel.TabIndex = 23;
+            // 
+            // picCut
+            // 
+            this.picCut.Image = ((System.Drawing.Image)(resources.GetObject("picCut.Image")));
+            this.picCut.Location = new System.Drawing.Point(65, 12);
+            this.picCut.Name = "picCut";
+            this.picCut.Size = new System.Drawing.Size(25, 21);
+            this.picCut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCut.TabIndex = 28;
+            this.picCut.TabStop = false;
+            // 
+            // lblClipboard
+            // 
+            this.lblClipboard.AutoSize = true;
+            this.lblClipboard.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClipboard.Location = new System.Drawing.Point(68, 41);
+            this.lblClipboard.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblClipboard.Name = "lblClipboard";
+            this.lblClipboard.Size = new System.Drawing.Size(43, 12);
+            this.lblClipboard.TabIndex = 28;
+            this.lblClipboard.Text = "Clipboard";
+            // 
+            // Fontendpannel
+            // 
+            this.Fontendpannel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Fontendpannel.Controls.Add(this.picoptions1);
+            this.Fontendpannel.Controls.Add(this.picoptions);
+            this.Fontendpannel.Controls.Add(this.btSize);
+            this.Fontendpannel.Controls.Add(this.btFont);
+            this.Fontendpannel.Controls.Add(this.pictureBoxPicStrikeThrough);
+            this.Fontendpannel.Controls.Add(this.lblFont);
+            this.Fontendpannel.Controls.Add(this.picUnderline);
+            this.Fontendpannel.Controls.Add(this.picBold);
+            this.Fontendpannel.Controls.Add(this.picItalic);
+            this.Fontendpannel.Location = new System.Drawing.Point(243, 2);
+            this.Fontendpannel.Margin = new System.Windows.Forms.Padding(2);
+            this.Fontendpannel.Name = "Fontendpannel";
+            this.Fontendpannel.Size = new System.Drawing.Size(482, 44);
+            this.Fontendpannel.TabIndex = 28;
+            // 
+            // lblFont
+            // 
+            this.lblFont.AutoSize = true;
+            this.lblFont.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFont.Location = new System.Drawing.Point(159, 32);
+            this.lblFont.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFont.Name = "lblFont";
+            this.lblFont.Size = new System.Drawing.Size(81, 12);
+            this.lblFont.TabIndex = 28;
+            this.lblFont.Text = "Font and alignment";
+            // 
+            // filepannel
+            // 
+            this.filepannel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.filepannel.Controls.Add(this.lblAdv);
+            this.filepannel.Controls.Add(this.lblView);
+            this.filepannel.Controls.Add(this.lblDesign);
+            this.filepannel.Controls.Add(this.lblFile);
+            this.filepannel.Controls.Add(this.lblHome);
+            this.filepannel.Controls.Add(this.lblInsert);
+            this.filepannel.Location = new System.Drawing.Point(-1, -1);
+            this.filepannel.Margin = new System.Windows.Forms.Padding(2);
+            this.filepannel.Name = "filepannel";
+            this.filepannel.Size = new System.Drawing.Size(896, 37);
+            this.filepannel.TabIndex = 22;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(39, 374);
+            this.pictureBox1.Location = new System.Drawing.Point(816, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 34);
+            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox3
+            // lblShare
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(39, 316);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 45;
-            this.pictureBox3.TabStop = false;
+            this.lblShare.AutoSize = true;
+            this.lblShare.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblShare.Location = new System.Drawing.Point(848, 16);
+            this.lblShare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblShare.Name = "lblShare";
+            this.lblShare.Size = new System.Drawing.Size(46, 17);
+            this.lblShare.TabIndex = 28;
+            this.lblShare.Text = "Share";
             // 
-            // pictureBox4
+            // lblAdv
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(39, 260);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 46;
-            this.pictureBox4.TabStop = false;
+            this.lblAdv.AutoSize = true;
+            this.lblAdv.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdv.Location = new System.Drawing.Point(406, 5);
+            this.lblAdv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAdv.Name = "lblAdv";
+            this.lblAdv.Size = new System.Drawing.Size(65, 17);
+            this.lblAdv.TabIndex = 25;
+            this.lblAdv.Text = "Advanced";
             // 
-            // pictureBox5
+            // lblView
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(39, 202);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 47;
-            this.pictureBox5.TabStop = false;
+            this.lblView.AutoSize = true;
+            this.lblView.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblView.Location = new System.Drawing.Point(337, 5);
+            this.lblView.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblView.Name = "lblView";
+            this.lblView.Size = new System.Drawing.Size(35, 17);
+            this.lblView.TabIndex = 27;
+            this.lblView.Text = "View";
             // 
-            // pictureBox6
+            // lblDesign
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(39, 143);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 48;
-            this.pictureBox6.TabStop = false;
+            this.lblDesign.AutoSize = true;
+            this.lblDesign.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesign.Location = new System.Drawing.Point(251, 5);
+            this.lblDesign.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDesign.Name = "lblDesign";
+            this.lblDesign.Size = new System.Drawing.Size(48, 17);
+            this.lblDesign.TabIndex = 28;
+            this.lblDesign.Text = "Design";
+            this.lblDesign.Click += new System.EventHandler(this.lblDesign_Click);
             // 
-            // pictureBox7
+            // lblFile
             // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(39, 87);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 49;
-            this.pictureBox7.TabStop = false;
+            this.lblFile.AutoSize = true;
+            this.lblFile.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFile.Location = new System.Drawing.Point(21, 5);
+            this.lblFile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFile.Name = "lblFile";
+            this.lblFile.Size = new System.Drawing.Size(27, 17);
+            this.lblFile.TabIndex = 23;
+            this.lblFile.Text = "File";
             // 
-            // pictureBox8
+            // lblHome
             // 
-            this.pictureBox8.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(39, 32);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 50;
-            this.pictureBox8.TabStop = false;
+            this.lblHome.AutoSize = true;
+            this.lblHome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.Location = new System.Drawing.Point(86, 5);
+            this.lblHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(43, 17);
+            this.lblHome.TabIndex = 24;
+            this.lblHome.Text = "Home";
+            this.lblHome.Click += new System.EventHandler(this.lblHome_Click);
             // 
-            // label6
+            // lblInsert
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(141, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(241, 29);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Home < Workspace";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(0, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(120, 100);
-            this.panel5.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.pictureBox19);
-            this.panel3.Controls.Add(this.pictureBox20);
-            this.panel3.Controls.Add(this.pictureBox21);
-            this.panel3.Controls.Add(this.pictureBox22);
-            this.panel3.Controls.Add(this.pictureBox23);
-            this.panel3.Controls.Add(this.pictureBox24);
-            this.panel3.Controls.Add(this.pictureBox25);
-            this.panel3.Location = new System.Drawing.Point(0, 100);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(120, 596);
-            this.panel3.TabIndex = 17;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(39, 411);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 44;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(39, 353);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 45;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(39, 297);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 46;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(39, 239);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 47;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(39, 180);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 48;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(39, 124);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 49;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(39, 69);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(41, 34);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 50;
-            this.pictureBox25.TabStop = false;
+            this.lblInsert.AutoSize = true;
+            this.lblInsert.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInsert.Location = new System.Drawing.Point(173, 5);
+            this.lblInsert.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblInsert.Name = "lblInsert";
+            this.lblInsert.Size = new System.Drawing.Size(40, 17);
+            this.lblInsert.TabIndex = 26;
+            this.lblInsert.Text = "Insert";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(115, 100);
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.Controls.Add(this.lblshapes);
+            this.panel1.Location = new System.Drawing.Point(25, 170);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 541);
-            this.panel1.TabIndex = 18;
+            this.panel1.Size = new System.Drawing.Size(166, 26);
+            this.panel1.TabIndex = 25;
+            // 
+            // lblshapes
+            // 
+            this.lblshapes.AutoSize = true;
+            this.lblshapes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblshapes.Location = new System.Drawing.Point(11, 5);
+            this.lblshapes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblshapes.Name = "lblshapes";
+            this.lblshapes.Size = new System.Drawing.Size(143, 15);
+            this.lblshapes.TabIndex = 25;
+            this.lblshapes.Text = "Basic Flow Chart Shapes";
+            this.lblshapes.Click += new System.EventHandler(this.lblshapes_Click);
+            // 
+            // picPaste
+            // 
+            this.picPaste.Image = ((System.Drawing.Image)(resources.GetObject("picPaste.Image")));
+            this.picPaste.Location = new System.Drawing.Point(101, 12);
+            this.picPaste.Name = "picPaste";
+            this.picPaste.Size = new System.Drawing.Size(25, 22);
+            this.picPaste.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPaste.TabIndex = 29;
+            this.picPaste.TabStop = false;
+            // 
+            // picCopy
+            // 
+            this.picCopy.Image = ((System.Drawing.Image)(resources.GetObject("picCopy.Image")));
+            this.picCopy.Location = new System.Drawing.Point(31, 12);
+            this.picCopy.Name = "picCopy";
+            this.picCopy.Size = new System.Drawing.Size(23, 22);
+            this.picCopy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCopy.TabIndex = 30;
+            this.picCopy.TabStop = false;
+            // 
+            // picPaint
+            // 
+            this.picPaint.Image = ((System.Drawing.Image)(resources.GetObject("picPaint.Image")));
+            this.picPaint.Location = new System.Drawing.Point(141, 12);
+            this.picPaint.Name = "picPaint";
+            this.picPaint.Size = new System.Drawing.Size(33, 21);
+            this.picPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPaint.TabIndex = 31;
+            this.picPaint.TabStop = false;
+            // 
+            // picBold
+            // 
+            this.picBold.Image = ((System.Drawing.Image)(resources.GetObject("picBold.Image")));
+            this.picBold.Location = new System.Drawing.Point(354, 9);
+            this.picBold.Name = "picBold";
+            this.picBold.Size = new System.Drawing.Size(23, 22);
+            this.picBold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBold.TabIndex = 31;
+            this.picBold.TabStop = false;
+            // 
+            // picItalic
+            // 
+            this.picItalic.Image = ((System.Drawing.Image)(resources.GetObject("picItalic.Image")));
+            this.picItalic.Location = new System.Drawing.Point(383, 9);
+            this.picItalic.Name = "picItalic";
+            this.picItalic.Size = new System.Drawing.Size(23, 22);
+            this.picItalic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picItalic.TabIndex = 32;
+            this.picItalic.TabStop = false;
+            // 
+            // picUnderline
+            // 
+            this.picUnderline.Image = ((System.Drawing.Image)(resources.GetObject("picUnderline.Image")));
+            this.picUnderline.Location = new System.Drawing.Point(414, 9);
+            this.picUnderline.Name = "picUnderline";
+            this.picUnderline.Size = new System.Drawing.Size(23, 22);
+            this.picUnderline.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUnderline.TabIndex = 33;
+            this.picUnderline.TabStop = false;
+            // 
+            // pictureBoxPicStrikeThrough
+            // 
+            this.pictureBoxPicStrikeThrough.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPicStrikeThrough.Image")));
+            this.pictureBoxPicStrikeThrough.Location = new System.Drawing.Point(443, 9);
+            this.pictureBoxPicStrikeThrough.Name = "pictureBoxPicStrikeThrough";
+            this.pictureBoxPicStrikeThrough.Size = new System.Drawing.Size(23, 22);
+            this.pictureBoxPicStrikeThrough.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxPicStrikeThrough.TabIndex = 34;
+            this.pictureBoxPicStrikeThrough.TabStop = false;
+            // 
+            // btFont
+            // 
+            this.btFont.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btFont.Location = new System.Drawing.Point(2, 8);
+            this.btFont.Margin = new System.Windows.Forms.Padding(2);
+            this.btFont.Name = "btFont";
+            this.btFont.Size = new System.Drawing.Size(164, 22);
+            this.btFont.TabIndex = 28;
+            this.btFont.Text = "Font";
+            this.btFont.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btFont.UseVisualStyleBackColor = true;
+            // 
+            // btSize
+            // 
+            this.btSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSize.Location = new System.Drawing.Point(170, 9);
+            this.btSize.Margin = new System.Windows.Forms.Padding(2);
+            this.btSize.Name = "btSize";
+            this.btSize.Size = new System.Drawing.Size(164, 22);
+            this.btSize.TabIndex = 35;
+            this.btSize.Text = "Size";
+            this.btSize.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btSize.UseVisualStyleBackColor = true;
+            // 
+            // picoptions
+            // 
+            this.picoptions.Image = ((System.Drawing.Image)(resources.GetObject("picoptions.Image")));
+            this.picoptions.Location = new System.Drawing.Point(146, 12);
+            this.picoptions.Name = "picoptions";
+            this.picoptions.Size = new System.Drawing.Size(14, 14);
+            this.picoptions.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picoptions.TabIndex = 32;
+            this.picoptions.TabStop = false;
+            // 
+            // picoptions1
+            // 
+            this.picoptions1.Image = ((System.Drawing.Image)(resources.GetObject("picoptions1.Image")));
+            this.picoptions1.Location = new System.Drawing.Point(313, 12);
+            this.picoptions1.Name = "picoptions1";
+            this.picoptions1.Size = new System.Drawing.Size(14, 14);
+            this.picoptions1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picoptions1.TabIndex = 33;
+            this.picoptions1.TabStop = false;
             // 
             // workspace
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(1259, 681);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(944, 553);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.WorkspacePage);
+            this.Controls.Add(this.homepanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "workspace";
             this.Text = "workspace";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
+            this.homepanel.ResumeLayout(false);
+            this.homepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.workspaceClose)).EndInit();
+            this.WorkspacePage.ResumeLayout(false);
+            this.WorkspacePage.PerformLayout();
+            this.userspannel.ResumeLayout(false);
+            this.userspannel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser1)).EndInit();
+            this.Optionspannel.ResumeLayout(false);
+            this.Optionspannel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCut)).EndInit();
+            this.Fontendpannel.ResumeLayout(false);
+            this.Fontendpannel.PerformLayout();
+            this.filepannel.ResumeLayout(false);
+            this.filepannel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCopy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBold)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picItalic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel homepanel;
+        private System.Windows.Forms.PictureBox workspaceuseravatar;
+        private System.Windows.Forms.PictureBox workspaceappicon;
+        private System.Windows.Forms.PictureBox workspaceClose;
+        private System.Windows.Forms.Label lblworkspace;
+        private System.Windows.Forms.Panel WorkspacePage;
+        private System.Windows.Forms.Panel filepannel;
+        private System.Windows.Forms.Label lblView;
+        private System.Windows.Forms.Label lblInsert;
+        private System.Windows.Forms.Label lblAdv;
+        private System.Windows.Forms.Label lblDesign;
+        private System.Windows.Forms.Label lblFile;
+        private System.Windows.Forms.Label lblHome;
+        private System.Windows.Forms.Label lblshapes;
+        private System.Windows.Forms.Panel basicdiagramspannel;
+        private System.Windows.Forms.Panel Optionspannel;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel userspannel;
+        private System.Windows.Forms.PictureBox picuser3;
+        private System.Windows.Forms.PictureBox picuser2;
+        private System.Windows.Forms.PictureBox picuser1;
+        private System.Windows.Forms.Label lblUsers;
+        private System.Windows.Forms.Label lblwelcome;
+        private System.Windows.Forms.PictureBox picCut;
+        private System.Windows.Forms.Label lblClipboard;
+        private System.Windows.Forms.Panel Fontendpannel;
+        private System.Windows.Forms.Label lblFont;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label lblShare;
+        private System.Windows.Forms.PictureBox picCopy;
+        private System.Windows.Forms.PictureBox picPaint;
+        private System.Windows.Forms.PictureBox picPaste;
+        private System.Windows.Forms.PictureBox pictureBoxPicStrikeThrough;
+        private System.Windows.Forms.PictureBox picUnderline;
+        private System.Windows.Forms.PictureBox picBold;
+        private System.Windows.Forms.PictureBox picItalic;
+        private System.Windows.Forms.PictureBox picoptions1;
+        private System.Windows.Forms.PictureBox picoptions;
+        private System.Windows.Forms.Button btSize;
+        private System.Windows.Forms.Button btFont;
     }
 }
