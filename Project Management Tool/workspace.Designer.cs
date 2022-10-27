@@ -43,13 +43,24 @@
             this.lblwelcome = new System.Windows.Forms.Label();
             this.basicdiagramspannel = new System.Windows.Forms.Panel();
             this.Optionspannel = new System.Windows.Forms.Panel();
+            this.lblShare = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picCopy = new System.Windows.Forms.PictureBox();
+            this.picPaint = new System.Windows.Forms.PictureBox();
             this.picCut = new System.Windows.Forms.PictureBox();
             this.lblClipboard = new System.Windows.Forms.Label();
+            this.picPaste = new System.Windows.Forms.PictureBox();
             this.Fontendpannel = new System.Windows.Forms.Panel();
+            this.picoptions1 = new System.Windows.Forms.PictureBox();
+            this.picoptions = new System.Windows.Forms.PictureBox();
+            this.btSize = new System.Windows.Forms.Button();
+            this.btFont = new System.Windows.Forms.Button();
+            this.pictureBoxPicStrikeThrough = new System.Windows.Forms.PictureBox();
             this.lblFont = new System.Windows.Forms.Label();
+            this.picUnderline = new System.Windows.Forms.PictureBox();
+            this.picBold = new System.Windows.Forms.PictureBox();
+            this.picItalic = new System.Windows.Forms.PictureBox();
             this.filepannel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblShare = new System.Windows.Forms.Label();
             this.lblAdv = new System.Windows.Forms.Label();
             this.lblView = new System.Windows.Forms.Label();
             this.lblDesign = new System.Windows.Forms.Label();
@@ -58,17 +69,6 @@
             this.lblInsert = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblshapes = new System.Windows.Forms.Label();
-            this.picPaste = new System.Windows.Forms.PictureBox();
-            this.picCopy = new System.Windows.Forms.PictureBox();
-            this.picPaint = new System.Windows.Forms.PictureBox();
-            this.picBold = new System.Windows.Forms.PictureBox();
-            this.picItalic = new System.Windows.Forms.PictureBox();
-            this.picUnderline = new System.Windows.Forms.PictureBox();
-            this.pictureBoxPicStrikeThrough = new System.Windows.Forms.PictureBox();
-            this.btFont = new System.Windows.Forms.Button();
-            this.btSize = new System.Windows.Forms.Button();
-            this.picoptions = new System.Windows.Forms.PictureBox();
-            this.picoptions1 = new System.Windows.Forms.PictureBox();
             this.homepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).BeginInit();
@@ -79,24 +79,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.picuser2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picuser1)).BeginInit();
             this.Optionspannel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCut)).BeginInit();
-            this.Fontendpannel.SuspendLayout();
-            this.filepannel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCopy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPaint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCut)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).BeginInit();
+            this.Fontendpannel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBold)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picItalic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).BeginInit();
+            this.filepannel.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.workspaceuseravatar);
             this.homepanel.Controls.Add(this.workspaceappicon);
             this.homepanel.Controls.Add(this.workspaceClose);
@@ -104,13 +105,13 @@
             this.homepanel.Location = new System.Drawing.Point(0, 2);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 63);
+            this.homepanel.Size = new System.Drawing.Size(943, 59);
             this.homepanel.TabIndex = 23;
             // 
             // workspaceuseravatar
             // 
             this.workspaceuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.workspaceuseravatar.Location = new System.Drawing.Point(857, 6);
+            this.workspaceuseravatar.Location = new System.Drawing.Point(857, 4);
             this.workspaceuseravatar.Margin = new System.Windows.Forms.Padding(2);
             this.workspaceuseravatar.Name = "workspaceuseravatar";
             this.workspaceuseravatar.Size = new System.Drawing.Size(50, 50);
@@ -120,7 +121,7 @@
             // workspaceappicon
             // 
             this.workspaceappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.workspaceappicon.Location = new System.Drawing.Point(10, 9);
+            this.workspaceappicon.Location = new System.Drawing.Point(10, 7);
             this.workspaceappicon.Margin = new System.Windows.Forms.Padding(2);
             this.workspaceappicon.Name = "workspaceappicon";
             this.workspaceappicon.Size = new System.Drawing.Size(56, 47);
@@ -131,10 +132,10 @@
             // 
             this.workspaceClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.workspaceClose.Image = ((System.Drawing.Image)(resources.GetObject("workspaceClose.Image")));
-            this.workspaceClose.Location = new System.Drawing.Point(911, 2);
+            this.workspaceClose.Location = new System.Drawing.Point(921, 23);
             this.workspaceClose.Margin = new System.Windows.Forms.Padding(2);
             this.workspaceClose.Name = "workspaceClose";
-            this.workspaceClose.Size = new System.Drawing.Size(30, 25);
+            this.workspaceClose.Size = new System.Drawing.Size(16, 15);
             this.workspaceClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.workspaceClose.TabIndex = 29;
             this.workspaceClose.TabStop = false;
@@ -143,9 +144,9 @@
             // lblworkspace
             // 
             this.lblworkspace.AutoSize = true;
-            this.lblworkspace.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblworkspace.BackColor = System.Drawing.Color.Transparent;
             this.lblworkspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.lblworkspace.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblworkspace.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblworkspace.Location = new System.Drawing.Point(86, 21);
             this.lblworkspace.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblworkspace.Name = "lblworkspace";
@@ -261,6 +262,47 @@
             this.Optionspannel.Size = new System.Drawing.Size(896, 54);
             this.Optionspannel.TabIndex = 23;
             // 
+            // lblShare
+            // 
+            this.lblShare.AutoSize = true;
+            this.lblShare.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblShare.Location = new System.Drawing.Point(848, 16);
+            this.lblShare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblShare.Name = "lblShare";
+            this.lblShare.Size = new System.Drawing.Size(46, 17);
+            this.lblShare.TabIndex = 28;
+            this.lblShare.Text = "Share";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(816, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
+            // picCopy
+            // 
+            this.picCopy.Image = ((System.Drawing.Image)(resources.GetObject("picCopy.Image")));
+            this.picCopy.Location = new System.Drawing.Point(31, 12);
+            this.picCopy.Name = "picCopy";
+            this.picCopy.Size = new System.Drawing.Size(23, 22);
+            this.picCopy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCopy.TabIndex = 30;
+            this.picCopy.TabStop = false;
+            // 
+            // picPaint
+            // 
+            this.picPaint.Image = ((System.Drawing.Image)(resources.GetObject("picPaint.Image")));
+            this.picPaint.Location = new System.Drawing.Point(141, 12);
+            this.picPaint.Name = "picPaint";
+            this.picPaint.Size = new System.Drawing.Size(33, 21);
+            this.picPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPaint.TabIndex = 31;
+            this.picPaint.TabStop = false;
+            // 
             // picCut
             // 
             this.picCut.Image = ((System.Drawing.Image)(resources.GetObject("picCut.Image")));
@@ -282,6 +324,16 @@
             this.lblClipboard.TabIndex = 28;
             this.lblClipboard.Text = "Clipboard";
             // 
+            // picPaste
+            // 
+            this.picPaste.Image = ((System.Drawing.Image)(resources.GetObject("picPaste.Image")));
+            this.picPaste.Location = new System.Drawing.Point(101, 12);
+            this.picPaste.Name = "picPaste";
+            this.picPaste.Size = new System.Drawing.Size(25, 22);
+            this.picPaste.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPaste.TabIndex = 29;
+            this.picPaste.TabStop = false;
+            // 
             // Fontendpannel
             // 
             this.Fontendpannel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -300,16 +352,100 @@
             this.Fontendpannel.Size = new System.Drawing.Size(482, 44);
             this.Fontendpannel.TabIndex = 28;
             // 
+            // picoptions1
+            // 
+            this.picoptions1.Image = ((System.Drawing.Image)(resources.GetObject("picoptions1.Image")));
+            this.picoptions1.Location = new System.Drawing.Point(313, 12);
+            this.picoptions1.Name = "picoptions1";
+            this.picoptions1.Size = new System.Drawing.Size(14, 14);
+            this.picoptions1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picoptions1.TabIndex = 33;
+            this.picoptions1.TabStop = false;
+            // 
+            // picoptions
+            // 
+            this.picoptions.Image = ((System.Drawing.Image)(resources.GetObject("picoptions.Image")));
+            this.picoptions.Location = new System.Drawing.Point(146, 12);
+            this.picoptions.Name = "picoptions";
+            this.picoptions.Size = new System.Drawing.Size(14, 14);
+            this.picoptions.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picoptions.TabIndex = 32;
+            this.picoptions.TabStop = false;
+            // 
+            // btSize
+            // 
+            this.btSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSize.Location = new System.Drawing.Point(170, 9);
+            this.btSize.Margin = new System.Windows.Forms.Padding(2);
+            this.btSize.Name = "btSize";
+            this.btSize.Size = new System.Drawing.Size(164, 22);
+            this.btSize.TabIndex = 35;
+            this.btSize.Text = "Size";
+            this.btSize.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btSize.UseVisualStyleBackColor = true;
+            // 
+            // btFont
+            // 
+            this.btFont.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btFont.Location = new System.Drawing.Point(2, 8);
+            this.btFont.Margin = new System.Windows.Forms.Padding(2);
+            this.btFont.Name = "btFont";
+            this.btFont.Size = new System.Drawing.Size(164, 22);
+            this.btFont.TabIndex = 28;
+            this.btFont.Text = "Font";
+            this.btFont.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btFont.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxPicStrikeThrough
+            // 
+            this.pictureBoxPicStrikeThrough.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPicStrikeThrough.Image")));
+            this.pictureBoxPicStrikeThrough.Location = new System.Drawing.Point(443, 9);
+            this.pictureBoxPicStrikeThrough.Name = "pictureBoxPicStrikeThrough";
+            this.pictureBoxPicStrikeThrough.Size = new System.Drawing.Size(23, 22);
+            this.pictureBoxPicStrikeThrough.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxPicStrikeThrough.TabIndex = 34;
+            this.pictureBoxPicStrikeThrough.TabStop = false;
+            // 
             // lblFont
             // 
             this.lblFont.AutoSize = true;
             this.lblFont.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFont.Location = new System.Drawing.Point(159, 32);
+            this.lblFont.Location = new System.Drawing.Point(224, 32);
             this.lblFont.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFont.Name = "lblFont";
             this.lblFont.Size = new System.Drawing.Size(81, 12);
             this.lblFont.TabIndex = 28;
             this.lblFont.Text = "Font and alignment";
+            // 
+            // picUnderline
+            // 
+            this.picUnderline.Image = ((System.Drawing.Image)(resources.GetObject("picUnderline.Image")));
+            this.picUnderline.Location = new System.Drawing.Point(414, 9);
+            this.picUnderline.Name = "picUnderline";
+            this.picUnderline.Size = new System.Drawing.Size(23, 22);
+            this.picUnderline.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUnderline.TabIndex = 33;
+            this.picUnderline.TabStop = false;
+            // 
+            // picBold
+            // 
+            this.picBold.Image = ((System.Drawing.Image)(resources.GetObject("picBold.Image")));
+            this.picBold.Location = new System.Drawing.Point(354, 9);
+            this.picBold.Name = "picBold";
+            this.picBold.Size = new System.Drawing.Size(23, 22);
+            this.picBold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBold.TabIndex = 31;
+            this.picBold.TabStop = false;
+            // 
+            // picItalic
+            // 
+            this.picItalic.Image = ((System.Drawing.Image)(resources.GetObject("picItalic.Image")));
+            this.picItalic.Location = new System.Drawing.Point(383, 9);
+            this.picItalic.Name = "picItalic";
+            this.picItalic.Size = new System.Drawing.Size(23, 22);
+            this.picItalic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picItalic.TabIndex = 32;
+            this.picItalic.TabStop = false;
             // 
             // filepannel
             // 
@@ -325,27 +461,6 @@
             this.filepannel.Name = "filepannel";
             this.filepannel.Size = new System.Drawing.Size(896, 37);
             this.filepannel.TabIndex = 22;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(816, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lblShare
-            // 
-            this.lblShare.AutoSize = true;
-            this.lblShare.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblShare.Location = new System.Drawing.Point(848, 16);
-            this.lblShare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblShare.Name = "lblShare";
-            this.lblShare.Size = new System.Drawing.Size(46, 17);
-            this.lblShare.TabIndex = 28;
-            this.lblShare.Text = "Share";
             // 
             // lblAdv
             // 
@@ -437,120 +552,6 @@
             this.lblshapes.Text = "Basic Flow Chart Shapes";
             this.lblshapes.Click += new System.EventHandler(this.lblshapes_Click);
             // 
-            // picPaste
-            // 
-            this.picPaste.Image = ((System.Drawing.Image)(resources.GetObject("picPaste.Image")));
-            this.picPaste.Location = new System.Drawing.Point(101, 12);
-            this.picPaste.Name = "picPaste";
-            this.picPaste.Size = new System.Drawing.Size(25, 22);
-            this.picPaste.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPaste.TabIndex = 29;
-            this.picPaste.TabStop = false;
-            // 
-            // picCopy
-            // 
-            this.picCopy.Image = ((System.Drawing.Image)(resources.GetObject("picCopy.Image")));
-            this.picCopy.Location = new System.Drawing.Point(31, 12);
-            this.picCopy.Name = "picCopy";
-            this.picCopy.Size = new System.Drawing.Size(23, 22);
-            this.picCopy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picCopy.TabIndex = 30;
-            this.picCopy.TabStop = false;
-            // 
-            // picPaint
-            // 
-            this.picPaint.Image = ((System.Drawing.Image)(resources.GetObject("picPaint.Image")));
-            this.picPaint.Location = new System.Drawing.Point(141, 12);
-            this.picPaint.Name = "picPaint";
-            this.picPaint.Size = new System.Drawing.Size(33, 21);
-            this.picPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPaint.TabIndex = 31;
-            this.picPaint.TabStop = false;
-            // 
-            // picBold
-            // 
-            this.picBold.Image = ((System.Drawing.Image)(resources.GetObject("picBold.Image")));
-            this.picBold.Location = new System.Drawing.Point(354, 9);
-            this.picBold.Name = "picBold";
-            this.picBold.Size = new System.Drawing.Size(23, 22);
-            this.picBold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBold.TabIndex = 31;
-            this.picBold.TabStop = false;
-            // 
-            // picItalic
-            // 
-            this.picItalic.Image = ((System.Drawing.Image)(resources.GetObject("picItalic.Image")));
-            this.picItalic.Location = new System.Drawing.Point(383, 9);
-            this.picItalic.Name = "picItalic";
-            this.picItalic.Size = new System.Drawing.Size(23, 22);
-            this.picItalic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picItalic.TabIndex = 32;
-            this.picItalic.TabStop = false;
-            // 
-            // picUnderline
-            // 
-            this.picUnderline.Image = ((System.Drawing.Image)(resources.GetObject("picUnderline.Image")));
-            this.picUnderline.Location = new System.Drawing.Point(414, 9);
-            this.picUnderline.Name = "picUnderline";
-            this.picUnderline.Size = new System.Drawing.Size(23, 22);
-            this.picUnderline.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picUnderline.TabIndex = 33;
-            this.picUnderline.TabStop = false;
-            // 
-            // pictureBoxPicStrikeThrough
-            // 
-            this.pictureBoxPicStrikeThrough.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPicStrikeThrough.Image")));
-            this.pictureBoxPicStrikeThrough.Location = new System.Drawing.Point(443, 9);
-            this.pictureBoxPicStrikeThrough.Name = "pictureBoxPicStrikeThrough";
-            this.pictureBoxPicStrikeThrough.Size = new System.Drawing.Size(23, 22);
-            this.pictureBoxPicStrikeThrough.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxPicStrikeThrough.TabIndex = 34;
-            this.pictureBoxPicStrikeThrough.TabStop = false;
-            // 
-            // btFont
-            // 
-            this.btFont.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFont.Location = new System.Drawing.Point(2, 8);
-            this.btFont.Margin = new System.Windows.Forms.Padding(2);
-            this.btFont.Name = "btFont";
-            this.btFont.Size = new System.Drawing.Size(164, 22);
-            this.btFont.TabIndex = 28;
-            this.btFont.Text = "Font";
-            this.btFont.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btFont.UseVisualStyleBackColor = true;
-            // 
-            // btSize
-            // 
-            this.btSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSize.Location = new System.Drawing.Point(170, 9);
-            this.btSize.Margin = new System.Windows.Forms.Padding(2);
-            this.btSize.Name = "btSize";
-            this.btSize.Size = new System.Drawing.Size(164, 22);
-            this.btSize.TabIndex = 35;
-            this.btSize.Text = "Size";
-            this.btSize.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btSize.UseVisualStyleBackColor = true;
-            // 
-            // picoptions
-            // 
-            this.picoptions.Image = ((System.Drawing.Image)(resources.GetObject("picoptions.Image")));
-            this.picoptions.Location = new System.Drawing.Point(146, 12);
-            this.picoptions.Name = "picoptions";
-            this.picoptions.Size = new System.Drawing.Size(14, 14);
-            this.picoptions.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picoptions.TabIndex = 32;
-            this.picoptions.TabStop = false;
-            // 
-            // picoptions1
-            // 
-            this.picoptions1.Image = ((System.Drawing.Image)(resources.GetObject("picoptions1.Image")));
-            this.picoptions1.Location = new System.Drawing.Point(313, 12);
-            this.picoptions1.Name = "picoptions1";
-            this.picoptions1.Size = new System.Drawing.Size(14, 14);
-            this.picoptions1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picoptions1.TabIndex = 33;
-            this.picoptions1.TabStop = false;
-            // 
             // workspace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -565,6 +566,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "workspace";
             this.Text = "workspace";
+            this.Load += new System.EventHandler(this.workspace_Load);
             this.homepanel.ResumeLayout(false);
             this.homepanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).EndInit();
@@ -579,23 +581,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.picuser1)).EndInit();
             this.Optionspannel.ResumeLayout(false);
             this.Optionspannel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCut)).EndInit();
-            this.Fontendpannel.ResumeLayout(false);
-            this.Fontendpannel.PerformLayout();
-            this.filepannel.ResumeLayout(false);
-            this.filepannel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCopy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPaint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCut)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPaste)).EndInit();
+            this.Fontendpannel.ResumeLayout(false);
+            this.Fontendpannel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBold)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picItalic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).EndInit();
+            this.filepannel.ResumeLayout(false);
+            this.filepannel.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

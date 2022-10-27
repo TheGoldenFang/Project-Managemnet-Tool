@@ -457,6 +457,7 @@
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.impuseravatar);
             this.homepanel.Controls.Add(this.impappicon);
             this.homepanel.Controls.Add(this.impexpClose);
@@ -464,13 +465,13 @@
             this.homepanel.Location = new System.Drawing.Point(1, 0);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.Size = new System.Drawing.Size(943, 67);
             this.homepanel.TabIndex = 22;
             // 
             // impuseravatar
             // 
             this.impuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.impuseravatar.Location = new System.Drawing.Point(857, 15);
+            this.impuseravatar.Location = new System.Drawing.Point(857, 8);
             this.impuseravatar.Margin = new System.Windows.Forms.Padding(2);
             this.impuseravatar.Name = "impuseravatar";
             this.impuseravatar.Size = new System.Drawing.Size(50, 50);
@@ -480,10 +481,10 @@
             // impappicon
             // 
             this.impappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.impappicon.Location = new System.Drawing.Point(10, 9);
+            this.impappicon.Location = new System.Drawing.Point(20, 6);
             this.impappicon.Margin = new System.Windows.Forms.Padding(2);
             this.impappicon.Name = "impappicon";
-            this.impappicon.Size = new System.Drawing.Size(69, 67);
+            this.impappicon.Size = new System.Drawing.Size(68, 56);
             this.impappicon.TabIndex = 30;
             this.impappicon.TabStop = false;
             // 
@@ -491,10 +492,10 @@
             // 
             this.impexpClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.impexpClose.Image = ((System.Drawing.Image)(resources.GetObject("impexpClose.Image")));
-            this.impexpClose.Location = new System.Drawing.Point(911, 2);
+            this.impexpClose.Location = new System.Drawing.Point(921, 26);
             this.impexpClose.Margin = new System.Windows.Forms.Padding(2);
             this.impexpClose.Name = "impexpClose";
-            this.impexpClose.Size = new System.Drawing.Size(30, 25);
+            this.impexpClose.Size = new System.Drawing.Size(16, 15);
             this.impexpClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impexpClose.TabIndex = 29;
             this.impexpClose.TabStop = false;
@@ -503,10 +504,10 @@
             // lblhomefromimpexp
             // 
             this.lblhomefromimpexp.AutoSize = true;
-            this.lblhomefromimpexp.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblhomefromimpexp.BackColor = System.Drawing.Color.Transparent;
             this.lblhomefromimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 32);
+            this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 27);
             this.lblhomefromimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblhomefromimpexp.Name = "lblhomefromimpexp";
             this.lblhomefromimpexp.Size = new System.Drawing.Size(211, 25);

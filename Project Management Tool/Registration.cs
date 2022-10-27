@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,9 +19,6 @@ namespace Project_Management_Tool
             InitializeComponent();
         }
         Name user=new Name();
-
-
-   
         private void regClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,5 +56,23 @@ namespace Project_Management_Tool
             }
         }
 
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+        private static extern IntPtr CreateRoundRectRgn
+        (
+          int nLeftRect,
+          int nTopRect,
+          int nRightRect,
+          int nBottomRect,
+          int nWidthEllipse,
+          int nHeightEllipse
+        );
+        private void Registration_Load(object sender, EventArgs e)
+        {
+            registrationPannel1.BackColor = Color.FromArgb(100,255,255,255);
+            registrationPannel2.BackColor = Color.FromArgb(80,108,172,255);
+            registrationPannel1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, registrationPannel1.Width, registrationPannel1.Height, 30, 30));
+            registrationPannel2.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, registrationPannel2.Width, registrationPannel2.Height, 30, 30));
+        }
     }
 }

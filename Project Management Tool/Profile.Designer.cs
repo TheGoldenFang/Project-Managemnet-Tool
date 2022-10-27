@@ -81,7 +81,7 @@
             // 
             // ProfilePage
             // 
-            this.ProfilePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ProfilePage.BackColor = System.Drawing.Color.Transparent;
             this.ProfilePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProfilePage.Controls.Add(this.lblProfile);
             this.ProfilePage.Controls.Add(this.profilepanel);
@@ -94,8 +94,10 @@
             // lblProfile
             // 
             this.lblProfile.AutoSize = true;
+            this.lblProfile.BackColor = System.Drawing.Color.Transparent;
             this.lblProfile.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProfile.Location = new System.Drawing.Point(385, 21);
+            this.lblProfile.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblProfile.Location = new System.Drawing.Point(401, 10);
             this.lblProfile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProfile.Name = "lblProfile";
             this.lblProfile.Size = new System.Drawing.Size(76, 25);
@@ -126,16 +128,17 @@
             this.profilepanel.Controls.Add(this.textBox3);
             this.profilepanel.Controls.Add(this.textBox1);
             this.profilepanel.Controls.Add(this.textBox4);
-            this.profilepanel.Location = new System.Drawing.Point(53, 47);
+            this.profilepanel.Location = new System.Drawing.Point(68, 37);
             this.profilepanel.Margin = new System.Windows.Forms.Padding(2);
             this.profilepanel.Name = "profilepanel";
-            this.profilepanel.Size = new System.Drawing.Size(727, 351);
+            this.profilepanel.Size = new System.Drawing.Size(724, 361);
             this.profilepanel.TabIndex = 28;
             // 
             // lblPersonal
             // 
             this.lblPersonal.AutoSize = true;
             this.lblPersonal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblPersonal.Location = new System.Drawing.Point(67, 20);
             this.lblPersonal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPersonal.Name = "lblPersonal";
@@ -147,6 +150,7 @@
             // 
             this.profilePhno.AutoSize = true;
             this.profilePhno.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profilePhno.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profilePhno.Location = new System.Drawing.Point(405, 258);
             this.profilePhno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profilePhno.Name = "profilePhno";
@@ -158,6 +162,7 @@
             // 
             this.profileLName.AutoSize = true;
             this.profileLName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileLName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileLName.Location = new System.Drawing.Point(405, 221);
             this.profileLName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileLName.Name = "profileLName";
@@ -196,6 +201,7 @@
             // 
             this.profileOrgID.AutoSize = true;
             this.profileOrgID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileOrgID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileOrgID.Location = new System.Drawing.Point(77, 240);
             this.profileOrgID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileOrgID.Name = "profileOrgID";
@@ -216,6 +222,7 @@
             // 
             this.profileFName.AutoSize = true;
             this.profileFName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileFName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileFName.Location = new System.Drawing.Point(405, 184);
             this.profileFName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileFName.Name = "profileFName";
@@ -227,6 +234,7 @@
             // 
             this.profileOrg.AutoSize = true;
             this.profileOrg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileOrg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileOrg.Location = new System.Drawing.Point(77, 206);
             this.profileOrg.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileOrg.Name = "profileOrg";
@@ -257,6 +265,7 @@
             // 
             this.lblUserAvatar.AutoSize = true;
             this.lblUserAvatar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserAvatar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblUserAvatar.Location = new System.Drawing.Point(512, 143);
             this.lblUserAvatar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUserAvatar.Name = "lblUserAvatar";
@@ -268,6 +277,7 @@
             // 
             this.profEmailID.AutoSize = true;
             this.profEmailID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profEmailID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profEmailID.Location = new System.Drawing.Point(77, 64);
             this.profEmailID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profEmailID.Name = "profEmailID";
@@ -279,6 +289,7 @@
             // 
             this.profileUsername.AutoSize = true;
             this.profileUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileUsername.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileUsername.Location = new System.Drawing.Point(77, 100);
             this.profileUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileUsername.Name = "profileUsername";
@@ -290,6 +301,7 @@
             // 
             this.profilePassword.AutoSize = true;
             this.profilePassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profilePassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profilePassword.Location = new System.Drawing.Point(77, 135);
             this.profilePassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profilePassword.Name = "profilePassword";
@@ -310,6 +322,7 @@
             // 
             this.profileConfirmPass.AutoSize = true;
             this.profileConfirmPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileConfirmPass.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profileConfirmPass.Location = new System.Drawing.Point(76, 172);
             this.profileConfirmPass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.profileConfirmPass.Name = "profileConfirmPass";
@@ -346,20 +359,21 @@
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.profileuseravatar);
             this.homepanel.Controls.Add(this.profileappicon);
             this.homepanel.Controls.Add(this.profileClose);
             this.homepanel.Controls.Add(this.lblprofiletohome);
-            this.homepanel.Location = new System.Drawing.Point(1, 4);
+            this.homepanel.Location = new System.Drawing.Point(1, 0);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.Size = new System.Drawing.Size(943, 70);
             this.homepanel.TabIndex = 23;
             // 
             // profileuseravatar
             // 
             this.profileuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.profileuseravatar.Location = new System.Drawing.Point(857, 15);
+            this.profileuseravatar.Location = new System.Drawing.Point(857, 13);
             this.profileuseravatar.Margin = new System.Windows.Forms.Padding(2);
             this.profileuseravatar.Name = "profileuseravatar";
             this.profileuseravatar.Size = new System.Drawing.Size(50, 50);
@@ -369,10 +383,10 @@
             // profileappicon
             // 
             this.profileappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.profileappicon.Location = new System.Drawing.Point(10, 9);
+            this.profileappicon.Location = new System.Drawing.Point(17, 8);
             this.profileappicon.Margin = new System.Windows.Forms.Padding(2);
             this.profileappicon.Name = "profileappicon";
-            this.profileappicon.Size = new System.Drawing.Size(69, 67);
+            this.profileappicon.Size = new System.Drawing.Size(65, 56);
             this.profileappicon.TabIndex = 30;
             this.profileappicon.TabStop = false;
             // 
@@ -380,10 +394,10 @@
             // 
             this.profileClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.profileClose.Image = ((System.Drawing.Image)(resources.GetObject("profileClose.Image")));
-            this.profileClose.Location = new System.Drawing.Point(911, 2);
+            this.profileClose.Location = new System.Drawing.Point(916, 34);
             this.profileClose.Margin = new System.Windows.Forms.Padding(2);
             this.profileClose.Name = "profileClose";
-            this.profileClose.Size = new System.Drawing.Size(30, 25);
+            this.profileClose.Size = new System.Drawing.Size(16, 15);
             this.profileClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profileClose.TabIndex = 29;
             this.profileClose.TabStop = false;
@@ -392,10 +406,10 @@
             // lblprofiletohome
             // 
             this.lblprofiletohome.AutoSize = true;
-            this.lblprofiletohome.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblprofiletohome.BackColor = System.Drawing.Color.Transparent;
             this.lblprofiletohome.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblprofiletohome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblprofiletohome.Location = new System.Drawing.Point(106, 32);
+            this.lblprofiletohome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblprofiletohome.Location = new System.Drawing.Point(106, 23);
             this.lblprofiletohome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblprofiletohome.Name = "lblprofiletohome";
             this.lblprofiletohome.Size = new System.Drawing.Size(138, 25);
@@ -493,6 +507,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Profile";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Profile_Load);
             this.ProfilePage.ResumeLayout(false);
             this.ProfilePage.PerformLayout();
             this.profilepanel.ResumeLayout(false);

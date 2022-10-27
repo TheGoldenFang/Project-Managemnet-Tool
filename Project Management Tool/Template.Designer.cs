@@ -144,7 +144,7 @@
             this.TemplatePage.Controls.Add(this.blockdiagram);
             this.TemplatePage.Controls.Add(this.blankdiagram);
             this.TemplatePage.Controls.Add(this.lblRecommended);
-            this.TemplatePage.Location = new System.Drawing.Point(100, 77);
+            this.TemplatePage.Location = new System.Drawing.Point(92, 77);
             this.TemplatePage.Margin = new System.Windows.Forms.Padding(2);
             this.TemplatePage.Name = "TemplatePage";
             this.TemplatePage.Size = new System.Drawing.Size(833, 440);
@@ -625,6 +625,7 @@
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.tempuseravatar);
             this.homepanel.Controls.Add(this.tempappicon);
             this.homepanel.Controls.Add(this.tempClose);
@@ -632,13 +633,13 @@
             this.homepanel.Location = new System.Drawing.Point(0, -8);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.Size = new System.Drawing.Size(943, 70);
             this.homepanel.TabIndex = 46;
             // 
             // tempuseravatar
             // 
             this.tempuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tempuseravatar.Location = new System.Drawing.Point(857, 26);
+            this.tempuseravatar.Location = new System.Drawing.Point(857, 13);
             this.tempuseravatar.Margin = new System.Windows.Forms.Padding(2);
             this.tempuseravatar.Name = "tempuseravatar";
             this.tempuseravatar.Size = new System.Drawing.Size(50, 50);
@@ -648,10 +649,10 @@
             // tempappicon
             // 
             this.tempappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tempappicon.Location = new System.Drawing.Point(10, 9);
+            this.tempappicon.Location = new System.Drawing.Point(23, 9);
             this.tempappicon.Margin = new System.Windows.Forms.Padding(2);
             this.tempappicon.Name = "tempappicon";
-            this.tempappicon.Size = new System.Drawing.Size(69, 67);
+            this.tempappicon.Size = new System.Drawing.Size(64, 54);
             this.tempappicon.TabIndex = 30;
             this.tempappicon.TabStop = false;
             // 
@@ -659,10 +660,10 @@
             // 
             this.tempClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.tempClose.Image = ((System.Drawing.Image)(resources.GetObject("tempClose.Image")));
-            this.tempClose.Location = new System.Drawing.Point(911, 9);
+            this.tempClose.Location = new System.Drawing.Point(920, 30);
             this.tempClose.Margin = new System.Windows.Forms.Padding(2);
             this.tempClose.Name = "tempClose";
-            this.tempClose.Size = new System.Drawing.Size(30, 25);
+            this.tempClose.Size = new System.Drawing.Size(16, 15);
             this.tempClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempClose.TabIndex = 29;
             this.tempClose.TabStop = false;
@@ -671,10 +672,10 @@
             // lblhomefromimpexp
             // 
             this.lblhomefromimpexp.AutoSize = true;
-            this.lblhomefromimpexp.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblhomefromimpexp.BackColor = System.Drawing.Color.Transparent;
             this.lblhomefromimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 32);
+            this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 25);
             this.lblhomefromimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblhomefromimpexp.Name = "lblhomefromimpexp";
             this.lblhomefromimpexp.Size = new System.Drawing.Size(159, 25);
@@ -684,7 +685,7 @@
             // tempSettings
             // 
             this.tempSettings.Image = ((System.Drawing.Image)(resources.GetObject("tempSettings.Image")));
-            this.tempSettings.Location = new System.Drawing.Point(34, 388);
+            this.tempSettings.Location = new System.Drawing.Point(32, 393);
             this.tempSettings.Margin = new System.Windows.Forms.Padding(2);
             this.tempSettings.Name = "tempSettings";
             this.tempSettings.Size = new System.Drawing.Size(31, 28);
@@ -696,7 +697,7 @@
             // tempimpexp
             // 
             this.tempimpexp.Image = ((System.Drawing.Image)(resources.GetObject("tempimpexp.Image")));
-            this.tempimpexp.Location = new System.Drawing.Point(34, 341);
+            this.tempimpexp.Location = new System.Drawing.Point(32, 346);
             this.tempimpexp.Margin = new System.Windows.Forms.Padding(2);
             this.tempimpexp.Name = "tempimpexp";
             this.tempimpexp.Size = new System.Drawing.Size(31, 28);
@@ -708,7 +709,7 @@
             // tempquestion
             // 
             this.tempquestion.Image = ((System.Drawing.Image)(resources.GetObject("tempquestion.Image")));
-            this.tempquestion.Location = new System.Drawing.Point(34, 295);
+            this.tempquestion.Location = new System.Drawing.Point(32, 300);
             this.tempquestion.Margin = new System.Windows.Forms.Padding(2);
             this.tempquestion.Name = "tempquestion";
             this.tempquestion.Size = new System.Drawing.Size(31, 28);
@@ -720,7 +721,7 @@
             // temptemplate
             // 
             this.temptemplate.Image = ((System.Drawing.Image)(resources.GetObject("temptemplate.Image")));
-            this.temptemplate.Location = new System.Drawing.Point(34, 248);
+            this.temptemplate.Location = new System.Drawing.Point(32, 253);
             this.temptemplate.Margin = new System.Windows.Forms.Padding(2);
             this.temptemplate.Name = "temptemplate";
             this.temptemplate.Size = new System.Drawing.Size(31, 28);
@@ -731,7 +732,7 @@
             // tempprofile
             // 
             this.tempprofile.Image = ((System.Drawing.Image)(resources.GetObject("tempprofile.Image")));
-            this.tempprofile.Location = new System.Drawing.Point(34, 200);
+            this.tempprofile.Location = new System.Drawing.Point(32, 205);
             this.tempprofile.Margin = new System.Windows.Forms.Padding(2);
             this.tempprofile.Name = "tempprofile";
             this.tempprofile.Size = new System.Drawing.Size(31, 28);
@@ -742,9 +743,9 @@
             // 
             // temphome
             // 
-            this.temphome.BackColor = System.Drawing.SystemColors.Control;
+            this.temphome.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.temphome.Image = ((System.Drawing.Image)(resources.GetObject("temphome.Image")));
-            this.temphome.Location = new System.Drawing.Point(34, 156);
+            this.temphome.Location = new System.Drawing.Point(32, 161);
             this.temphome.Margin = new System.Windows.Forms.Padding(2);
             this.temphome.Name = "temphome";
             this.temphome.Size = new System.Drawing.Size(31, 28);
@@ -772,6 +773,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Template";
             this.Text = "Template";
+            this.Load += new System.EventHandler(this.Template_Load);
             this.TemplatePage.ResumeLayout(false);
             this.TemplatePage.PerformLayout();
             this.circlespokediagram.ResumeLayout(false);

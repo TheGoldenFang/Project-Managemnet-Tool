@@ -128,9 +128,9 @@
 </value>
   </data>
   <data name="lblDescription.Text" xml:space="preserve">
-    <value>Prices shown are for annual billing. When billed month-to-month, the Personal plan is $5 per month, 
-the Team plan is for $10 per member per month, 
-and the Enterprise plan is $25 per member per month</value>
+    <value>Prices shown are for annual billing. When billed month-to-month, the Personal plan is ₹350 per month, 
+the Team plan is for ₹650 per member per month, 
+and the Enterprise plan is ₹1500 per member per month</value>
   </data>
   <data name="picEnterprise.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

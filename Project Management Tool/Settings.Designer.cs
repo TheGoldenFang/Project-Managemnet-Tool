@@ -57,6 +57,7 @@
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.settingsuseravatar);
             this.homepanel.Controls.Add(this.settingsappicon);
             this.homepanel.Controls.Add(this.settingsClose);
@@ -64,13 +65,13 @@
             this.homepanel.Location = new System.Drawing.Point(1, 1);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.Size = new System.Drawing.Size(945, 73);
             this.homepanel.TabIndex = 24;
             // 
             // settingsuseravatar
             // 
             this.settingsuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.settingsuseravatar.Location = new System.Drawing.Point(857, 15);
+            this.settingsuseravatar.Location = new System.Drawing.Point(857, 9);
             this.settingsuseravatar.Margin = new System.Windows.Forms.Padding(2);
             this.settingsuseravatar.Name = "settingsuseravatar";
             this.settingsuseravatar.Size = new System.Drawing.Size(50, 50);
@@ -80,10 +81,10 @@
             // settingsappicon
             // 
             this.settingsappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.settingsappicon.Location = new System.Drawing.Point(10, 9);
+            this.settingsappicon.Location = new System.Drawing.Point(10, 5);
             this.settingsappicon.Margin = new System.Windows.Forms.Padding(2);
             this.settingsappicon.Name = "settingsappicon";
-            this.settingsappicon.Size = new System.Drawing.Size(69, 67);
+            this.settingsappicon.Size = new System.Drawing.Size(67, 60);
             this.settingsappicon.TabIndex = 30;
             this.settingsappicon.TabStop = false;
             // 
@@ -91,10 +92,10 @@
             // 
             this.settingsClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.settingsClose.Image = ((System.Drawing.Image)(resources.GetObject("settingsClose.Image")));
-            this.settingsClose.Location = new System.Drawing.Point(911, 2);
+            this.settingsClose.Location = new System.Drawing.Point(920, 32);
             this.settingsClose.Margin = new System.Windows.Forms.Padding(2);
             this.settingsClose.Name = "settingsClose";
-            this.settingsClose.Size = new System.Drawing.Size(30, 25);
+            this.settingsClose.Size = new System.Drawing.Size(16, 15);
             this.settingsClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsClose.TabIndex = 29;
             this.settingsClose.TabStop = false;
@@ -103,10 +104,10 @@
             // lblsettingstohome
             // 
             this.lblsettingstohome.AutoSize = true;
-            this.lblsettingstohome.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblsettingstohome.BackColor = System.Drawing.Color.Transparent;
             this.lblsettingstohome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.lblsettingstohome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblsettingstohome.Location = new System.Drawing.Point(106, 32);
+            this.lblsettingstohome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblsettingstohome.Location = new System.Drawing.Point(106, 23);
             this.lblsettingstohome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblsettingstohome.Name = "lblsettingstohome";
             this.lblsettingstohome.Size = new System.Drawing.Size(152, 24);
@@ -227,6 +228,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Settings";
             this.Text = "Settings";
+            this.Load += new System.EventHandler(this.Settings_Load);
             this.homepanel.ResumeLayout(false);
             this.homepanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.settingsuseravatar)).EndInit();

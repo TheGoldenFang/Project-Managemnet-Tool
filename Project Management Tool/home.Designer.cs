@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
-            this.homePage = new System.Windows.Forms.Panel();
+            this.homePagePanel = new System.Windows.Forms.Panel();
             this.settings = new System.Windows.Forms.Panel();
             this.picsettings = new System.Windows.Forms.PictureBox();
             this.btHomeSettings = new System.Windows.Forms.Button();
@@ -53,7 +53,7 @@
             this.appicon = new System.Windows.Forms.PictureBox();
             this.homeClose = new System.Windows.Forms.PictureBox();
             this.lblhome = new System.Windows.Forms.Label();
-            this.homePage.SuspendLayout();
+            this.homePagePanel.SuspendLayout();
             this.settings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picsettings)).BeginInit();
             this.premium.SuspendLayout();
@@ -72,28 +72,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.homeClose)).BeginInit();
             this.SuspendLayout();
             // 
-            // homePage
+            // homePagePanel
             // 
-            this.homePage.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.homePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.homePage.Controls.Add(this.settings);
-            this.homePage.Controls.Add(this.premium);
-            this.homePage.Controls.Add(this.accountdetails);
-            this.homePage.Controls.Add(this.importexport);
-            this.homePage.Controls.Add(this.openfile);
-            this.homePage.Controls.Add(this.getstarted);
-            this.homePage.Location = new System.Drawing.Point(39, 102);
-            this.homePage.Margin = new System.Windows.Forms.Padding(2);
-            this.homePage.Name = "homePage";
-            this.homePage.Size = new System.Drawing.Size(850, 393);
-            this.homePage.TabIndex = 20;
+            this.homePagePanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.homePagePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.homePagePanel.Controls.Add(this.settings);
+            this.homePagePanel.Controls.Add(this.premium);
+            this.homePagePanel.Controls.Add(this.accountdetails);
+            this.homePagePanel.Controls.Add(this.importexport);
+            this.homePagePanel.Controls.Add(this.openfile);
+            this.homePagePanel.Controls.Add(this.getstarted);
+            this.homePagePanel.Location = new System.Drawing.Point(46, 90);
+            this.homePagePanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homePagePanel.Name = "homePagePanel";
+            this.homePagePanel.Size = new System.Drawing.Size(850, 393);
+            this.homePagePanel.TabIndex = 20;
             // 
             // settings
             // 
             this.settings.Controls.Add(this.picsettings);
             this.settings.Controls.Add(this.btHomeSettings);
             this.settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settings.Location = new System.Drawing.Point(622, 237);
+            this.settings.Location = new System.Drawing.Point(621, 215);
             this.settings.Margin = new System.Windows.Forms.Padding(2);
             this.settings.Name = "settings";
             this.settings.Size = new System.Drawing.Size(141, 116);
@@ -127,7 +127,7 @@
             this.premium.Controls.Add(this.picgopremium);
             this.premium.Controls.Add(this.btHomeToPremium);
             this.premium.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.premium.Location = new System.Drawing.Point(351, 237);
+            this.premium.Location = new System.Drawing.Point(348, 215);
             this.premium.Margin = new System.Windows.Forms.Padding(2);
             this.premium.Name = "premium";
             this.premium.Size = new System.Drawing.Size(141, 116);
@@ -161,7 +161,7 @@
             this.accountdetails.Controls.Add(this.picaccountdetails);
             this.accountdetails.Controls.Add(this.btHomeAccDetails);
             this.accountdetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountdetails.Location = new System.Drawing.Point(71, 237);
+            this.accountdetails.Location = new System.Drawing.Point(70, 215);
             this.accountdetails.Margin = new System.Windows.Forms.Padding(2);
             this.accountdetails.Name = "accountdetails";
             this.accountdetails.Size = new System.Drawing.Size(141, 116);
@@ -195,7 +195,7 @@
             this.importexport.Controls.Add(this.picimpexp);
             this.importexport.Controls.Add(this.btHomeImpExp);
             this.importexport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.importexport.Location = new System.Drawing.Point(622, 76);
+            this.importexport.Location = new System.Drawing.Point(621, 54);
             this.importexport.Margin = new System.Windows.Forms.Padding(2);
             this.importexport.Name = "importexport";
             this.importexport.Size = new System.Drawing.Size(141, 116);
@@ -229,7 +229,7 @@
             this.openfile.Controls.Add(this.picopenfile);
             this.openfile.Controls.Add(this.btHomeFile);
             this.openfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.openfile.Location = new System.Drawing.Point(351, 76);
+            this.openfile.Location = new System.Drawing.Point(348, 54);
             this.openfile.Margin = new System.Windows.Forms.Padding(2);
             this.openfile.Name = "openfile";
             this.openfile.Size = new System.Drawing.Size(141, 116);
@@ -263,7 +263,7 @@
             this.getstarted.Controls.Add(this.btHomeGetStarted);
             this.getstarted.Controls.Add(this.picgetstarted);
             this.getstarted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getstarted.Location = new System.Drawing.Point(71, 76);
+            this.getstarted.Location = new System.Drawing.Point(70, 54);
             this.getstarted.Margin = new System.Windows.Forms.Padding(2);
             this.getstarted.Name = "getstarted";
             this.getstarted.Size = new System.Drawing.Size(141, 116);
@@ -294,6 +294,7 @@
             // 
             // homepanel
             // 
+            this.homepanel.BackColor = System.Drawing.Color.Transparent;
             this.homepanel.Controls.Add(this.useravatar);
             this.homepanel.Controls.Add(this.appicon);
             this.homepanel.Controls.Add(this.homeClose);
@@ -301,27 +302,26 @@
             this.homepanel.Location = new System.Drawing.Point(1, 2);
             this.homepanel.Margin = new System.Windows.Forms.Padding(2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 81);
+            this.homepanel.Size = new System.Drawing.Size(943, 48);
             this.homepanel.TabIndex = 21;
             // 
             // useravatar
             // 
-            this.useravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.useravatar.Location = new System.Drawing.Point(857, 15);
+            this.useravatar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.useravatar.Location = new System.Drawing.Point(860, 5);
             this.useravatar.Margin = new System.Windows.Forms.Padding(2);
             this.useravatar.Name = "useravatar";
-            this.useravatar.Size = new System.Drawing.Size(50, 50);
+            this.useravatar.Size = new System.Drawing.Size(40, 36);
             this.useravatar.TabIndex = 31;
             this.useravatar.TabStop = false;
-
             // 
             // appicon
             // 
-            this.appicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.appicon.Location = new System.Drawing.Point(10, 9);
+            this.appicon.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.appicon.Location = new System.Drawing.Point(23, 5);
             this.appicon.Margin = new System.Windows.Forms.Padding(2);
             this.appicon.Name = "appicon";
-            this.appicon.Size = new System.Drawing.Size(69, 67);
+            this.appicon.Size = new System.Drawing.Size(44, 39);
             this.appicon.TabIndex = 30;
             this.appicon.TabStop = false;
             // 
@@ -329,10 +329,10 @@
             // 
             this.homeClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.homeClose.Image = ((System.Drawing.Image)(resources.GetObject("homeClose.Image")));
-            this.homeClose.Location = new System.Drawing.Point(911, 2);
+            this.homeClose.Location = new System.Drawing.Point(919, 14);
             this.homeClose.Margin = new System.Windows.Forms.Padding(2);
             this.homeClose.Name = "homeClose";
-            this.homeClose.Size = new System.Drawing.Size(30, 25);
+            this.homeClose.Size = new System.Drawing.Size(16, 15);
             this.homeClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.homeClose.TabIndex = 29;
             this.homeClose.TabStop = false;
@@ -341,10 +341,10 @@
             // lblhome
             // 
             this.lblhome.AutoSize = true;
-            this.lblhome.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblhome.BackColor = System.Drawing.Color.Transparent;
             this.lblhome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.lblhome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblhome.Location = new System.Drawing.Point(106, 32);
+            this.lblhome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblhome.Location = new System.Drawing.Point(84, 12);
             this.lblhome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblhome.Name = "lblhome";
             this.lblhome.Size = new System.Drawing.Size(66, 24);
@@ -359,11 +359,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(944, 553);
             this.Controls.Add(this.homepanel);
-            this.Controls.Add(this.homePage);
+            this.Controls.Add(this.homePagePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "home";
             this.Text = "home";
-            this.homePage.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.home_Load);
+            this.homePagePanel.ResumeLayout(false);
             this.settings.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picsettings)).EndInit();
             this.premium.ResumeLayout(false);
@@ -387,7 +388,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel homePage;
+        private System.Windows.Forms.Panel homePagePanel;
         private System.Windows.Forms.Button btHomeToPremium;
         private System.Windows.Forms.Button btHomeFile;
         private System.Windows.Forms.Button btHomeSettings;
