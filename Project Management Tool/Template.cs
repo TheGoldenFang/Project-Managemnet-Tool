@@ -72,5 +72,10 @@ namespace Project_Management_Tool
             homepanel.BackColor= Color.FromArgb(50, 0, 0, 0);
             TemplatePage.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, TemplatePage.Width, TemplatePage.Height, 30, 30));
         }
+
+        private void TemplatePage_Paint(object sender, PaintEventArgs e)
+        {
+            TemplatePage.BackColor = Color.FromArgb(50, 0, 0, 0);
+        }
     }
 }

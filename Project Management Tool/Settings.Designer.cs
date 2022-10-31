@@ -63,28 +63,28 @@
             this.homepanel.Controls.Add(this.settingsClose);
             this.homepanel.Controls.Add(this.lblsettingstohome);
             this.homepanel.Location = new System.Drawing.Point(1, 1);
-            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(945, 73);
+            this.homepanel.Size = new System.Drawing.Size(1260, 90);
             this.homepanel.TabIndex = 24;
             // 
             // settingsuseravatar
             // 
             this.settingsuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.settingsuseravatar.Location = new System.Drawing.Point(857, 9);
-            this.settingsuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsuseravatar.Location = new System.Drawing.Point(1143, 11);
+            this.settingsuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsuseravatar.Name = "settingsuseravatar";
-            this.settingsuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.settingsuseravatar.Size = new System.Drawing.Size(67, 62);
             this.settingsuseravatar.TabIndex = 31;
             this.settingsuseravatar.TabStop = false;
             // 
             // settingsappicon
             // 
             this.settingsappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.settingsappicon.Location = new System.Drawing.Point(10, 5);
-            this.settingsappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsappicon.Location = new System.Drawing.Point(13, 6);
+            this.settingsappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsappicon.Name = "settingsappicon";
-            this.settingsappicon.Size = new System.Drawing.Size(67, 60);
+            this.settingsappicon.Size = new System.Drawing.Size(89, 74);
             this.settingsappicon.TabIndex = 30;
             this.settingsappicon.TabStop = false;
             // 
@@ -92,10 +92,10 @@
             // 
             this.settingsClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.settingsClose.Image = ((System.Drawing.Image)(resources.GetObject("settingsClose.Image")));
-            this.settingsClose.Location = new System.Drawing.Point(920, 32);
-            this.settingsClose.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsClose.Location = new System.Drawing.Point(1227, 39);
+            this.settingsClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsClose.Name = "settingsClose";
-            this.settingsClose.Size = new System.Drawing.Size(16, 15);
+            this.settingsClose.Size = new System.Drawing.Size(21, 18);
             this.settingsClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsClose.TabIndex = 29;
             this.settingsClose.TabStop = false;
@@ -107,20 +107,20 @@
             this.lblsettingstohome.BackColor = System.Drawing.Color.Transparent;
             this.lblsettingstohome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.lblsettingstohome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblsettingstohome.Location = new System.Drawing.Point(106, 23);
-            this.lblsettingstohome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblsettingstohome.Location = new System.Drawing.Point(141, 28);
             this.lblsettingstohome.Name = "lblsettingstohome";
-            this.lblsettingstohome.Size = new System.Drawing.Size(152, 24);
+            this.lblsettingstohome.Size = new System.Drawing.Size(192, 29);
             this.lblsettingstohome.TabIndex = 10;
             this.lblsettingstohome.Text = "Home<Settings";
             // 
             // settingsSettings
             // 
+            this.settingsSettings.BackColor = System.Drawing.Color.Transparent;
             this.settingsSettings.Image = ((System.Drawing.Image)(resources.GetObject("settingsSettings.Image")));
-            this.settingsSettings.Location = new System.Drawing.Point(21, 396);
-            this.settingsSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsSettings.Location = new System.Drawing.Point(31, 451);
+            this.settingsSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsSettings.Name = "settingsSettings";
-            this.settingsSettings.Size = new System.Drawing.Size(31, 28);
+            this.settingsSettings.Size = new System.Drawing.Size(41, 34);
             this.settingsSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsSettings.TabIndex = 58;
             this.settingsSettings.TabStop = false;
@@ -128,11 +128,12 @@
             // 
             // settingsimpexp
             // 
+            this.settingsimpexp.BackColor = System.Drawing.Color.Transparent;
             this.settingsimpexp.Image = ((System.Drawing.Image)(resources.GetObject("settingsimpexp.Image")));
-            this.settingsimpexp.Location = new System.Drawing.Point(21, 349);
-            this.settingsimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsimpexp.Location = new System.Drawing.Point(31, 394);
+            this.settingsimpexp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsimpexp.Name = "settingsimpexp";
-            this.settingsimpexp.Size = new System.Drawing.Size(31, 28);
+            this.settingsimpexp.Size = new System.Drawing.Size(41, 34);
             this.settingsimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsimpexp.TabIndex = 59;
             this.settingsimpexp.TabStop = false;
@@ -140,11 +141,12 @@
             // 
             // settingsquestion
             // 
+            this.settingsquestion.BackColor = System.Drawing.Color.Transparent;
             this.settingsquestion.Image = ((System.Drawing.Image)(resources.GetObject("settingsquestion.Image")));
-            this.settingsquestion.Location = new System.Drawing.Point(21, 303);
-            this.settingsquestion.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsquestion.Location = new System.Drawing.Point(31, 337);
+            this.settingsquestion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsquestion.Name = "settingsquestion";
-            this.settingsquestion.Size = new System.Drawing.Size(31, 28);
+            this.settingsquestion.Size = new System.Drawing.Size(41, 34);
             this.settingsquestion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsquestion.TabIndex = 60;
             this.settingsquestion.TabStop = false;
@@ -152,11 +154,12 @@
             // 
             // settingstemplate
             // 
+            this.settingstemplate.BackColor = System.Drawing.Color.Transparent;
             this.settingstemplate.Image = ((System.Drawing.Image)(resources.GetObject("settingstemplate.Image")));
-            this.settingstemplate.Location = new System.Drawing.Point(21, 256);
-            this.settingstemplate.Margin = new System.Windows.Forms.Padding(2);
+            this.settingstemplate.Location = new System.Drawing.Point(31, 279);
+            this.settingstemplate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingstemplate.Name = "settingstemplate";
-            this.settingstemplate.Size = new System.Drawing.Size(31, 28);
+            this.settingstemplate.Size = new System.Drawing.Size(41, 34);
             this.settingstemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingstemplate.TabIndex = 61;
             this.settingstemplate.TabStop = false;
@@ -164,11 +167,12 @@
             // 
             // settingsprofile
             // 
+            this.settingsprofile.BackColor = System.Drawing.Color.Transparent;
             this.settingsprofile.Image = ((System.Drawing.Image)(resources.GetObject("settingsprofile.Image")));
-            this.settingsprofile.Location = new System.Drawing.Point(21, 208);
-            this.settingsprofile.Margin = new System.Windows.Forms.Padding(2);
+            this.settingsprofile.Location = new System.Drawing.Point(31, 220);
+            this.settingsprofile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsprofile.Name = "settingsprofile";
-            this.settingsprofile.Size = new System.Drawing.Size(31, 28);
+            this.settingsprofile.Size = new System.Drawing.Size(41, 34);
             this.settingsprofile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsprofile.TabIndex = 62;
             this.settingsprofile.TabStop = false;
@@ -176,12 +180,12 @@
             // 
             // settingshome
             // 
-            this.settingshome.BackColor = System.Drawing.SystemColors.Control;
+            this.settingshome.BackColor = System.Drawing.Color.Transparent;
             this.settingshome.Image = ((System.Drawing.Image)(resources.GetObject("settingshome.Image")));
-            this.settingshome.Location = new System.Drawing.Point(21, 163);
-            this.settingshome.Margin = new System.Windows.Forms.Padding(2);
+            this.settingshome.Location = new System.Drawing.Point(31, 165);
+            this.settingshome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingshome.Name = "settingshome";
-            this.settingshome.Size = new System.Drawing.Size(31, 28);
+            this.settingshome.Size = new System.Drawing.Size(41, 34);
             this.settingshome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingshome.TabIndex = 63;
             this.settingshome.TabStop = false;
@@ -192,30 +196,29 @@
             this.SettingsPage.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.SettingsPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SettingsPage.Controls.Add(this.lblSettings);
-            this.SettingsPage.Location = new System.Drawing.Point(75, 111);
-            this.SettingsPage.Margin = new System.Windows.Forms.Padding(2);
+            this.SettingsPage.Location = new System.Drawing.Point(100, 137);
+            this.SettingsPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SettingsPage.Name = "SettingsPage";
-            this.SettingsPage.Size = new System.Drawing.Size(842, 393);
+            this.SettingsPage.Size = new System.Drawing.Size(1122, 483);
             this.SettingsPage.TabIndex = 65;
             // 
             // lblSettings
             // 
             this.lblSettings.AutoSize = true;
             this.lblSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.lblSettings.Location = new System.Drawing.Point(385, 21);
-            this.lblSettings.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSettings.Location = new System.Drawing.Point(513, 26);
             this.lblSettings.Name = "lblSettings";
-            this.lblSettings.Size = new System.Drawing.Size(84, 24);
+            this.lblSettings.Size = new System.Drawing.Size(108, 29);
             this.lblSettings.TabIndex = 9;
             this.lblSettings.Text = "Settings";
             // 
             // Settings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.SettingsPage);
             this.Controls.Add(this.settingsSettings);
             this.Controls.Add(this.settingsimpexp);
@@ -225,7 +228,7 @@
             this.Controls.Add(this.settingshome);
             this.Controls.Add(this.homepanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Settings";
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.Settings_Load);

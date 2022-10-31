@@ -79,10 +79,10 @@ namespace Project_Management_Tool
             this.registrationPannel1.Controls.Add(this.txtFName);
             this.registrationPannel1.Controls.Add(this.regEmailID);
             this.registrationPannel1.Controls.Add(this.txtEmail);
-            this.registrationPannel1.Location = new System.Drawing.Point(70, 71);
-            this.registrationPannel1.Margin = new System.Windows.Forms.Padding(2);
+            this.registrationPannel1.Location = new System.Drawing.Point(93, 87);
+            this.registrationPannel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registrationPannel1.Name = "registrationPannel1";
-            this.registrationPannel1.Size = new System.Drawing.Size(414, 440);
+            this.registrationPannel1.Size = new System.Drawing.Size(551, 541);
             this.registrationPannel1.TabIndex = 29;
             // 
             // regGeneralInfo
@@ -90,10 +90,9 @@ namespace Project_Management_Tool
             this.regGeneralInfo.AutoSize = true;
             this.regGeneralInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regGeneralInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regGeneralInfo.Location = new System.Drawing.Point(12, 11);
-            this.regGeneralInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regGeneralInfo.Location = new System.Drawing.Point(16, 14);
             this.regGeneralInfo.Name = "regGeneralInfo";
-            this.regGeneralInfo.Size = new System.Drawing.Size(150, 21);
+            this.regGeneralInfo.Size = new System.Drawing.Size(187, 28);
             this.regGeneralInfo.TabIndex = 7;
             this.regGeneralInfo.Text = "General Information";
             // 
@@ -102,10 +101,9 @@ namespace Project_Management_Tool
             this.regOrg.AutoSize = true;
             this.regOrg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regOrg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regOrg.Location = new System.Drawing.Point(24, 265);
-            this.regOrg.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regOrg.Location = new System.Drawing.Point(32, 326);
             this.regOrg.Name = "regOrg";
-            this.regOrg.Size = new System.Drawing.Size(103, 21);
+            this.regOrg.Size = new System.Drawing.Size(130, 28);
             this.regOrg.TabIndex = 24;
             this.regOrg.Text = "Organization:";
             // 
@@ -114,38 +112,37 @@ namespace Project_Management_Tool
             this.regLName.AutoSize = true;
             this.regLName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regLName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regLName.Location = new System.Drawing.Point(25, 177);
-            this.regLName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regLName.Location = new System.Drawing.Point(33, 218);
             this.regLName.Name = "regLName";
-            this.regLName.Size = new System.Drawing.Size(87, 21);
+            this.regLName.Size = new System.Drawing.Size(107, 28);
             this.regLName.TabIndex = 20;
             this.regLName.Text = "Last Name:";
             // 
             // txtOrgID
             // 
             this.txtOrgID.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOrgID.Location = new System.Drawing.Point(172, 306);
-            this.txtOrgID.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOrgID.Location = new System.Drawing.Point(229, 377);
+            this.txtOrgID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtOrgID.Name = "txtOrgID";
-            this.txtOrgID.Size = new System.Drawing.Size(166, 22);
+            this.txtOrgID.Size = new System.Drawing.Size(220, 26);
             this.txtOrgID.TabIndex = 21;
             // 
             // txtLName
             // 
             this.txtLName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLName.Location = new System.Drawing.Point(172, 176);
-            this.txtLName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtLName.Location = new System.Drawing.Point(229, 217);
+            this.txtLName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLName.Name = "txtLName";
-            this.txtLName.Size = new System.Drawing.Size(166, 22);
+            this.txtLName.Size = new System.Drawing.Size(220, 26);
             this.txtLName.TabIndex = 19;
             // 
             // txtPhno
             // 
             this.txtPhno.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhno.Location = new System.Drawing.Point(172, 222);
-            this.txtPhno.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPhno.Location = new System.Drawing.Point(229, 273);
+            this.txtPhno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhno.Name = "txtPhno";
-            this.txtPhno.Size = new System.Drawing.Size(168, 22);
+            this.txtPhno.Size = new System.Drawing.Size(223, 26);
             this.txtPhno.TabIndex = 16;
             // 
             // regPhno
@@ -153,20 +150,19 @@ namespace Project_Management_Tool
             this.regPhno.AutoSize = true;
             this.regPhno.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regPhno.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regPhno.Location = new System.Drawing.Point(24, 219);
-            this.regPhno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regPhno.Location = new System.Drawing.Point(32, 270);
             this.regPhno.Name = "regPhno";
-            this.regPhno.Size = new System.Drawing.Size(119, 21);
+            this.regPhno.Size = new System.Drawing.Size(148, 28);
             this.regPhno.TabIndex = 18;
             this.regPhno.Text = "Phone Number:";
             // 
             // txtOrg
             // 
             this.txtOrg.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOrg.Location = new System.Drawing.Point(172, 264);
-            this.txtOrg.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOrg.Location = new System.Drawing.Point(229, 325);
+            this.txtOrg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtOrg.Name = "txtOrg";
-            this.txtOrg.Size = new System.Drawing.Size(166, 22);
+            this.txtOrg.Size = new System.Drawing.Size(220, 26);
             this.txtOrg.TabIndex = 23;
             // 
             // regFName
@@ -174,10 +170,9 @@ namespace Project_Management_Tool
             this.regFName.AutoSize = true;
             this.regFName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regFName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regFName.Location = new System.Drawing.Point(25, 134);
-            this.regFName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regFName.Location = new System.Drawing.Point(33, 165);
             this.regFName.Name = "regFName";
-            this.regFName.Size = new System.Drawing.Size(93, 21);
+            this.regFName.Size = new System.Drawing.Size(115, 28);
             this.regFName.TabIndex = 17;
             this.regFName.Text = "First Name :";
             // 
@@ -186,20 +181,19 @@ namespace Project_Management_Tool
             this.regOrgID.AutoSize = true;
             this.regOrgID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regOrgID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regOrgID.Location = new System.Drawing.Point(24, 306);
-            this.regOrgID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regOrgID.Location = new System.Drawing.Point(32, 377);
             this.regOrgID.Name = "regOrgID";
-            this.regOrgID.Size = new System.Drawing.Size(122, 21);
+            this.regOrgID.Size = new System.Drawing.Size(154, 28);
             this.regOrgID.TabIndex = 22;
             this.regOrgID.Text = "Organization ID:";
             // 
             // txtFName
             // 
             this.txtFName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFName.Location = new System.Drawing.Point(174, 130);
-            this.txtFName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtFName.Location = new System.Drawing.Point(232, 160);
+            this.txtFName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFName.Name = "txtFName";
-            this.txtFName.Size = new System.Drawing.Size(166, 22);
+            this.txtFName.Size = new System.Drawing.Size(220, 26);
             this.txtFName.TabIndex = 15;
             // 
             // regEmailID
@@ -207,20 +201,19 @@ namespace Project_Management_Tool
             this.regEmailID.AutoSize = true;
             this.regEmailID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regEmailID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regEmailID.Location = new System.Drawing.Point(26, 89);
-            this.regEmailID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regEmailID.Location = new System.Drawing.Point(35, 110);
             this.regEmailID.Name = "regEmailID";
-            this.regEmailID.Size = new System.Drawing.Size(74, 21);
+            this.regEmailID.Size = new System.Drawing.Size(92, 28);
             this.regEmailID.TabIndex = 6;
             this.regEmailID.Text = "Email ID :";
             // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(174, 86);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEmail.Location = new System.Drawing.Point(232, 106);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(166, 22);
+            this.txtEmail.Size = new System.Drawing.Size(220, 26);
             this.txtEmail.TabIndex = 2;
             // 
             // regConfirmPassword
@@ -229,20 +222,19 @@ namespace Project_Management_Tool
             this.regConfirmPassword.BackColor = System.Drawing.Color.Transparent;
             this.regConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regConfirmPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regConfirmPassword.Location = new System.Drawing.Point(24, 184);
-            this.regConfirmPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regConfirmPassword.Location = new System.Drawing.Point(32, 226);
             this.regConfirmPassword.Name = "regConfirmPassword";
-            this.regConfirmPassword.Size = new System.Drawing.Size(140, 21);
+            this.regConfirmPassword.Size = new System.Drawing.Size(172, 28);
             this.regConfirmPassword.TabIndex = 14;
             this.regConfirmPassword.Text = "Confirm Password:";
             // 
             // txtConfirmPass
             // 
             this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmPass.Location = new System.Drawing.Point(178, 183);
-            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(2);
+            this.txtConfirmPass.Location = new System.Drawing.Point(237, 225);
+            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtConfirmPass.Name = "txtConfirmPass";
-            this.txtConfirmPass.Size = new System.Drawing.Size(166, 22);
+            this.txtConfirmPass.Size = new System.Drawing.Size(220, 26);
             this.txtConfirmPass.TabIndex = 13;
             // 
             // regUsername
@@ -251,20 +243,19 @@ namespace Project_Management_Tool
             this.regUsername.BackColor = System.Drawing.Color.Transparent;
             this.regUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regUsername.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regUsername.Location = new System.Drawing.Point(25, 87);
-            this.regUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regUsername.Location = new System.Drawing.Point(33, 107);
             this.regUsername.Name = "regUsername";
-            this.regUsername.Size = new System.Drawing.Size(84, 21);
+            this.regUsername.Size = new System.Drawing.Size(103, 28);
             this.regUsername.TabIndex = 10;
             this.regUsername.Text = "Username:";
             // 
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(175, 86);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUsername.Location = new System.Drawing.Point(233, 106);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(166, 22);
+            this.txtUsername.Size = new System.Drawing.Size(220, 26);
             this.txtUsername.TabIndex = 9;
             // 
             // regLoginRedirect
@@ -272,10 +263,9 @@ namespace Project_Management_Tool
             this.regLoginRedirect.AutoSize = true;
             this.regLoginRedirect.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regLoginRedirect.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regLoginRedirect.Location = new System.Drawing.Point(123, 403);
-            this.regLoginRedirect.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regLoginRedirect.Location = new System.Drawing.Point(164, 496);
             this.regLoginRedirect.Name = "regLoginRedirect";
-            this.regLoginRedirect.Size = new System.Drawing.Size(194, 21);
+            this.regLoginRedirect.Size = new System.Drawing.Size(243, 28);
             this.regLoginRedirect.TabIndex = 8;
             this.regLoginRedirect.Text = "Already Registered? Login.";
             this.regLoginRedirect.Click += new System.EventHandler(this.regLoginRedirect_Click);
@@ -286,30 +276,29 @@ namespace Project_Management_Tool
             this.regPassword.BackColor = System.Drawing.Color.Transparent;
             this.regPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regPassword.Location = new System.Drawing.Point(28, 134);
-            this.regPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regPassword.Location = new System.Drawing.Point(37, 165);
             this.regPassword.Name = "regPassword";
-            this.regPassword.Size = new System.Drawing.Size(83, 21);
+            this.regPassword.Size = new System.Drawing.Size(102, 28);
             this.regPassword.TabIndex = 7;
             this.regPassword.Text = "Password :";
             // 
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(176, 137);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPassword.Location = new System.Drawing.Point(235, 169);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(166, 22);
+            this.txtPassword.Size = new System.Drawing.Size(220, 26);
             this.txtPassword.TabIndex = 3;
             // 
             // btbregister
             // 
             this.btbregister.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btbregister.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbregister.Location = new System.Drawing.Point(175, 367);
-            this.btbregister.Margin = new System.Windows.Forms.Padding(2);
+            this.btbregister.Location = new System.Drawing.Point(233, 452);
+            this.btbregister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btbregister.Name = "btbregister";
-            this.btbregister.Size = new System.Drawing.Size(95, 30);
+            this.btbregister.Size = new System.Drawing.Size(127, 37);
             this.btbregister.TabIndex = 0;
             this.btbregister.Text = "Register";
             this.btbregister.UseVisualStyleBackColor = false;
@@ -319,10 +308,10 @@ namespace Project_Management_Tool
             // 
             this.regClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.regClose.Image = ((System.Drawing.Image)(resources.GetObject("regClose.Image")));
-            this.regClose.Location = new System.Drawing.Point(942, 16);
-            this.regClose.Margin = new System.Windows.Forms.Padding(2);
+            this.regClose.Location = new System.Drawing.Point(1256, 20);
+            this.regClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.regClose.Name = "regClose";
-            this.regClose.Size = new System.Drawing.Size(16, 15);
+            this.regClose.Size = new System.Drawing.Size(21, 18);
             this.regClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.regClose.TabIndex = 30;
             this.regClose.TabStop = false;
@@ -341,10 +330,10 @@ namespace Project_Management_Tool
             this.registrationPannel2.Controls.Add(this.regPassword);
             this.registrationPannel2.Controls.Add(this.txtUsername);
             this.registrationPannel2.Controls.Add(this.regUsername);
-            this.registrationPannel2.Location = new System.Drawing.Point(484, 71);
-            this.registrationPannel2.Margin = new System.Windows.Forms.Padding(2);
+            this.registrationPannel2.Location = new System.Drawing.Point(645, 87);
+            this.registrationPannel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registrationPannel2.Name = "registrationPannel2";
-            this.registrationPannel2.Size = new System.Drawing.Size(414, 440);
+            this.registrationPannel2.Size = new System.Drawing.Size(551, 541);
             this.registrationPannel2.TabIndex = 32;
             // 
             // regCredentials
@@ -353,25 +342,24 @@ namespace Project_Management_Tool
             this.regCredentials.BackColor = System.Drawing.Color.Transparent;
             this.regCredentials.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regCredentials.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.regCredentials.Location = new System.Drawing.Point(12, 11);
-            this.regCredentials.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.regCredentials.Location = new System.Drawing.Point(16, 14);
             this.regCredentials.Name = "regCredentials";
-            this.regCredentials.Size = new System.Drawing.Size(88, 21);
+            this.regCredentials.Size = new System.Drawing.Size(109, 28);
             this.regCredentials.TabIndex = 7;
             this.regCredentials.Text = "Credentials";
             // 
             // Registration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(975, 585);
+            this.ClientSize = new System.Drawing.Size(1300, 720);
             this.Controls.Add(this.registrationPannel2);
             this.Controls.Add(this.regClose);
             this.Controls.Add(this.registrationPannel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Registration";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Registration_Load);

@@ -127,7 +127,7 @@
             // 
             // TemplatePage
             // 
-            this.TemplatePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TemplatePage.BackColor = System.Drawing.Color.Transparent;
             this.TemplatePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TemplatePage.Controls.Add(this.circlespokediagram);
             this.TemplatePage.Controls.Add(this.basicelectrical);
@@ -144,41 +144,42 @@
             this.TemplatePage.Controls.Add(this.blockdiagram);
             this.TemplatePage.Controls.Add(this.blankdiagram);
             this.TemplatePage.Controls.Add(this.lblRecommended);
-            this.TemplatePage.Location = new System.Drawing.Point(92, 77);
-            this.TemplatePage.Margin = new System.Windows.Forms.Padding(2);
+            this.TemplatePage.Location = new System.Drawing.Point(123, 95);
+            this.TemplatePage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TemplatePage.Name = "TemplatePage";
-            this.TemplatePage.Size = new System.Drawing.Size(833, 440);
+            this.TemplatePage.Size = new System.Drawing.Size(1110, 541);
             this.TemplatePage.TabIndex = 45;
+            this.TemplatePage.Paint += new System.Windows.Forms.PaintEventHandler(this.TemplatePage_Paint);
             // 
             // circlespokediagram
             // 
             this.circlespokediagram.Controls.Add(this.lblcirspokediagram);
             this.circlespokediagram.Controls.Add(this.piccircspokediagram);
             this.circlespokediagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.circlespokediagram.Location = new System.Drawing.Point(524, 320);
-            this.circlespokediagram.Margin = new System.Windows.Forms.Padding(2);
+            this.circlespokediagram.Location = new System.Drawing.Point(699, 394);
+            this.circlespokediagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.circlespokediagram.Name = "circlespokediagram";
-            this.circlespokediagram.Size = new System.Drawing.Size(148, 110);
+            this.circlespokediagram.Size = new System.Drawing.Size(197, 135);
             this.circlespokediagram.TabIndex = 34;
             // 
             // lblcirspokediagram
             // 
             this.lblcirspokediagram.AutoSize = true;
             this.lblcirspokediagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcirspokediagram.Location = new System.Drawing.Point(4, 82);
-            this.lblcirspokediagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcirspokediagram.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblcirspokediagram.Location = new System.Drawing.Point(5, 101);
             this.lblcirspokediagram.Name = "lblcirspokediagram";
-            this.lblcirspokediagram.Size = new System.Drawing.Size(135, 17);
+            this.lblcirspokediagram.Size = new System.Drawing.Size(175, 23);
             this.lblcirspokediagram.TabIndex = 2;
             this.lblcirspokediagram.Text = "Circle-Spoke Diagram";
             // 
             // piccircspokediagram
             // 
             this.piccircspokediagram.Image = ((System.Drawing.Image)(resources.GetObject("piccircspokediagram.Image")));
-            this.piccircspokediagram.Location = new System.Drawing.Point(37, 16);
-            this.piccircspokediagram.Margin = new System.Windows.Forms.Padding(2);
+            this.piccircspokediagram.Location = new System.Drawing.Point(49, 20);
+            this.piccircspokediagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.piccircspokediagram.Name = "piccircspokediagram";
-            this.piccircspokediagram.Size = new System.Drawing.Size(61, 58);
+            this.piccircspokediagram.Size = new System.Drawing.Size(81, 71);
             this.piccircspokediagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.piccircspokediagram.TabIndex = 3;
             this.piccircspokediagram.TabStop = false;
@@ -188,30 +189,30 @@
             this.basicelectrical.Controls.Add(this.lblbasicelectrical);
             this.basicelectrical.Controls.Add(this.picbasicelectrical);
             this.basicelectrical.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.basicelectrical.Location = new System.Drawing.Point(356, 320);
-            this.basicelectrical.Margin = new System.Windows.Forms.Padding(2);
+            this.basicelectrical.Location = new System.Drawing.Point(475, 394);
+            this.basicelectrical.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.basicelectrical.Name = "basicelectrical";
-            this.basicelectrical.Size = new System.Drawing.Size(137, 110);
+            this.basicelectrical.Size = new System.Drawing.Size(183, 135);
             this.basicelectrical.TabIndex = 33;
             // 
             // lblbasicelectrical
             // 
             this.lblbasicelectrical.AutoSize = true;
             this.lblbasicelectrical.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbasicelectrical.Location = new System.Drawing.Point(26, 82);
-            this.lblbasicelectrical.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblbasicelectrical.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblbasicelectrical.Location = new System.Drawing.Point(35, 101);
             this.lblbasicelectrical.Name = "lblbasicelectrical";
-            this.lblbasicelectrical.Size = new System.Drawing.Size(92, 17);
+            this.lblbasicelectrical.Size = new System.Drawing.Size(120, 23);
             this.lblbasicelectrical.TabIndex = 2;
             this.lblbasicelectrical.Text = "Basic Electrical";
             // 
             // picbasicelectrical
             // 
             this.picbasicelectrical.Image = ((System.Drawing.Image)(resources.GetObject("picbasicelectrical.Image")));
-            this.picbasicelectrical.Location = new System.Drawing.Point(37, 16);
-            this.picbasicelectrical.Margin = new System.Windows.Forms.Padding(2);
+            this.picbasicelectrical.Location = new System.Drawing.Point(49, 20);
+            this.picbasicelectrical.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picbasicelectrical.Name = "picbasicelectrical";
-            this.picbasicelectrical.Size = new System.Drawing.Size(61, 58);
+            this.picbasicelectrical.Size = new System.Drawing.Size(81, 71);
             this.picbasicelectrical.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picbasicelectrical.TabIndex = 3;
             this.picbasicelectrical.TabStop = false;
@@ -221,30 +222,30 @@
             this.ganttcharts.Controls.Add(this.lblGanttcharts);
             this.ganttcharts.Controls.Add(this.picGanttCharts);
             this.ganttcharts.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ganttcharts.Location = new System.Drawing.Point(193, 320);
-            this.ganttcharts.Margin = new System.Windows.Forms.Padding(2);
+            this.ganttcharts.Location = new System.Drawing.Point(257, 394);
+            this.ganttcharts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ganttcharts.Name = "ganttcharts";
-            this.ganttcharts.Size = new System.Drawing.Size(137, 110);
+            this.ganttcharts.Size = new System.Drawing.Size(183, 135);
             this.ganttcharts.TabIndex = 32;
             // 
             // lblGanttcharts
             // 
             this.lblGanttcharts.AutoSize = true;
             this.lblGanttcharts.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGanttcharts.Location = new System.Drawing.Point(34, 82);
-            this.lblGanttcharts.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblGanttcharts.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblGanttcharts.Location = new System.Drawing.Point(45, 101);
             this.lblGanttcharts.Name = "lblGanttcharts";
-            this.lblGanttcharts.Size = new System.Drawing.Size(80, 17);
+            this.lblGanttcharts.Size = new System.Drawing.Size(107, 23);
             this.lblGanttcharts.TabIndex = 2;
             this.lblGanttcharts.Text = "Gantt Charts";
             // 
             // picGanttCharts
             // 
             this.picGanttCharts.Image = ((System.Drawing.Image)(resources.GetObject("picGanttCharts.Image")));
-            this.picGanttCharts.Location = new System.Drawing.Point(37, 16);
-            this.picGanttCharts.Margin = new System.Windows.Forms.Padding(2);
+            this.picGanttCharts.Location = new System.Drawing.Point(49, 20);
+            this.picGanttCharts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picGanttCharts.Name = "picGanttCharts";
-            this.picGanttCharts.Size = new System.Drawing.Size(61, 58);
+            this.picGanttCharts.Size = new System.Drawing.Size(81, 71);
             this.picGanttCharts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picGanttCharts.TabIndex = 3;
             this.picGanttCharts.TabStop = false;
@@ -254,30 +255,30 @@
             this.UMLModelling.Controls.Add(this.lblUMLmodelling);
             this.UMLModelling.Controls.Add(this.picUMLmodelling);
             this.UMLModelling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UMLModelling.Location = new System.Drawing.Point(24, 320);
-            this.UMLModelling.Margin = new System.Windows.Forms.Padding(2);
+            this.UMLModelling.Location = new System.Drawing.Point(32, 394);
+            this.UMLModelling.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UMLModelling.Name = "UMLModelling";
-            this.UMLModelling.Size = new System.Drawing.Size(137, 110);
+            this.UMLModelling.Size = new System.Drawing.Size(183, 135);
             this.UMLModelling.TabIndex = 31;
             // 
             // lblUMLmodelling
             // 
             this.lblUMLmodelling.AutoSize = true;
             this.lblUMLmodelling.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUMLmodelling.Location = new System.Drawing.Point(26, 82);
-            this.lblUMLmodelling.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUMLmodelling.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblUMLmodelling.Location = new System.Drawing.Point(35, 101);
             this.lblUMLmodelling.Name = "lblUMLmodelling";
-            this.lblUMLmodelling.Size = new System.Drawing.Size(95, 17);
+            this.lblUMLmodelling.Size = new System.Drawing.Size(122, 23);
             this.lblUMLmodelling.TabIndex = 2;
             this.lblUMLmodelling.Text = "UML Modeling";
             // 
             // picUMLmodelling
             // 
             this.picUMLmodelling.Image = ((System.Drawing.Image)(resources.GetObject("picUMLmodelling.Image")));
-            this.picUMLmodelling.Location = new System.Drawing.Point(37, 16);
-            this.picUMLmodelling.Margin = new System.Windows.Forms.Padding(2);
+            this.picUMLmodelling.Location = new System.Drawing.Point(49, 20);
+            this.picUMLmodelling.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picUMLmodelling.Name = "picUMLmodelling";
-            this.picUMLmodelling.Size = new System.Drawing.Size(61, 58);
+            this.picUMLmodelling.Size = new System.Drawing.Size(81, 71);
             this.picUMLmodelling.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picUMLmodelling.TabIndex = 3;
             this.picUMLmodelling.TabStop = false;
@@ -287,30 +288,30 @@
             this.floormap.Controls.Add(this.lblFloormap);
             this.floormap.Controls.Add(this.picFloormap);
             this.floormap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floormap.Location = new System.Drawing.Point(683, 185);
-            this.floormap.Margin = new System.Windows.Forms.Padding(2);
+            this.floormap.Location = new System.Drawing.Point(911, 228);
+            this.floormap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.floormap.Name = "floormap";
-            this.floormap.Size = new System.Drawing.Size(137, 110);
+            this.floormap.Size = new System.Drawing.Size(183, 135);
             this.floormap.TabIndex = 30;
             // 
             // lblFloormap
             // 
             this.lblFloormap.AutoSize = true;
             this.lblFloormap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFloormap.Location = new System.Drawing.Point(38, 84);
-            this.lblFloormap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFloormap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblFloormap.Location = new System.Drawing.Point(51, 103);
             this.lblFloormap.Name = "lblFloormap";
-            this.lblFloormap.Size = new System.Drawing.Size(69, 17);
+            this.lblFloormap.Size = new System.Drawing.Size(87, 23);
             this.lblFloormap.TabIndex = 2;
             this.lblFloormap.Text = "Floor Map";
             // 
             // picFloormap
             // 
             this.picFloormap.Image = ((System.Drawing.Image)(resources.GetObject("picFloormap.Image")));
-            this.picFloormap.Location = new System.Drawing.Point(37, 16);
-            this.picFloormap.Margin = new System.Windows.Forms.Padding(2);
+            this.picFloormap.Location = new System.Drawing.Point(49, 20);
+            this.picFloormap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picFloormap.Name = "picFloormap";
-            this.picFloormap.Size = new System.Drawing.Size(61, 58);
+            this.picFloormap.Size = new System.Drawing.Size(81, 71);
             this.picFloormap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picFloormap.TabIndex = 3;
             this.picFloormap.TabStop = false;
@@ -320,30 +321,30 @@
             this.networkdiagram.Controls.Add(this.lblnetworkdiagram);
             this.networkdiagram.Controls.Add(this.picNetworkDiagram);
             this.networkdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.networkdiagram.Location = new System.Drawing.Point(524, 185);
-            this.networkdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.networkdiagram.Location = new System.Drawing.Point(699, 228);
+            this.networkdiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.networkdiagram.Name = "networkdiagram";
-            this.networkdiagram.Size = new System.Drawing.Size(137, 110);
+            this.networkdiagram.Size = new System.Drawing.Size(183, 135);
             this.networkdiagram.TabIndex = 29;
             // 
             // lblnetworkdiagram
             // 
             this.lblnetworkdiagram.AutoSize = true;
             this.lblnetworkdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnetworkdiagram.Location = new System.Drawing.Point(18, 83);
-            this.lblnetworkdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblnetworkdiagram.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblnetworkdiagram.Location = new System.Drawing.Point(24, 102);
             this.lblnetworkdiagram.Name = "lblnetworkdiagram";
-            this.lblnetworkdiagram.Size = new System.Drawing.Size(111, 17);
+            this.lblnetworkdiagram.Size = new System.Drawing.Size(144, 23);
             this.lblnetworkdiagram.TabIndex = 2;
             this.lblnetworkdiagram.Text = "Network Diagram";
             // 
             // picNetworkDiagram
             // 
             this.picNetworkDiagram.Image = ((System.Drawing.Image)(resources.GetObject("picNetworkDiagram.Image")));
-            this.picNetworkDiagram.Location = new System.Drawing.Point(37, 16);
-            this.picNetworkDiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picNetworkDiagram.Location = new System.Drawing.Point(49, 20);
+            this.picNetworkDiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picNetworkDiagram.Name = "picNetworkDiagram";
-            this.picNetworkDiagram.Size = new System.Drawing.Size(61, 58);
+            this.picNetworkDiagram.Size = new System.Drawing.Size(81, 71);
             this.picNetworkDiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picNetworkDiagram.TabIndex = 3;
             this.picNetworkDiagram.TabStop = false;
@@ -353,30 +354,30 @@
             this.conceptmap.Controls.Add(this.lblconceptmap);
             this.conceptmap.Controls.Add(this.picConceptMap);
             this.conceptmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conceptmap.Location = new System.Drawing.Point(356, 185);
-            this.conceptmap.Margin = new System.Windows.Forms.Padding(2);
+            this.conceptmap.Location = new System.Drawing.Point(475, 228);
+            this.conceptmap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.conceptmap.Name = "conceptmap";
-            this.conceptmap.Size = new System.Drawing.Size(137, 110);
+            this.conceptmap.Size = new System.Drawing.Size(183, 135);
             this.conceptmap.TabIndex = 28;
             // 
             // lblconceptmap
             // 
             this.lblconceptmap.AutoSize = true;
             this.lblconceptmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblconceptmap.Location = new System.Drawing.Point(27, 83);
-            this.lblconceptmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblconceptmap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblconceptmap.Location = new System.Drawing.Point(36, 102);
             this.lblconceptmap.Name = "lblconceptmap";
-            this.lblconceptmap.Size = new System.Drawing.Size(87, 17);
+            this.lblconceptmap.Size = new System.Drawing.Size(113, 23);
             this.lblconceptmap.TabIndex = 2;
             this.lblconceptmap.Text = "Concept Map";
             // 
             // picConceptMap
             // 
             this.picConceptMap.Image = ((System.Drawing.Image)(resources.GetObject("picConceptMap.Image")));
-            this.picConceptMap.Location = new System.Drawing.Point(37, 16);
-            this.picConceptMap.Margin = new System.Windows.Forms.Padding(2);
+            this.picConceptMap.Location = new System.Drawing.Point(49, 20);
+            this.picConceptMap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picConceptMap.Name = "picConceptMap";
-            this.picConceptMap.Size = new System.Drawing.Size(61, 58);
+            this.picConceptMap.Size = new System.Drawing.Size(81, 71);
             this.picConceptMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picConceptMap.TabIndex = 3;
             this.picConceptMap.TabStop = false;
@@ -386,30 +387,30 @@
             this.orgchart.Controls.Add(this.lblOrgChart);
             this.orgchart.Controls.Add(this.picOrgChart);
             this.orgchart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orgchart.Location = new System.Drawing.Point(193, 185);
-            this.orgchart.Margin = new System.Windows.Forms.Padding(2);
+            this.orgchart.Location = new System.Drawing.Point(257, 228);
+            this.orgchart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orgchart.Name = "orgchart";
-            this.orgchart.Size = new System.Drawing.Size(137, 110);
+            this.orgchart.Size = new System.Drawing.Size(183, 135);
             this.orgchart.TabIndex = 27;
             // 
             // lblOrgChart
             // 
             this.lblOrgChart.AutoSize = true;
             this.lblOrgChart.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrgChart.Location = new System.Drawing.Point(4, 83);
-            this.lblOrgChart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblOrgChart.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblOrgChart.Location = new System.Drawing.Point(5, 102);
             this.lblOrgChart.Name = "lblOrgChart";
-            this.lblOrgChart.Size = new System.Drawing.Size(138, 17);
+            this.lblOrgChart.Size = new System.Drawing.Size(182, 23);
             this.lblOrgChart.TabIndex = 2;
             this.lblOrgChart.Text = "Org Chart(Automated)";
             // 
             // picOrgChart
             // 
             this.picOrgChart.Image = ((System.Drawing.Image)(resources.GetObject("picOrgChart.Image")));
-            this.picOrgChart.Location = new System.Drawing.Point(37, 16);
-            this.picOrgChart.Margin = new System.Windows.Forms.Padding(2);
+            this.picOrgChart.Location = new System.Drawing.Point(49, 20);
+            this.picOrgChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picOrgChart.Name = "picOrgChart";
-            this.picOrgChart.Size = new System.Drawing.Size(61, 58);
+            this.picOrgChart.Size = new System.Drawing.Size(81, 71);
             this.picOrgChart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picOrgChart.TabIndex = 3;
             this.picOrgChart.TabStop = false;
@@ -419,30 +420,30 @@
             this.roadmap.Controls.Add(this.lblroadmap);
             this.roadmap.Controls.Add(this.picroadmap);
             this.roadmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roadmap.Location = new System.Drawing.Point(24, 185);
-            this.roadmap.Margin = new System.Windows.Forms.Padding(2);
+            this.roadmap.Location = new System.Drawing.Point(32, 228);
+            this.roadmap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.roadmap.Name = "roadmap";
-            this.roadmap.Size = new System.Drawing.Size(137, 110);
+            this.roadmap.Size = new System.Drawing.Size(183, 135);
             this.roadmap.TabIndex = 15;
             // 
             // lblroadmap
             // 
             this.lblroadmap.AutoSize = true;
             this.lblroadmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroadmap.Location = new System.Drawing.Point(34, 84);
-            this.lblroadmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblroadmap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblroadmap.Location = new System.Drawing.Point(45, 103);
             this.lblroadmap.Name = "lblroadmap";
-            this.lblroadmap.Size = new System.Drawing.Size(70, 17);
+            this.lblroadmap.Size = new System.Drawing.Size(88, 23);
             this.lblroadmap.TabIndex = 2;
             this.lblroadmap.Text = "Road Map";
             // 
             // picroadmap
             // 
             this.picroadmap.Image = ((System.Drawing.Image)(resources.GetObject("picroadmap.Image")));
-            this.picroadmap.Location = new System.Drawing.Point(37, 16);
-            this.picroadmap.Margin = new System.Windows.Forms.Padding(2);
+            this.picroadmap.Location = new System.Drawing.Point(49, 20);
+            this.picroadmap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picroadmap.Name = "picroadmap";
-            this.picroadmap.Size = new System.Drawing.Size(61, 58);
+            this.picroadmap.Size = new System.Drawing.Size(81, 71);
             this.picroadmap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picroadmap.TabIndex = 3;
             this.picroadmap.TabStop = false;
@@ -452,30 +453,30 @@
             this.genogram.Controls.Add(this.lblgenogram);
             this.genogram.Controls.Add(this.picgenogram);
             this.genogram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genogram.Location = new System.Drawing.Point(683, 54);
-            this.genogram.Margin = new System.Windows.Forms.Padding(2);
+            this.genogram.Location = new System.Drawing.Point(911, 66);
+            this.genogram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.genogram.Name = "genogram";
-            this.genogram.Size = new System.Drawing.Size(137, 110);
+            this.genogram.Size = new System.Drawing.Size(183, 135);
             this.genogram.TabIndex = 26;
             // 
             // lblgenogram
             // 
             this.lblgenogram.AutoSize = true;
             this.lblgenogram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgenogram.Location = new System.Drawing.Point(35, 83);
-            this.lblgenogram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblgenogram.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblgenogram.Location = new System.Drawing.Point(47, 102);
             this.lblgenogram.Name = "lblgenogram";
-            this.lblgenogram.Size = new System.Drawing.Size(70, 17);
+            this.lblgenogram.Size = new System.Drawing.Size(91, 23);
             this.lblgenogram.TabIndex = 2;
             this.lblgenogram.Text = "Genogram";
             // 
             // picgenogram
             // 
             this.picgenogram.Image = ((System.Drawing.Image)(resources.GetObject("picgenogram.Image")));
-            this.picgenogram.Location = new System.Drawing.Point(37, 16);
-            this.picgenogram.Margin = new System.Windows.Forms.Padding(2);
+            this.picgenogram.Location = new System.Drawing.Point(49, 20);
+            this.picgenogram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picgenogram.Name = "picgenogram";
-            this.picgenogram.Size = new System.Drawing.Size(61, 58);
+            this.picgenogram.Size = new System.Drawing.Size(81, 71);
             this.picgenogram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picgenogram.TabIndex = 3;
             this.picgenogram.TabStop = false;
@@ -485,30 +486,30 @@
             this.mindmap.Controls.Add(this.lblmindmap);
             this.mindmap.Controls.Add(this.picMindmap);
             this.mindmap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mindmap.Location = new System.Drawing.Point(524, 54);
-            this.mindmap.Margin = new System.Windows.Forms.Padding(2);
+            this.mindmap.Location = new System.Drawing.Point(699, 66);
+            this.mindmap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mindmap.Name = "mindmap";
-            this.mindmap.Size = new System.Drawing.Size(137, 110);
+            this.mindmap.Size = new System.Drawing.Size(183, 135);
             this.mindmap.TabIndex = 25;
             // 
             // lblmindmap
             // 
             this.lblmindmap.AutoSize = true;
             this.lblmindmap.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmindmap.Location = new System.Drawing.Point(36, 83);
-            this.lblmindmap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblmindmap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblmindmap.Location = new System.Drawing.Point(48, 102);
             this.lblmindmap.Name = "lblmindmap";
-            this.lblmindmap.Size = new System.Drawing.Size(69, 17);
+            this.lblmindmap.Size = new System.Drawing.Size(88, 23);
             this.lblmindmap.TabIndex = 2;
             this.lblmindmap.Text = "Mind Map";
             // 
             // picMindmap
             // 
             this.picMindmap.Image = ((System.Drawing.Image)(resources.GetObject("picMindmap.Image")));
-            this.picMindmap.Location = new System.Drawing.Point(37, 16);
-            this.picMindmap.Margin = new System.Windows.Forms.Padding(2);
+            this.picMindmap.Location = new System.Drawing.Point(49, 20);
+            this.picMindmap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picMindmap.Name = "picMindmap";
-            this.picMindmap.Size = new System.Drawing.Size(61, 58);
+            this.picMindmap.Size = new System.Drawing.Size(81, 71);
             this.picMindmap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picMindmap.TabIndex = 3;
             this.picMindmap.TabStop = false;
@@ -518,30 +519,30 @@
             this.flowchart.Controls.Add(this.lblFlowchart);
             this.flowchart.Controls.Add(this.picFlowchart);
             this.flowchart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flowchart.Location = new System.Drawing.Point(356, 54);
-            this.flowchart.Margin = new System.Windows.Forms.Padding(2);
+            this.flowchart.Location = new System.Drawing.Point(475, 66);
+            this.flowchart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowchart.Name = "flowchart";
-            this.flowchart.Size = new System.Drawing.Size(137, 110);
+            this.flowchart.Size = new System.Drawing.Size(183, 135);
             this.flowchart.TabIndex = 24;
             // 
             // lblFlowchart
             // 
             this.lblFlowchart.AutoSize = true;
             this.lblFlowchart.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFlowchart.Location = new System.Drawing.Point(21, 84);
-            this.lblFlowchart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFlowchart.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblFlowchart.Location = new System.Drawing.Point(28, 103);
             this.lblFlowchart.Name = "lblFlowchart";
-            this.lblFlowchart.Size = new System.Drawing.Size(98, 17);
+            this.lblFlowchart.Size = new System.Drawing.Size(129, 23);
             this.lblFlowchart.TabIndex = 2;
             this.lblFlowchart.Text = "Basic FlowChart";
             // 
             // picFlowchart
             // 
             this.picFlowchart.Image = ((System.Drawing.Image)(resources.GetObject("picFlowchart.Image")));
-            this.picFlowchart.Location = new System.Drawing.Point(37, 16);
-            this.picFlowchart.Margin = new System.Windows.Forms.Padding(2);
+            this.picFlowchart.Location = new System.Drawing.Point(49, 20);
+            this.picFlowchart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picFlowchart.Name = "picFlowchart";
-            this.picFlowchart.Size = new System.Drawing.Size(61, 58);
+            this.picFlowchart.Size = new System.Drawing.Size(81, 71);
             this.picFlowchart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picFlowchart.TabIndex = 3;
             this.picFlowchart.TabStop = false;
@@ -551,30 +552,30 @@
             this.blockdiagram.Controls.Add(this.lblblockdiagram);
             this.blockdiagram.Controls.Add(this.picblockdiagram);
             this.blockdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blockdiagram.Location = new System.Drawing.Point(193, 54);
-            this.blockdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.blockdiagram.Location = new System.Drawing.Point(257, 66);
+            this.blockdiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.blockdiagram.Name = "blockdiagram";
-            this.blockdiagram.Size = new System.Drawing.Size(137, 110);
+            this.blockdiagram.Size = new System.Drawing.Size(183, 135);
             this.blockdiagram.TabIndex = 23;
             // 
             // lblblockdiagram
             // 
             this.lblblockdiagram.AutoSize = true;
             this.lblblockdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblblockdiagram.Location = new System.Drawing.Point(26, 84);
-            this.lblblockdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblblockdiagram.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblblockdiagram.Location = new System.Drawing.Point(35, 103);
             this.lblblockdiagram.Name = "lblblockdiagram";
-            this.lblblockdiagram.Size = new System.Drawing.Size(92, 17);
+            this.lblblockdiagram.Size = new System.Drawing.Size(120, 23);
             this.lblblockdiagram.TabIndex = 2;
             this.lblblockdiagram.Text = "Block Diagram";
             // 
             // picblockdiagram
             // 
             this.picblockdiagram.Image = ((System.Drawing.Image)(resources.GetObject("picblockdiagram.Image")));
-            this.picblockdiagram.Location = new System.Drawing.Point(37, 16);
-            this.picblockdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picblockdiagram.Location = new System.Drawing.Point(49, 20);
+            this.picblockdiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picblockdiagram.Name = "picblockdiagram";
-            this.picblockdiagram.Size = new System.Drawing.Size(61, 58);
+            this.picblockdiagram.Size = new System.Drawing.Size(81, 71);
             this.picblockdiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picblockdiagram.TabIndex = 3;
             this.picblockdiagram.TabStop = false;
@@ -584,30 +585,30 @@
             this.blankdiagram.Controls.Add(this.lblblankkdiagram);
             this.blankdiagram.Controls.Add(this.picblankdiagram);
             this.blankdiagram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blankdiagram.Location = new System.Drawing.Point(24, 54);
-            this.blankdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.blankdiagram.Location = new System.Drawing.Point(32, 66);
+            this.blankdiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.blankdiagram.Name = "blankdiagram";
-            this.blankdiagram.Size = new System.Drawing.Size(137, 110);
+            this.blankdiagram.Size = new System.Drawing.Size(183, 135);
             this.blankdiagram.TabIndex = 14;
             // 
             // lblblankkdiagram
             // 
             this.lblblankkdiagram.AutoSize = true;
             this.lblblankkdiagram.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblblankkdiagram.Location = new System.Drawing.Point(23, 84);
-            this.lblblankkdiagram.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblblankkdiagram.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblblankkdiagram.Location = new System.Drawing.Point(31, 103);
             this.lblblankkdiagram.Name = "lblblankkdiagram";
-            this.lblblankkdiagram.Size = new System.Drawing.Size(92, 17);
+            this.lblblankkdiagram.Size = new System.Drawing.Size(121, 23);
             this.lblblankkdiagram.TabIndex = 2;
             this.lblblankkdiagram.Text = "Blank Diagram";
             // 
             // picblankdiagram
             // 
             this.picblankdiagram.Image = ((System.Drawing.Image)(resources.GetObject("picblankdiagram.Image")));
-            this.picblankdiagram.Location = new System.Drawing.Point(37, 16);
-            this.picblankdiagram.Margin = new System.Windows.Forms.Padding(2);
+            this.picblankdiagram.Location = new System.Drawing.Point(49, 20);
+            this.picblankdiagram.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picblankdiagram.Name = "picblankdiagram";
-            this.picblankdiagram.Size = new System.Drawing.Size(68, 58);
+            this.picblankdiagram.Size = new System.Drawing.Size(91, 71);
             this.picblankdiagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picblankdiagram.TabIndex = 3;
             this.picblankdiagram.TabStop = false;
@@ -615,11 +616,12 @@
             // lblRecommended
             // 
             this.lblRecommended.AutoSize = true;
+            this.lblRecommended.BackColor = System.Drawing.Color.Transparent;
             this.lblRecommended.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecommended.Location = new System.Drawing.Point(20, 15);
-            this.lblRecommended.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRecommended.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblRecommended.Location = new System.Drawing.Point(27, 18);
             this.lblRecommended.Name = "lblRecommended";
-            this.lblRecommended.Size = new System.Drawing.Size(115, 21);
+            this.lblRecommended.Size = new System.Drawing.Size(143, 28);
             this.lblRecommended.TabIndex = 0;
             this.lblRecommended.Text = "Recommended";
             // 
@@ -630,29 +632,29 @@
             this.homepanel.Controls.Add(this.tempappicon);
             this.homepanel.Controls.Add(this.tempClose);
             this.homepanel.Controls.Add(this.lblhomefromimpexp);
-            this.homepanel.Location = new System.Drawing.Point(0, -8);
-            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Location = new System.Drawing.Point(0, -10);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 70);
+            this.homepanel.Size = new System.Drawing.Size(1257, 86);
             this.homepanel.TabIndex = 46;
             // 
             // tempuseravatar
             // 
             this.tempuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tempuseravatar.Location = new System.Drawing.Point(857, 13);
-            this.tempuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.tempuseravatar.Location = new System.Drawing.Point(1143, 16);
+            this.tempuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempuseravatar.Name = "tempuseravatar";
-            this.tempuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.tempuseravatar.Size = new System.Drawing.Size(67, 62);
             this.tempuseravatar.TabIndex = 31;
             this.tempuseravatar.TabStop = false;
             // 
             // tempappicon
             // 
             this.tempappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tempappicon.Location = new System.Drawing.Point(23, 9);
-            this.tempappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.tempappicon.Location = new System.Drawing.Point(31, 11);
+            this.tempappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempappicon.Name = "tempappicon";
-            this.tempappicon.Size = new System.Drawing.Size(64, 54);
+            this.tempappicon.Size = new System.Drawing.Size(85, 66);
             this.tempappicon.TabIndex = 30;
             this.tempappicon.TabStop = false;
             // 
@@ -660,10 +662,10 @@
             // 
             this.tempClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.tempClose.Image = ((System.Drawing.Image)(resources.GetObject("tempClose.Image")));
-            this.tempClose.Location = new System.Drawing.Point(920, 30);
-            this.tempClose.Margin = new System.Windows.Forms.Padding(2);
+            this.tempClose.Location = new System.Drawing.Point(1227, 37);
+            this.tempClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempClose.Name = "tempClose";
-            this.tempClose.Size = new System.Drawing.Size(16, 15);
+            this.tempClose.Size = new System.Drawing.Size(21, 18);
             this.tempClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempClose.TabIndex = 29;
             this.tempClose.TabStop = false;
@@ -675,20 +677,20 @@
             this.lblhomefromimpexp.BackColor = System.Drawing.Color.Transparent;
             this.lblhomefromimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 25);
-            this.lblhomefromimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhomefromimpexp.Location = new System.Drawing.Point(141, 31);
             this.lblhomefromimpexp.Name = "lblhomefromimpexp";
-            this.lblhomefromimpexp.Size = new System.Drawing.Size(159, 25);
+            this.lblhomefromimpexp.Size = new System.Drawing.Size(203, 32);
             this.lblhomefromimpexp.TabIndex = 10;
             this.lblhomefromimpexp.Text = "Home<Template";
             // 
             // tempSettings
             // 
+            this.tempSettings.BackColor = System.Drawing.Color.Transparent;
             this.tempSettings.Image = ((System.Drawing.Image)(resources.GetObject("tempSettings.Image")));
-            this.tempSettings.Location = new System.Drawing.Point(32, 393);
-            this.tempSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.tempSettings.Location = new System.Drawing.Point(43, 484);
+            this.tempSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempSettings.Name = "tempSettings";
-            this.tempSettings.Size = new System.Drawing.Size(31, 28);
+            this.tempSettings.Size = new System.Drawing.Size(41, 34);
             this.tempSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempSettings.TabIndex = 51;
             this.tempSettings.TabStop = false;
@@ -696,11 +698,12 @@
             // 
             // tempimpexp
             // 
+            this.tempimpexp.BackColor = System.Drawing.Color.Transparent;
             this.tempimpexp.Image = ((System.Drawing.Image)(resources.GetObject("tempimpexp.Image")));
-            this.tempimpexp.Location = new System.Drawing.Point(32, 346);
-            this.tempimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.tempimpexp.Location = new System.Drawing.Point(43, 426);
+            this.tempimpexp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempimpexp.Name = "tempimpexp";
-            this.tempimpexp.Size = new System.Drawing.Size(31, 28);
+            this.tempimpexp.Size = new System.Drawing.Size(41, 34);
             this.tempimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempimpexp.TabIndex = 52;
             this.tempimpexp.TabStop = false;
@@ -708,11 +711,12 @@
             // 
             // tempquestion
             // 
+            this.tempquestion.BackColor = System.Drawing.Color.Transparent;
             this.tempquestion.Image = ((System.Drawing.Image)(resources.GetObject("tempquestion.Image")));
-            this.tempquestion.Location = new System.Drawing.Point(32, 300);
-            this.tempquestion.Margin = new System.Windows.Forms.Padding(2);
+            this.tempquestion.Location = new System.Drawing.Point(43, 369);
+            this.tempquestion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempquestion.Name = "tempquestion";
-            this.tempquestion.Size = new System.Drawing.Size(31, 28);
+            this.tempquestion.Size = new System.Drawing.Size(41, 34);
             this.tempquestion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempquestion.TabIndex = 53;
             this.tempquestion.TabStop = false;
@@ -720,22 +724,24 @@
             // 
             // temptemplate
             // 
+            this.temptemplate.BackColor = System.Drawing.Color.Transparent;
             this.temptemplate.Image = ((System.Drawing.Image)(resources.GetObject("temptemplate.Image")));
-            this.temptemplate.Location = new System.Drawing.Point(32, 253);
-            this.temptemplate.Margin = new System.Windows.Forms.Padding(2);
+            this.temptemplate.Location = new System.Drawing.Point(43, 311);
+            this.temptemplate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.temptemplate.Name = "temptemplate";
-            this.temptemplate.Size = new System.Drawing.Size(31, 28);
+            this.temptemplate.Size = new System.Drawing.Size(41, 34);
             this.temptemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.temptemplate.TabIndex = 54;
             this.temptemplate.TabStop = false;
             // 
             // tempprofile
             // 
+            this.tempprofile.BackColor = System.Drawing.Color.Transparent;
             this.tempprofile.Image = ((System.Drawing.Image)(resources.GetObject("tempprofile.Image")));
-            this.tempprofile.Location = new System.Drawing.Point(32, 205);
-            this.tempprofile.Margin = new System.Windows.Forms.Padding(2);
+            this.tempprofile.Location = new System.Drawing.Point(43, 252);
+            this.tempprofile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempprofile.Name = "tempprofile";
-            this.tempprofile.Size = new System.Drawing.Size(31, 28);
+            this.tempprofile.Size = new System.Drawing.Size(41, 34);
             this.tempprofile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempprofile.TabIndex = 55;
             this.tempprofile.TabStop = false;
@@ -743,12 +749,12 @@
             // 
             // temphome
             // 
-            this.temphome.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.temphome.BackColor = System.Drawing.Color.Transparent;
             this.temphome.Image = ((System.Drawing.Image)(resources.GetObject("temphome.Image")));
-            this.temphome.Location = new System.Drawing.Point(32, 161);
-            this.temphome.Margin = new System.Windows.Forms.Padding(2);
+            this.temphome.Location = new System.Drawing.Point(43, 198);
+            this.temphome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.temphome.Name = "temphome";
-            this.temphome.Size = new System.Drawing.Size(31, 28);
+            this.temphome.Size = new System.Drawing.Size(41, 34);
             this.temphome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.temphome.TabIndex = 56;
             this.temphome.TabStop = false;
@@ -756,11 +762,11 @@
             // 
             // Template
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.tempSettings);
             this.Controls.Add(this.tempimpexp);
             this.Controls.Add(this.tempquestion);
@@ -770,7 +776,7 @@
             this.Controls.Add(this.homepanel);
             this.Controls.Add(this.TemplatePage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Template";
             this.Text = "Template";
             this.Load += new System.EventHandler(this.Template_Load);

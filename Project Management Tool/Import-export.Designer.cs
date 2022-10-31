@@ -119,30 +119,29 @@
             this.importexport.Controls.Add(this.notepad);
             this.importexport.Controls.Add(this.evernote);
             this.importexport.Controls.Add(this.lblimpexp);
-            this.importexport.Location = new System.Drawing.Point(71, 85);
-            this.importexport.Margin = new System.Windows.Forms.Padding(2);
+            this.importexport.Location = new System.Drawing.Point(95, 105);
+            this.importexport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.importexport.Name = "importexport";
-            this.importexport.Size = new System.Drawing.Size(837, 425);
+            this.importexport.Size = new System.Drawing.Size(1115, 523);
             this.importexport.TabIndex = 18;
             // 
             // impquestions
             // 
             this.impquestions.AutoSize = true;
             this.impquestions.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.impquestions.Location = new System.Drawing.Point(578, 382);
-            this.impquestions.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.impquestions.Location = new System.Drawing.Point(771, 470);
             this.impquestions.Name = "impquestions";
-            this.impquestions.Size = new System.Drawing.Size(234, 13);
+            this.impquestions.Size = new System.Drawing.Size(278, 19);
             this.impquestions.TabIndex = 31;
             this.impquestions.Text = "*Know more about importing and exporting";
             // 
             // impquestiontag
             // 
             this.impquestiontag.Image = ((System.Drawing.Image)(resources.GetObject("impquestiontag.Image")));
-            this.impquestiontag.Location = new System.Drawing.Point(551, 378);
-            this.impquestiontag.Margin = new System.Windows.Forms.Padding(2);
+            this.impquestiontag.Location = new System.Drawing.Point(735, 465);
+            this.impquestiontag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impquestiontag.Name = "impquestiontag";
-            this.impquestiontag.Size = new System.Drawing.Size(22, 21);
+            this.impquestiontag.Size = new System.Drawing.Size(29, 26);
             this.impquestiontag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impquestiontag.TabIndex = 30;
             this.impquestiontag.TabStop = false;
@@ -152,19 +151,19 @@
             this.trello.Controls.Add(this.pictrello);
             this.trello.Controls.Add(this.lbltrello);
             this.trello.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.trello.Location = new System.Drawing.Point(574, 277);
-            this.trello.Margin = new System.Windows.Forms.Padding(2);
+            this.trello.Location = new System.Drawing.Point(765, 341);
+            this.trello.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.trello.Name = "trello";
-            this.trello.Size = new System.Drawing.Size(157, 46);
+            this.trello.Size = new System.Drawing.Size(209, 57);
             this.trello.TabIndex = 14;
             // 
             // pictrello
             // 
             this.pictrello.Image = ((System.Drawing.Image)(resources.GetObject("pictrello.Image")));
-            this.pictrello.Location = new System.Drawing.Point(15, 10);
-            this.pictrello.Margin = new System.Windows.Forms.Padding(2);
+            this.pictrello.Location = new System.Drawing.Point(20, 12);
+            this.pictrello.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictrello.Name = "pictrello";
-            this.pictrello.Size = new System.Drawing.Size(40, 23);
+            this.pictrello.Size = new System.Drawing.Size(53, 28);
             this.pictrello.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictrello.TabIndex = 3;
             this.pictrello.TabStop = false;
@@ -173,10 +172,9 @@
             // 
             this.lbltrello.AutoSize = true;
             this.lbltrello.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltrello.Location = new System.Drawing.Point(82, 12);
-            this.lbltrello.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltrello.Location = new System.Drawing.Point(109, 15);
             this.lbltrello.Name = "lbltrello";
-            this.lbltrello.Size = new System.Drawing.Size(48, 21);
+            this.lbltrello.Size = new System.Drawing.Size(59, 28);
             this.lbltrello.TabIndex = 2;
             this.lbltrello.Text = "Trello";
             // 
@@ -185,19 +183,19 @@
             this.html.Controls.Add(this.pichtml);
             this.html.Controls.Add(this.lblhtml);
             this.html.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.html.Location = new System.Drawing.Point(574, 200);
-            this.html.Margin = new System.Windows.Forms.Padding(2);
+            this.html.Location = new System.Drawing.Point(765, 246);
+            this.html.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.html.Name = "html";
-            this.html.Size = new System.Drawing.Size(157, 46);
+            this.html.Size = new System.Drawing.Size(209, 57);
             this.html.TabIndex = 14;
             // 
             // pichtml
             // 
             this.pichtml.Image = ((System.Drawing.Image)(resources.GetObject("pichtml.Image")));
-            this.pichtml.Location = new System.Drawing.Point(20, 10);
-            this.pichtml.Margin = new System.Windows.Forms.Padding(2);
+            this.pichtml.Location = new System.Drawing.Point(27, 12);
+            this.pichtml.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pichtml.Name = "pichtml";
-            this.pichtml.Size = new System.Drawing.Size(32, 28);
+            this.pichtml.Size = new System.Drawing.Size(43, 34);
             this.pichtml.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pichtml.TabIndex = 3;
             this.pichtml.TabStop = false;
@@ -206,10 +204,9 @@
             // 
             this.lblhtml.AutoSize = true;
             this.lblhtml.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblhtml.Location = new System.Drawing.Point(79, 12);
-            this.lblhtml.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhtml.Location = new System.Drawing.Point(105, 15);
             this.lblhtml.Name = "lblhtml";
-            this.lblhtml.Size = new System.Drawing.Size(51, 21);
+            this.lblhtml.Size = new System.Drawing.Size(63, 28);
             this.lblhtml.TabIndex = 2;
             this.lblhtml.Text = "HTML";
             // 
@@ -218,19 +215,19 @@
             this.quip.Controls.Add(this.picquip);
             this.quip.Controls.Add(this.lblquip);
             this.quip.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quip.Location = new System.Drawing.Point(70, 277);
-            this.quip.Margin = new System.Windows.Forms.Padding(2);
+            this.quip.Location = new System.Drawing.Point(93, 341);
+            this.quip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quip.Name = "quip";
-            this.quip.Size = new System.Drawing.Size(157, 38);
+            this.quip.Size = new System.Drawing.Size(209, 47);
             this.quip.TabIndex = 14;
             // 
             // picquip
             // 
             this.picquip.Image = ((System.Drawing.Image)(resources.GetObject("picquip.Image")));
-            this.picquip.Location = new System.Drawing.Point(19, 8);
-            this.picquip.Margin = new System.Windows.Forms.Padding(2);
+            this.picquip.Location = new System.Drawing.Point(25, 10);
+            this.picquip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picquip.Name = "picquip";
-            this.picquip.Size = new System.Drawing.Size(37, 23);
+            this.picquip.Size = new System.Drawing.Size(49, 28);
             this.picquip.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picquip.TabIndex = 3;
             this.picquip.TabStop = false;
@@ -239,10 +236,9 @@
             // 
             this.lblquip.AutoSize = true;
             this.lblquip.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblquip.Location = new System.Drawing.Point(74, 10);
-            this.lblquip.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblquip.Location = new System.Drawing.Point(99, 12);
             this.lblquip.Name = "lblquip";
-            this.lblquip.Size = new System.Drawing.Size(44, 21);
+            this.lblquip.Size = new System.Drawing.Size(55, 28);
             this.lblquip.TabIndex = 2;
             this.lblquip.Text = "Quip";
             // 
@@ -251,19 +247,19 @@
             this.confluence.Controls.Add(this.picconfluence);
             this.confluence.Controls.Add(this.lblconfluence);
             this.confluence.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confluence.Location = new System.Drawing.Point(70, 200);
-            this.confluence.Margin = new System.Windows.Forms.Padding(2);
+            this.confluence.Location = new System.Drawing.Point(93, 246);
+            this.confluence.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.confluence.Name = "confluence";
-            this.confluence.Size = new System.Drawing.Size(157, 38);
+            this.confluence.Size = new System.Drawing.Size(209, 47);
             this.confluence.TabIndex = 14;
             // 
             // picconfluence
             // 
             this.picconfluence.Image = ((System.Drawing.Image)(resources.GetObject("picconfluence.Image")));
-            this.picconfluence.Location = new System.Drawing.Point(18, 7);
-            this.picconfluence.Margin = new System.Windows.Forms.Padding(2);
+            this.picconfluence.Location = new System.Drawing.Point(24, 9);
+            this.picconfluence.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picconfluence.Name = "picconfluence";
-            this.picconfluence.Size = new System.Drawing.Size(29, 23);
+            this.picconfluence.Size = new System.Drawing.Size(39, 28);
             this.picconfluence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picconfluence.TabIndex = 3;
             this.picconfluence.TabStop = false;
@@ -272,10 +268,9 @@
             // 
             this.lblconfluence.AutoSize = true;
             this.lblconfluence.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblconfluence.Location = new System.Drawing.Point(59, 9);
-            this.lblconfluence.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblconfluence.Location = new System.Drawing.Point(79, 11);
             this.lblconfluence.Name = "lblconfluence";
-            this.lblconfluence.Size = new System.Drawing.Size(88, 21);
+            this.lblconfluence.Size = new System.Drawing.Size(109, 28);
             this.lblconfluence.TabIndex = 2;
             this.lblconfluence.Text = "Confluence";
             // 
@@ -284,19 +279,19 @@
             this.reddit.Controls.Add(this.picreddit);
             this.reddit.Controls.Add(this.lblreddit);
             this.reddit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reddit.Location = new System.Drawing.Point(317, 120);
-            this.reddit.Margin = new System.Windows.Forms.Padding(2);
+            this.reddit.Location = new System.Drawing.Point(423, 148);
+            this.reddit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reddit.Name = "reddit";
-            this.reddit.Size = new System.Drawing.Size(157, 46);
+            this.reddit.Size = new System.Drawing.Size(209, 57);
             this.reddit.TabIndex = 14;
             // 
             // picreddit
             // 
             this.picreddit.Image = ((System.Drawing.Image)(resources.GetObject("picreddit.Image")));
-            this.picreddit.Location = new System.Drawing.Point(18, 9);
-            this.picreddit.Margin = new System.Windows.Forms.Padding(2);
+            this.picreddit.Location = new System.Drawing.Point(24, 11);
+            this.picreddit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picreddit.Name = "picreddit";
-            this.picreddit.Size = new System.Drawing.Size(29, 27);
+            this.picreddit.Size = new System.Drawing.Size(39, 33);
             this.picreddit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picreddit.TabIndex = 3;
             this.picreddit.TabStop = false;
@@ -305,10 +300,9 @@
             // 
             this.lblreddit.AutoSize = true;
             this.lblreddit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblreddit.Location = new System.Drawing.Point(76, 12);
-            this.lblreddit.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblreddit.Location = new System.Drawing.Point(101, 15);
             this.lblreddit.Name = "lblreddit";
-            this.lblreddit.Size = new System.Drawing.Size(55, 21);
+            this.lblreddit.Size = new System.Drawing.Size(69, 28);
             this.lblreddit.TabIndex = 2;
             this.lblreddit.Text = "Reddit";
             // 
@@ -317,19 +311,19 @@
             this.word.Controls.Add(this.picword);
             this.word.Controls.Add(this.lblword);
             this.word.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.word.Location = new System.Drawing.Point(574, 120);
-            this.word.Margin = new System.Windows.Forms.Padding(2);
+            this.word.Location = new System.Drawing.Point(765, 148);
+            this.word.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.word.Name = "word";
-            this.word.Size = new System.Drawing.Size(157, 46);
+            this.word.Size = new System.Drawing.Size(209, 57);
             this.word.TabIndex = 14;
             // 
             // picword
             // 
             this.picword.Image = ((System.Drawing.Image)(resources.GetObject("picword.Image")));
-            this.picword.Location = new System.Drawing.Point(20, 10);
-            this.picword.Margin = new System.Windows.Forms.Padding(2);
+            this.picword.Location = new System.Drawing.Point(27, 12);
+            this.picword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picword.Name = "picword";
-            this.picword.Size = new System.Drawing.Size(32, 26);
+            this.picword.Size = new System.Drawing.Size(43, 32);
             this.picword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picword.TabIndex = 3;
             this.picword.TabStop = false;
@@ -338,10 +332,9 @@
             // 
             this.lblword.AutoSize = true;
             this.lblword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblword.Location = new System.Drawing.Point(76, 11);
-            this.lblword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblword.Location = new System.Drawing.Point(101, 14);
             this.lblword.Name = "lblword";
-            this.lblword.Size = new System.Drawing.Size(48, 21);
+            this.lblword.Size = new System.Drawing.Size(61, 28);
             this.lblword.TabIndex = 2;
             this.lblword.Text = "Word";
             // 
@@ -350,19 +343,19 @@
             this.googledocs.Controls.Add(this.picgoogledocs);
             this.googledocs.Controls.Add(this.lblgoogledocs);
             this.googledocs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.googledocs.Location = new System.Drawing.Point(317, 277);
-            this.googledocs.Margin = new System.Windows.Forms.Padding(2);
+            this.googledocs.Location = new System.Drawing.Point(423, 341);
+            this.googledocs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.googledocs.Name = "googledocs";
-            this.googledocs.Size = new System.Drawing.Size(164, 46);
+            this.googledocs.Size = new System.Drawing.Size(219, 57);
             this.googledocs.TabIndex = 15;
             // 
             // picgoogledocs
             // 
             this.picgoogledocs.Image = ((System.Drawing.Image)(resources.GetObject("picgoogledocs.Image")));
-            this.picgoogledocs.Location = new System.Drawing.Point(16, 10);
-            this.picgoogledocs.Margin = new System.Windows.Forms.Padding(2);
+            this.picgoogledocs.Location = new System.Drawing.Point(21, 12);
+            this.picgoogledocs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picgoogledocs.Name = "picgoogledocs";
-            this.picgoogledocs.Size = new System.Drawing.Size(34, 23);
+            this.picgoogledocs.Size = new System.Drawing.Size(45, 28);
             this.picgoogledocs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picgoogledocs.TabIndex = 3;
             this.picgoogledocs.TabStop = false;
@@ -371,10 +364,9 @@
             // 
             this.lblgoogledocs.AutoSize = true;
             this.lblgoogledocs.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgoogledocs.Location = new System.Drawing.Point(58, 12);
-            this.lblgoogledocs.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblgoogledocs.Location = new System.Drawing.Point(77, 15);
             this.lblgoogledocs.Name = "lblgoogledocs";
-            this.lblgoogledocs.Size = new System.Drawing.Size(98, 21);
+            this.lblgoogledocs.Size = new System.Drawing.Size(125, 28);
             this.lblgoogledocs.TabIndex = 2;
             this.lblgoogledocs.Text = "Google Docs";
             // 
@@ -383,19 +375,19 @@
             this.notepad.Controls.Add(this.picnotepad);
             this.notepad.Controls.Add(this.lblnotepad);
             this.notepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.notepad.Location = new System.Drawing.Point(317, 200);
-            this.notepad.Margin = new System.Windows.Forms.Padding(2);
+            this.notepad.Location = new System.Drawing.Point(423, 246);
+            this.notepad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.notepad.Name = "notepad";
-            this.notepad.Size = new System.Drawing.Size(157, 46);
+            this.notepad.Size = new System.Drawing.Size(209, 57);
             this.notepad.TabIndex = 14;
             // 
             // picnotepad
             // 
             this.picnotepad.Image = ((System.Drawing.Image)(resources.GetObject("picnotepad.Image")));
-            this.picnotepad.Location = new System.Drawing.Point(17, 10);
-            this.picnotepad.Margin = new System.Windows.Forms.Padding(2);
+            this.picnotepad.Location = new System.Drawing.Point(23, 12);
+            this.picnotepad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picnotepad.Name = "picnotepad";
-            this.picnotepad.Size = new System.Drawing.Size(35, 28);
+            this.picnotepad.Size = new System.Drawing.Size(47, 34);
             this.picnotepad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picnotepad.TabIndex = 3;
             this.picnotepad.TabStop = false;
@@ -404,10 +396,9 @@
             // 
             this.lblnotepad.AutoSize = true;
             this.lblnotepad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnotepad.Location = new System.Drawing.Point(75, 12);
-            this.lblnotepad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblnotepad.Location = new System.Drawing.Point(100, 15);
             this.lblnotepad.Name = "lblnotepad";
-            this.lblnotepad.Size = new System.Drawing.Size(70, 21);
+            this.lblnotepad.Size = new System.Drawing.Size(90, 28);
             this.lblnotepad.TabIndex = 2;
             this.lblnotepad.Text = "Notepad";
             // 
@@ -416,30 +407,29 @@
             this.evernote.Controls.Add(this.lblevernote);
             this.evernote.Controls.Add(this.picevernote);
             this.evernote.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.evernote.Location = new System.Drawing.Point(70, 120);
-            this.evernote.Margin = new System.Windows.Forms.Padding(2);
+            this.evernote.Location = new System.Drawing.Point(93, 148);
+            this.evernote.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.evernote.Name = "evernote";
-            this.evernote.Size = new System.Drawing.Size(157, 46);
+            this.evernote.Size = new System.Drawing.Size(209, 57);
             this.evernote.TabIndex = 13;
             // 
             // lblevernote
             // 
             this.lblevernote.AutoSize = true;
             this.lblevernote.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblevernote.Location = new System.Drawing.Point(69, 12);
-            this.lblevernote.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblevernote.Location = new System.Drawing.Point(92, 15);
             this.lblevernote.Name = "lblevernote";
-            this.lblevernote.Size = new System.Drawing.Size(71, 21);
+            this.lblevernote.Size = new System.Drawing.Size(89, 28);
             this.lblevernote.TabIndex = 2;
             this.lblevernote.Text = "Evernote";
             // 
             // picevernote
             // 
             this.picevernote.Image = ((System.Drawing.Image)(resources.GetObject("picevernote.Image")));
-            this.picevernote.Location = new System.Drawing.Point(16, 11);
-            this.picevernote.Margin = new System.Windows.Forms.Padding(2);
+            this.picevernote.Location = new System.Drawing.Point(21, 14);
+            this.picevernote.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picevernote.Name = "picevernote";
-            this.picevernote.Size = new System.Drawing.Size(38, 26);
+            this.picevernote.Size = new System.Drawing.Size(51, 32);
             this.picevernote.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picevernote.TabIndex = 3;
             this.picevernote.TabStop = false;
@@ -448,10 +438,9 @@
             // 
             this.lblimpexp.AutoSize = true;
             this.lblimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblimpexp.Location = new System.Drawing.Point(47, 46);
-            this.lblimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblimpexp.Location = new System.Drawing.Point(63, 57);
             this.lblimpexp.Name = "lblimpexp";
-            this.lblimpexp.Size = new System.Drawing.Size(153, 25);
+            this.lblimpexp.Size = new System.Drawing.Size(192, 32);
             this.lblimpexp.TabIndex = 9;
             this.lblimpexp.Text = "Import/Export*";
             // 
@@ -463,28 +452,28 @@
             this.homepanel.Controls.Add(this.impexpClose);
             this.homepanel.Controls.Add(this.lblhomefromimpexp);
             this.homepanel.Location = new System.Drawing.Point(1, 0);
-            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 67);
+            this.homepanel.Size = new System.Drawing.Size(1257, 82);
             this.homepanel.TabIndex = 22;
             // 
             // impuseravatar
             // 
             this.impuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.impuseravatar.Location = new System.Drawing.Point(857, 8);
-            this.impuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.impuseravatar.Location = new System.Drawing.Point(1143, 10);
+            this.impuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impuseravatar.Name = "impuseravatar";
-            this.impuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.impuseravatar.Size = new System.Drawing.Size(67, 62);
             this.impuseravatar.TabIndex = 31;
             this.impuseravatar.TabStop = false;
             // 
             // impappicon
             // 
             this.impappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.impappicon.Location = new System.Drawing.Point(20, 6);
-            this.impappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.impappicon.Location = new System.Drawing.Point(27, 7);
+            this.impappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impappicon.Name = "impappicon";
-            this.impappicon.Size = new System.Drawing.Size(68, 56);
+            this.impappicon.Size = new System.Drawing.Size(91, 69);
             this.impappicon.TabIndex = 30;
             this.impappicon.TabStop = false;
             // 
@@ -492,10 +481,10 @@
             // 
             this.impexpClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.impexpClose.Image = ((System.Drawing.Image)(resources.GetObject("impexpClose.Image")));
-            this.impexpClose.Location = new System.Drawing.Point(921, 26);
-            this.impexpClose.Margin = new System.Windows.Forms.Padding(2);
+            this.impexpClose.Location = new System.Drawing.Point(1228, 32);
+            this.impexpClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impexpClose.Name = "impexpClose";
-            this.impexpClose.Size = new System.Drawing.Size(16, 15);
+            this.impexpClose.Size = new System.Drawing.Size(21, 18);
             this.impexpClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impexpClose.TabIndex = 29;
             this.impexpClose.TabStop = false;
@@ -507,20 +496,20 @@
             this.lblhomefromimpexp.BackColor = System.Drawing.Color.Transparent;
             this.lblhomefromimpexp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhomefromimpexp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblhomefromimpexp.Location = new System.Drawing.Point(106, 27);
-            this.lblhomefromimpexp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhomefromimpexp.Location = new System.Drawing.Point(141, 33);
             this.lblhomefromimpexp.Name = "lblhomefromimpexp";
-            this.lblhomefromimpexp.Size = new System.Drawing.Size(211, 25);
+            this.lblhomefromimpexp.Size = new System.Drawing.Size(266, 32);
             this.lblhomefromimpexp.TabIndex = 10;
             this.lblhomefromimpexp.Text = "Home<Import/Export";
             // 
             // impSettings
             // 
+            this.impSettings.BackColor = System.Drawing.Color.Transparent;
             this.impSettings.Image = ((System.Drawing.Image)(resources.GetObject("impSettings.Image")));
-            this.impSettings.Location = new System.Drawing.Point(20, 397);
-            this.impSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.impSettings.Location = new System.Drawing.Point(28, 470);
+            this.impSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impSettings.Name = "impSettings";
-            this.impSettings.Size = new System.Drawing.Size(31, 28);
+            this.impSettings.Size = new System.Drawing.Size(41, 34);
             this.impSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impSettings.TabIndex = 44;
             this.impSettings.TabStop = false;
@@ -528,22 +517,24 @@
             // 
             // impimpexp
             // 
+            this.impimpexp.BackColor = System.Drawing.Color.Transparent;
             this.impimpexp.Image = ((System.Drawing.Image)(resources.GetObject("impimpexp.Image")));
-            this.impimpexp.Location = new System.Drawing.Point(20, 350);
-            this.impimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.impimpexp.Location = new System.Drawing.Point(28, 412);
+            this.impimpexp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impimpexp.Name = "impimpexp";
-            this.impimpexp.Size = new System.Drawing.Size(31, 28);
+            this.impimpexp.Size = new System.Drawing.Size(41, 34);
             this.impimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impimpexp.TabIndex = 45;
             this.impimpexp.TabStop = false;
             // 
             // impquestion
             // 
+            this.impquestion.BackColor = System.Drawing.Color.Transparent;
             this.impquestion.Image = ((System.Drawing.Image)(resources.GetObject("impquestion.Image")));
-            this.impquestion.Location = new System.Drawing.Point(20, 304);
-            this.impquestion.Margin = new System.Windows.Forms.Padding(2);
+            this.impquestion.Location = new System.Drawing.Point(28, 355);
+            this.impquestion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impquestion.Name = "impquestion";
-            this.impquestion.Size = new System.Drawing.Size(31, 28);
+            this.impquestion.Size = new System.Drawing.Size(41, 34);
             this.impquestion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impquestion.TabIndex = 46;
             this.impquestion.TabStop = false;
@@ -551,11 +542,12 @@
             // 
             // imptemplate
             // 
+            this.imptemplate.BackColor = System.Drawing.Color.Transparent;
             this.imptemplate.Image = ((System.Drawing.Image)(resources.GetObject("imptemplate.Image")));
-            this.imptemplate.Location = new System.Drawing.Point(20, 257);
-            this.imptemplate.Margin = new System.Windows.Forms.Padding(2);
+            this.imptemplate.Location = new System.Drawing.Point(28, 297);
+            this.imptemplate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.imptemplate.Name = "imptemplate";
-            this.imptemplate.Size = new System.Drawing.Size(31, 28);
+            this.imptemplate.Size = new System.Drawing.Size(41, 34);
             this.imptemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imptemplate.TabIndex = 47;
             this.imptemplate.TabStop = false;
@@ -563,11 +555,12 @@
             // 
             // impprofile
             // 
+            this.impprofile.BackColor = System.Drawing.Color.Transparent;
             this.impprofile.Image = ((System.Drawing.Image)(resources.GetObject("impprofile.Image")));
-            this.impprofile.Location = new System.Drawing.Point(20, 209);
-            this.impprofile.Margin = new System.Windows.Forms.Padding(2);
+            this.impprofile.Location = new System.Drawing.Point(28, 238);
+            this.impprofile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impprofile.Name = "impprofile";
-            this.impprofile.Size = new System.Drawing.Size(31, 28);
+            this.impprofile.Size = new System.Drawing.Size(41, 34);
             this.impprofile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impprofile.TabIndex = 48;
             this.impprofile.TabStop = false;
@@ -575,12 +568,12 @@
             // 
             // imphome
             // 
-            this.imphome.BackColor = System.Drawing.SystemColors.Control;
+            this.imphome.BackColor = System.Drawing.Color.Transparent;
             this.imphome.Image = ((System.Drawing.Image)(resources.GetObject("imphome.Image")));
-            this.imphome.Location = new System.Drawing.Point(20, 161);
-            this.imphome.Margin = new System.Windows.Forms.Padding(2);
+            this.imphome.Location = new System.Drawing.Point(28, 179);
+            this.imphome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.imphome.Name = "imphome";
-            this.imphome.Size = new System.Drawing.Size(31, 28);
+            this.imphome.Size = new System.Drawing.Size(41, 34);
             this.imphome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imphome.TabIndex = 49;
             this.imphome.TabStop = false;
@@ -588,11 +581,11 @@
             // 
             // Import_export
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.impSettings);
             this.Controls.Add(this.impimpexp);
             this.Controls.Add(this.impquestion);
@@ -602,7 +595,7 @@
             this.Controls.Add(this.homepanel);
             this.Controls.Add(this.importexport);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Import_export";
             this.Text = "Import_export";
             this.Load += new System.EventHandler(this.Import_export_Load);
