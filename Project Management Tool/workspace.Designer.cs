@@ -42,12 +42,15 @@
             this.picuser1 = new System.Windows.Forms.PictureBox();
             this.lblUsers = new System.Windows.Forms.Label();
             this.basicdiagramspannel = new System.Windows.Forms.Panel();
+            this.btbEclipse = new System.Windows.Forms.Button();
             this.btbLine = new System.Windows.Forms.Button();
             this.btbRhombus = new System.Windows.Forms.Button();
             this.btbCircle = new System.Windows.Forms.Button();
             this.btbSquare = new System.Windows.Forms.Button();
             this.btbRectangle = new System.Windows.Forms.Button();
             this.Optionspannel = new System.Windows.Forms.Panel();
+            this.btbSave = new System.Windows.Forms.Button();
+            this.btbClear = new System.Windows.Forms.Button();
             this.btbEraser = new System.Windows.Forms.Button();
             this.btbPencil = new System.Windows.Forms.Button();
             this.lblShare = new System.Windows.Forms.Label();
@@ -58,10 +61,7 @@
             this.lblClipboard = new System.Windows.Forms.Label();
             this.picPaste = new System.Windows.Forms.PictureBox();
             this.Fontendpannel = new System.Windows.Forms.Panel();
-            this.picoptions1 = new System.Windows.Forms.PictureBox();
-            this.picoptions = new System.Windows.Forms.PictureBox();
-            this.btSize = new System.Windows.Forms.Button();
-            this.btFont = new System.Windows.Forms.Button();
+            this.ComboBoxFontSize = new System.Windows.Forms.ComboBox();
             this.pictureBoxPicStrikeThrough = new System.Windows.Forms.PictureBox();
             this.lblFont = new System.Windows.Forms.Label();
             this.picUnderline = new System.Windows.Forms.PictureBox();
@@ -76,9 +76,7 @@
             this.lblInsert = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblshapes = new System.Windows.Forms.Label();
-            this.btbEclipse = new System.Windows.Forms.Button();
-            this.btbClear = new System.Windows.Forms.Button();
-            this.btbSave = new System.Windows.Forms.Button();
+            this.comboBoxFont = new System.Windows.Forms.ComboBox();
             this.homepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).BeginInit();
@@ -97,8 +95,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPaste)).BeginInit();
             this.Fontendpannel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBold)).BeginInit();
@@ -262,6 +258,18 @@
             this.basicdiagramspannel.Size = new System.Drawing.Size(220, 449);
             this.basicdiagramspannel.TabIndex = 24;
             // 
+            // btbEclipse
+            // 
+            this.btbEclipse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbEclipse.BackgroundImage")));
+            this.btbEclipse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbEclipse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbEclipse.Location = new System.Drawing.Point(141, 103);
+            this.btbEclipse.Name = "btbEclipse";
+            this.btbEclipse.Size = new System.Drawing.Size(59, 49);
+            this.btbEclipse.TabIndex = 33;
+            this.btbEclipse.UseVisualStyleBackColor = true;
+            this.btbEclipse.Click += new System.EventHandler(this.btbEclipse_Click);
+            // 
             // btbLine
             // 
             this.btbLine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbLine.BackgroundImage")));
@@ -339,6 +347,28 @@
             this.Optionspannel.Name = "Optionspannel";
             this.Optionspannel.Size = new System.Drawing.Size(1195, 66);
             this.Optionspannel.TabIndex = 23;
+            // 
+            // btbSave
+            // 
+            this.btbSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbSave.Location = new System.Drawing.Point(973, 0);
+            this.btbSave.Name = "btbSave";
+            this.btbSave.Size = new System.Drawing.Size(101, 30);
+            this.btbSave.TabIndex = 36;
+            this.btbSave.Text = "Save";
+            this.btbSave.UseVisualStyleBackColor = true;
+            this.btbSave.Click += new System.EventHandler(this.btbSave_Click);
+            // 
+            // btbClear
+            // 
+            this.btbClear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbClear.Location = new System.Drawing.Point(973, 36);
+            this.btbClear.Name = "btbClear";
+            this.btbClear.Size = new System.Drawing.Size(101, 24);
+            this.btbClear.TabIndex = 35;
+            this.btbClear.Text = "Clear";
+            this.btbClear.UseVisualStyleBackColor = true;
+            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
             // 
             // btbEraser
             // 
@@ -444,10 +474,8 @@
             // Fontendpannel
             // 
             this.Fontendpannel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Fontendpannel.Controls.Add(this.picoptions1);
-            this.Fontendpannel.Controls.Add(this.picoptions);
-            this.Fontendpannel.Controls.Add(this.btSize);
-            this.Fontendpannel.Controls.Add(this.btFont);
+            this.Fontendpannel.Controls.Add(this.comboBoxFont);
+            this.Fontendpannel.Controls.Add(this.ComboBoxFontSize);
             this.Fontendpannel.Controls.Add(this.pictureBoxPicStrikeThrough);
             this.Fontendpannel.Controls.Add(this.lblFont);
             this.Fontendpannel.Controls.Add(this.picUnderline);
@@ -459,51 +487,28 @@
             this.Fontendpannel.Size = new System.Drawing.Size(643, 54);
             this.Fontendpannel.TabIndex = 28;
             // 
-            // picoptions1
+            // ComboBoxFontSize
             // 
-            this.picoptions1.Image = ((System.Drawing.Image)(resources.GetObject("picoptions1.Image")));
-            this.picoptions1.Location = new System.Drawing.Point(417, 15);
-            this.picoptions1.Margin = new System.Windows.Forms.Padding(4);
-            this.picoptions1.Name = "picoptions1";
-            this.picoptions1.Size = new System.Drawing.Size(19, 17);
-            this.picoptions1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picoptions1.TabIndex = 33;
-            this.picoptions1.TabStop = false;
-            // 
-            // picoptions
-            // 
-            this.picoptions.Image = ((System.Drawing.Image)(resources.GetObject("picoptions.Image")));
-            this.picoptions.Location = new System.Drawing.Point(195, 15);
-            this.picoptions.Margin = new System.Windows.Forms.Padding(4);
-            this.picoptions.Name = "picoptions";
-            this.picoptions.Size = new System.Drawing.Size(19, 17);
-            this.picoptions.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picoptions.TabIndex = 32;
-            this.picoptions.TabStop = false;
-            // 
-            // btSize
-            // 
-            this.btSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSize.Location = new System.Drawing.Point(227, 11);
-            this.btSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btSize.Name = "btSize";
-            this.btSize.Size = new System.Drawing.Size(219, 27);
-            this.btSize.TabIndex = 35;
-            this.btSize.Text = "Size";
-            this.btSize.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btSize.UseVisualStyleBackColor = true;
-            // 
-            // btFont
-            // 
-            this.btFont.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFont.Location = new System.Drawing.Point(3, 10);
-            this.btFont.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btFont.Name = "btFont";
-            this.btFont.Size = new System.Drawing.Size(219, 27);
-            this.btFont.TabIndex = 28;
-            this.btFont.Text = "Font";
-            this.btFont.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btFont.UseVisualStyleBackColor = true;
+            this.ComboBoxFontSize.FormattingEnabled = true;
+            this.ComboBoxFontSize.Items.AddRange(new object[] {
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14",
+            "16",
+            "18",
+            "20",
+            "22",
+            "24",
+            "26",
+            "28",
+            "30"});
+            this.ComboBoxFontSize.Location = new System.Drawing.Point(27, 15);
+            this.ComboBoxFontSize.Name = "ComboBoxFontSize";
+            this.ComboBoxFontSize.Size = new System.Drawing.Size(176, 24);
+            this.ComboBoxFontSize.TabIndex = 36;
             // 
             // pictureBoxPicStrikeThrough
             // 
@@ -654,39 +659,16 @@
             this.lblshapes.TabIndex = 25;
             this.lblshapes.Text = "Basic Flow Chart Shapes";
             // 
-            // btbEclipse
+            // comboBoxFont
             // 
-            this.btbEclipse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbEclipse.BackgroundImage")));
-            this.btbEclipse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btbEclipse.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btbEclipse.Location = new System.Drawing.Point(141, 103);
-            this.btbEclipse.Name = "btbEclipse";
-            this.btbEclipse.Size = new System.Drawing.Size(59, 49);
-            this.btbEclipse.TabIndex = 33;
-            this.btbEclipse.UseVisualStyleBackColor = true;
-            this.btbEclipse.Click += new System.EventHandler(this.btbEclipse_Click);
-            // 
-            // btbClear
-            // 
-            this.btbClear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btbClear.Location = new System.Drawing.Point(973, 36);
-            this.btbClear.Name = "btbClear";
-            this.btbClear.Size = new System.Drawing.Size(101, 24);
-            this.btbClear.TabIndex = 35;
-            this.btbClear.Text = "Clear";
-            this.btbClear.UseVisualStyleBackColor = true;
-            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
-            // 
-            // btbSave
-            // 
-            this.btbSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btbSave.Location = new System.Drawing.Point(973, 0);
-            this.btbSave.Name = "btbSave";
-            this.btbSave.Size = new System.Drawing.Size(101, 30);
-            this.btbSave.TabIndex = 36;
-            this.btbSave.Text = "Save";
-            this.btbSave.UseVisualStyleBackColor = true;
-            this.btbSave.Click += new System.EventHandler(this.btbSave_Click);
+            this.comboBoxFont.FormattingEnabled = true;
+            this.comboBoxFont.Items.AddRange(new object[] {
+            "Calibri",
+            "Times New Roman"});
+            this.comboBoxFont.Location = new System.Drawing.Point(233, 15);
+            this.comboBoxFont.Name = "comboBoxFont";
+            this.comboBoxFont.Size = new System.Drawing.Size(205, 24);
+            this.comboBoxFont.TabIndex = 37;
             // 
             // workspace
             // 
@@ -725,8 +707,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPaste)).EndInit();
             this.Fontendpannel.ResumeLayout(false);
             this.Fontendpannel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picoptions)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPicStrikeThrough)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUnderline)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBold)).EndInit();
@@ -776,10 +756,6 @@
         private System.Windows.Forms.PictureBox picUnderline;
         private System.Windows.Forms.PictureBox picBold;
         private System.Windows.Forms.PictureBox picItalic;
-        private System.Windows.Forms.PictureBox picoptions1;
-        private System.Windows.Forms.PictureBox picoptions;
-        private System.Windows.Forms.Button btSize;
-        private System.Windows.Forms.Button btFont;
         private System.Windows.Forms.Button btbCircle;
         private System.Windows.Forms.Button btbSquare;
         private System.Windows.Forms.Button btbRectangle;
@@ -791,5 +767,7 @@
         private System.Windows.Forms.Button btbEclipse;
         private System.Windows.Forms.Button btbSave;
         private System.Windows.Forms.Button btbClear;
+        private System.Windows.Forms.ComboBox ComboBoxFontSize;
+        private System.Windows.Forms.ComboBox comboBoxFont;
     }
 }
