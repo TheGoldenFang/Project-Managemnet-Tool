@@ -35,14 +35,21 @@
             this.workspaceClose = new System.Windows.Forms.PictureBox();
             this.lblworkspace = new System.Windows.Forms.Label();
             this.WorkspacePage = new System.Windows.Forms.Panel();
+            this.pic = new System.Windows.Forms.PictureBox();
             this.userspannel = new System.Windows.Forms.Panel();
             this.picuser3 = new System.Windows.Forms.PictureBox();
             this.picuser2 = new System.Windows.Forms.PictureBox();
             this.picuser1 = new System.Windows.Forms.PictureBox();
             this.lblUsers = new System.Windows.Forms.Label();
-            this.lblwelcome = new System.Windows.Forms.Label();
             this.basicdiagramspannel = new System.Windows.Forms.Panel();
+            this.btbLine = new System.Windows.Forms.Button();
+            this.btbRhombus = new System.Windows.Forms.Button();
+            this.btbCircle = new System.Windows.Forms.Button();
+            this.btbSquare = new System.Windows.Forms.Button();
+            this.btbRectangle = new System.Windows.Forms.Button();
             this.Optionspannel = new System.Windows.Forms.Panel();
+            this.btbEraser = new System.Windows.Forms.Button();
+            this.btbPencil = new System.Windows.Forms.Button();
             this.lblShare = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picCopy = new System.Windows.Forms.PictureBox();
@@ -69,15 +76,20 @@
             this.lblInsert = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblshapes = new System.Windows.Forms.Label();
+            this.btbEclipse = new System.Windows.Forms.Button();
+            this.btbClear = new System.Windows.Forms.Button();
+            this.btbSave = new System.Windows.Forms.Button();
             this.homepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceClose)).BeginInit();
             this.WorkspacePage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.userspannel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picuser3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picuser2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picuser1)).BeginInit();
+            this.basicdiagramspannel.SuspendLayout();
             this.Optionspannel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCopy)).BeginInit();
@@ -103,28 +115,28 @@
             this.homepanel.Controls.Add(this.workspaceClose);
             this.homepanel.Controls.Add(this.lblworkspace);
             this.homepanel.Location = new System.Drawing.Point(0, 2);
-            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 59);
+            this.homepanel.Size = new System.Drawing.Size(1257, 73);
             this.homepanel.TabIndex = 23;
             // 
             // workspaceuseravatar
             // 
             this.workspaceuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.workspaceuseravatar.Location = new System.Drawing.Point(857, 4);
-            this.workspaceuseravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceuseravatar.Location = new System.Drawing.Point(1143, 5);
+            this.workspaceuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workspaceuseravatar.Name = "workspaceuseravatar";
-            this.workspaceuseravatar.Size = new System.Drawing.Size(50, 50);
+            this.workspaceuseravatar.Size = new System.Drawing.Size(67, 62);
             this.workspaceuseravatar.TabIndex = 31;
             this.workspaceuseravatar.TabStop = false;
             // 
             // workspaceappicon
             // 
             this.workspaceappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.workspaceappicon.Location = new System.Drawing.Point(10, 7);
-            this.workspaceappicon.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceappicon.Location = new System.Drawing.Point(13, 9);
+            this.workspaceappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workspaceappicon.Name = "workspaceappicon";
-            this.workspaceappicon.Size = new System.Drawing.Size(56, 47);
+            this.workspaceappicon.Size = new System.Drawing.Size(75, 58);
             this.workspaceappicon.TabIndex = 30;
             this.workspaceappicon.TabStop = false;
             // 
@@ -132,10 +144,10 @@
             // 
             this.workspaceClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.workspaceClose.Image = ((System.Drawing.Image)(resources.GetObject("workspaceClose.Image")));
-            this.workspaceClose.Location = new System.Drawing.Point(921, 23);
-            this.workspaceClose.Margin = new System.Windows.Forms.Padding(2);
+            this.workspaceClose.Location = new System.Drawing.Point(1228, 28);
+            this.workspaceClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workspaceClose.Name = "workspaceClose";
-            this.workspaceClose.Size = new System.Drawing.Size(16, 15);
+            this.workspaceClose.Size = new System.Drawing.Size(21, 18);
             this.workspaceClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.workspaceClose.TabIndex = 29;
             this.workspaceClose.TabStop = false;
@@ -147,10 +159,9 @@
             this.lblworkspace.BackColor = System.Drawing.Color.Transparent;
             this.lblworkspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.lblworkspace.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblworkspace.Location = new System.Drawing.Point(86, 21);
-            this.lblworkspace.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblworkspace.Location = new System.Drawing.Point(115, 26);
             this.lblworkspace.Name = "lblworkspace";
-            this.lblworkspace.Size = new System.Drawing.Size(117, 24);
+            this.lblworkspace.Size = new System.Drawing.Size(147, 29);
             this.lblworkspace.TabIndex = 10;
             this.lblworkspace.Text = "WorkSpace";
             // 
@@ -158,16 +169,30 @@
             // 
             this.WorkspacePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.WorkspacePage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WorkspacePage.Controls.Add(this.pic);
             this.WorkspacePage.Controls.Add(this.userspannel);
-            this.WorkspacePage.Controls.Add(this.lblwelcome);
             this.WorkspacePage.Controls.Add(this.basicdiagramspannel);
             this.WorkspacePage.Controls.Add(this.Optionspannel);
             this.WorkspacePage.Controls.Add(this.filepannel);
-            this.WorkspacePage.Location = new System.Drawing.Point(25, 81);
-            this.WorkspacePage.Margin = new System.Windows.Forms.Padding(2);
+            this.WorkspacePage.Location = new System.Drawing.Point(33, 100);
+            this.WorkspacePage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WorkspacePage.Name = "WorkspacePage";
-            this.WorkspacePage.Size = new System.Drawing.Size(896, 452);
+            this.WorkspacePage.Size = new System.Drawing.Size(1194, 556);
             this.WorkspacePage.TabIndex = 65;
+            this.WorkspacePage.Paint += new System.Windows.Forms.PaintEventHandler(this.WorkspacePage_Paint);
+            // 
+            // pic
+            // 
+            this.pic.BackColor = System.Drawing.Color.White;
+            this.pic.Location = new System.Drawing.Point(220, 108);
+            this.pic.Name = "pic";
+            this.pic.Size = new System.Drawing.Size(889, 446);
+            this.pic.TabIndex = 28;
+            this.pic.TabStop = false;
+            this.pic.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_Paint);
+            this.pic.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pic_MouseDown);
+            this.pic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pic_MouseMove);
+            this.pic.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pic_MouseUp);
             // 
             // userspannel
             // 
@@ -176,39 +201,39 @@
             this.userspannel.Controls.Add(this.picuser2);
             this.userspannel.Controls.Add(this.picuser1);
             this.userspannel.Controls.Add(this.lblUsers);
-            this.userspannel.Location = new System.Drawing.Point(831, 89);
-            this.userspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.userspannel.Location = new System.Drawing.Point(1108, 109);
+            this.userspannel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.userspannel.Name = "userspannel";
-            this.userspannel.Size = new System.Drawing.Size(63, 360);
+            this.userspannel.Size = new System.Drawing.Size(84, 443);
             this.userspannel.TabIndex = 27;
             // 
             // picuser3
             // 
             this.picuser3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.picuser3.Location = new System.Drawing.Point(17, 137);
-            this.picuser3.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser3.Location = new System.Drawing.Point(23, 169);
+            this.picuser3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picuser3.Name = "picuser3";
-            this.picuser3.Size = new System.Drawing.Size(37, 32);
+            this.picuser3.Size = new System.Drawing.Size(49, 39);
             this.picuser3.TabIndex = 34;
             this.picuser3.TabStop = false;
             // 
             // picuser2
             // 
             this.picuser2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.picuser2.Location = new System.Drawing.Point(17, 84);
-            this.picuser2.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser2.Location = new System.Drawing.Point(23, 103);
+            this.picuser2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picuser2.Name = "picuser2";
-            this.picuser2.Size = new System.Drawing.Size(37, 32);
+            this.picuser2.Size = new System.Drawing.Size(49, 39);
             this.picuser2.TabIndex = 33;
             this.picuser2.TabStop = false;
             // 
             // picuser1
             // 
             this.picuser1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.picuser1.Location = new System.Drawing.Point(17, 37);
-            this.picuser1.Margin = new System.Windows.Forms.Padding(2);
+            this.picuser1.Location = new System.Drawing.Point(23, 46);
+            this.picuser1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picuser1.Name = "picuser1";
-            this.picuser1.Size = new System.Drawing.Size(37, 32);
+            this.picuser1.Size = new System.Drawing.Size(49, 39);
             this.picuser1.TabIndex = 32;
             this.picuser1.TabStop = false;
             // 
@@ -216,38 +241,91 @@
             // 
             this.lblUsers.AutoSize = true;
             this.lblUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblUsers.Location = new System.Drawing.Point(13, 7);
-            this.lblUsers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsers.Location = new System.Drawing.Point(17, 9);
             this.lblUsers.Name = "lblUsers";
-            this.lblUsers.Size = new System.Drawing.Size(45, 17);
+            this.lblUsers.Size = new System.Drawing.Size(54, 20);
             this.lblUsers.TabIndex = 29;
             this.lblUsers.Text = "Users";
             // 
-            // lblwelcome
-            // 
-            this.lblwelcome.AutoSize = true;
-            this.lblwelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblwelcome.Location = new System.Drawing.Point(307, 190);
-            this.lblwelcome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblwelcome.Name = "lblwelcome";
-            this.lblwelcome.Size = new System.Drawing.Size(366, 102);
-            this.lblwelcome.TabIndex = 26;
-            this.lblwelcome.Text = resources.GetString("lblwelcome.Text");
-            this.lblwelcome.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // basicdiagramspannel
             // 
-            this.basicdiagramspannel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.basicdiagramspannel.Location = new System.Drawing.Point(-1, 89);
-            this.basicdiagramspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.basicdiagramspannel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.basicdiagramspannel.Controls.Add(this.btbEclipse);
+            this.basicdiagramspannel.Controls.Add(this.btbLine);
+            this.basicdiagramspannel.Controls.Add(this.btbRhombus);
+            this.basicdiagramspannel.Controls.Add(this.btbCircle);
+            this.basicdiagramspannel.Controls.Add(this.btbSquare);
+            this.basicdiagramspannel.Controls.Add(this.btbRectangle);
+            this.basicdiagramspannel.Location = new System.Drawing.Point(-1, 110);
+            this.basicdiagramspannel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.basicdiagramspannel.Name = "basicdiagramspannel";
-            this.basicdiagramspannel.Size = new System.Drawing.Size(165, 365);
+            this.basicdiagramspannel.Size = new System.Drawing.Size(220, 449);
             this.basicdiagramspannel.TabIndex = 24;
-            this.basicdiagramspannel.Paint += new System.Windows.Forms.PaintEventHandler(this.basicdiagramspannel_Paint);
+            // 
+            // btbLine
+            // 
+            this.btbLine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbLine.BackgroundImage")));
+            this.btbLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbLine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbLine.Location = new System.Drawing.Point(12, 47);
+            this.btbLine.Name = "btbLine";
+            this.btbLine.Size = new System.Drawing.Size(47, 44);
+            this.btbLine.TabIndex = 32;
+            this.btbLine.UseVisualStyleBackColor = true;
+            this.btbLine.Click += new System.EventHandler(this.btbLine_Click);
+            // 
+            // btbRhombus
+            // 
+            this.btbRhombus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbRhombus.BackgroundImage")));
+            this.btbRhombus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbRhombus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbRhombus.Location = new System.Drawing.Point(69, 103);
+            this.btbRhombus.Name = "btbRhombus";
+            this.btbRhombus.Size = new System.Drawing.Size(59, 49);
+            this.btbRhombus.TabIndex = 31;
+            this.btbRhombus.UseVisualStyleBackColor = true;
+            // 
+            // btbCircle
+            // 
+            this.btbCircle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbCircle.BackgroundImage")));
+            this.btbCircle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbCircle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbCircle.Location = new System.Drawing.Point(12, 103);
+            this.btbCircle.Name = "btbCircle";
+            this.btbCircle.Size = new System.Drawing.Size(51, 47);
+            this.btbCircle.TabIndex = 30;
+            this.btbCircle.UseVisualStyleBackColor = true;
+            // 
+            // btbSquare
+            // 
+            this.btbSquare.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbSquare.BackgroundImage")));
+            this.btbSquare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbSquare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbSquare.Location = new System.Drawing.Point(141, 46);
+            this.btbSquare.Name = "btbSquare";
+            this.btbSquare.Size = new System.Drawing.Size(63, 49);
+            this.btbSquare.TabIndex = 29;
+            this.btbSquare.UseVisualStyleBackColor = true;
+            // 
+            // btbRectangle
+            // 
+            this.btbRectangle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbRectangle.BackgroundImage")));
+            this.btbRectangle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbRectangle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbRectangle.Location = new System.Drawing.Point(75, 45);
+            this.btbRectangle.Name = "btbRectangle";
+            this.btbRectangle.Size = new System.Drawing.Size(51, 49);
+            this.btbRectangle.TabIndex = 28;
+            this.btbRectangle.UseVisualStyleBackColor = true;
+            this.btbRectangle.Click += new System.EventHandler(this.btbRectangle_Click);
             // 
             // Optionspannel
             // 
             this.Optionspannel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Optionspannel.Controls.Add(this.btbSave);
+            this.Optionspannel.Controls.Add(this.btbClear);
+            this.Optionspannel.Controls.Add(this.btbEraser);
+            this.Optionspannel.Controls.Add(this.btbPencil);
             this.Optionspannel.Controls.Add(this.lblShare);
             this.Optionspannel.Controls.Add(this.pictureBox1);
             this.Optionspannel.Controls.Add(this.picCopy);
@@ -256,29 +334,53 @@
             this.Optionspannel.Controls.Add(this.lblClipboard);
             this.Optionspannel.Controls.Add(this.picPaste);
             this.Optionspannel.Controls.Add(this.Fontendpannel);
-            this.Optionspannel.Location = new System.Drawing.Point(-1, 34);
-            this.Optionspannel.Margin = new System.Windows.Forms.Padding(2);
+            this.Optionspannel.Location = new System.Drawing.Point(-1, 42);
+            this.Optionspannel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Optionspannel.Name = "Optionspannel";
-            this.Optionspannel.Size = new System.Drawing.Size(896, 54);
+            this.Optionspannel.Size = new System.Drawing.Size(1195, 66);
             this.Optionspannel.TabIndex = 23;
+            // 
+            // btbEraser
+            // 
+            this.btbEraser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbEraser.BackgroundImage")));
+            this.btbEraser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbEraser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbEraser.Location = new System.Drawing.Point(255, 12);
+            this.btbEraser.Name = "btbEraser";
+            this.btbEraser.Size = new System.Drawing.Size(38, 33);
+            this.btbEraser.TabIndex = 34;
+            this.btbEraser.UseVisualStyleBackColor = true;
+            this.btbEraser.Click += new System.EventHandler(this.btbEraser_Click);
+            // 
+            // btbPencil
+            // 
+            this.btbPencil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbPencil.BackgroundImage")));
+            this.btbPencil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbPencil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbPencil.Location = new System.Drawing.Point(211, 11);
+            this.btbPencil.Name = "btbPencil";
+            this.btbPencil.Size = new System.Drawing.Size(38, 33);
+            this.btbPencil.TabIndex = 33;
+            this.btbPencil.UseVisualStyleBackColor = true;
+            this.btbPencil.Click += new System.EventHandler(this.btbPencil_Click);
             // 
             // lblShare
             // 
             this.lblShare.AutoSize = true;
             this.lblShare.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblShare.Location = new System.Drawing.Point(848, 16);
-            this.lblShare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblShare.Location = new System.Drawing.Point(1131, 20);
             this.lblShare.Name = "lblShare";
-            this.lblShare.Size = new System.Drawing.Size(46, 17);
+            this.lblShare.Size = new System.Drawing.Size(53, 20);
             this.lblShare.TabIndex = 28;
             this.lblShare.Text = "Share";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(816, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1088, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(43, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
@@ -286,29 +388,34 @@
             // picCopy
             // 
             this.picCopy.Image = ((System.Drawing.Image)(resources.GetObject("picCopy.Image")));
-            this.picCopy.Location = new System.Drawing.Point(31, 12);
+            this.picCopy.Location = new System.Drawing.Point(13, 13);
+            this.picCopy.Margin = new System.Windows.Forms.Padding(4);
             this.picCopy.Name = "picCopy";
-            this.picCopy.Size = new System.Drawing.Size(23, 22);
+            this.picCopy.Size = new System.Drawing.Size(31, 27);
             this.picCopy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picCopy.TabIndex = 30;
             this.picCopy.TabStop = false;
             // 
             // picPaint
             // 
+            this.picPaint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picPaint.Image = ((System.Drawing.Image)(resources.GetObject("picPaint.Image")));
-            this.picPaint.Location = new System.Drawing.Point(141, 12);
+            this.picPaint.Location = new System.Drawing.Point(160, 13);
+            this.picPaint.Margin = new System.Windows.Forms.Padding(4);
             this.picPaint.Name = "picPaint";
-            this.picPaint.Size = new System.Drawing.Size(33, 21);
+            this.picPaint.Size = new System.Drawing.Size(44, 26);
             this.picPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPaint.TabIndex = 31;
             this.picPaint.TabStop = false;
+            this.picPaint.Click += new System.EventHandler(this.picPaint_Click);
             // 
             // picCut
             // 
             this.picCut.Image = ((System.Drawing.Image)(resources.GetObject("picCut.Image")));
-            this.picCut.Location = new System.Drawing.Point(65, 12);
+            this.picCut.Location = new System.Drawing.Point(59, 13);
+            this.picCut.Margin = new System.Windows.Forms.Padding(4);
             this.picCut.Name = "picCut";
-            this.picCut.Size = new System.Drawing.Size(25, 21);
+            this.picCut.Size = new System.Drawing.Size(33, 26);
             this.picCut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picCut.TabIndex = 28;
             this.picCut.TabStop = false;
@@ -317,19 +424,19 @@
             // 
             this.lblClipboard.AutoSize = true;
             this.lblClipboard.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClipboard.Location = new System.Drawing.Point(68, 41);
-            this.lblClipboard.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblClipboard.Location = new System.Drawing.Point(91, 50);
             this.lblClipboard.Name = "lblClipboard";
-            this.lblClipboard.Size = new System.Drawing.Size(43, 12);
+            this.lblClipboard.Size = new System.Drawing.Size(59, 15);
             this.lblClipboard.TabIndex = 28;
             this.lblClipboard.Text = "Clipboard";
             // 
             // picPaste
             // 
             this.picPaste.Image = ((System.Drawing.Image)(resources.GetObject("picPaste.Image")));
-            this.picPaste.Location = new System.Drawing.Point(101, 12);
+            this.picPaste.Location = new System.Drawing.Point(107, 13);
+            this.picPaste.Margin = new System.Windows.Forms.Padding(4);
             this.picPaste.Name = "picPaste";
-            this.picPaste.Size = new System.Drawing.Size(25, 22);
+            this.picPaste.Size = new System.Drawing.Size(33, 27);
             this.picPaste.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPaste.TabIndex = 29;
             this.picPaste.TabStop = false;
@@ -346,18 +453,19 @@
             this.Fontendpannel.Controls.Add(this.picUnderline);
             this.Fontendpannel.Controls.Add(this.picBold);
             this.Fontendpannel.Controls.Add(this.picItalic);
-            this.Fontendpannel.Location = new System.Drawing.Point(243, 2);
-            this.Fontendpannel.Margin = new System.Windows.Forms.Padding(2);
+            this.Fontendpannel.Location = new System.Drawing.Point(324, 2);
+            this.Fontendpannel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Fontendpannel.Name = "Fontendpannel";
-            this.Fontendpannel.Size = new System.Drawing.Size(482, 44);
+            this.Fontendpannel.Size = new System.Drawing.Size(643, 54);
             this.Fontendpannel.TabIndex = 28;
             // 
             // picoptions1
             // 
             this.picoptions1.Image = ((System.Drawing.Image)(resources.GetObject("picoptions1.Image")));
-            this.picoptions1.Location = new System.Drawing.Point(313, 12);
+            this.picoptions1.Location = new System.Drawing.Point(417, 15);
+            this.picoptions1.Margin = new System.Windows.Forms.Padding(4);
             this.picoptions1.Name = "picoptions1";
-            this.picoptions1.Size = new System.Drawing.Size(14, 14);
+            this.picoptions1.Size = new System.Drawing.Size(19, 17);
             this.picoptions1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picoptions1.TabIndex = 33;
             this.picoptions1.TabStop = false;
@@ -365,9 +473,10 @@
             // picoptions
             // 
             this.picoptions.Image = ((System.Drawing.Image)(resources.GetObject("picoptions.Image")));
-            this.picoptions.Location = new System.Drawing.Point(146, 12);
+            this.picoptions.Location = new System.Drawing.Point(195, 15);
+            this.picoptions.Margin = new System.Windows.Forms.Padding(4);
             this.picoptions.Name = "picoptions";
-            this.picoptions.Size = new System.Drawing.Size(14, 14);
+            this.picoptions.Size = new System.Drawing.Size(19, 17);
             this.picoptions.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picoptions.TabIndex = 32;
             this.picoptions.TabStop = false;
@@ -375,10 +484,10 @@
             // btSize
             // 
             this.btSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSize.Location = new System.Drawing.Point(170, 9);
-            this.btSize.Margin = new System.Windows.Forms.Padding(2);
+            this.btSize.Location = new System.Drawing.Point(227, 11);
+            this.btSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btSize.Name = "btSize";
-            this.btSize.Size = new System.Drawing.Size(164, 22);
+            this.btSize.Size = new System.Drawing.Size(219, 27);
             this.btSize.TabIndex = 35;
             this.btSize.Text = "Size";
             this.btSize.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -387,10 +496,10 @@
             // btFont
             // 
             this.btFont.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFont.Location = new System.Drawing.Point(2, 8);
-            this.btFont.Margin = new System.Windows.Forms.Padding(2);
+            this.btFont.Location = new System.Drawing.Point(3, 10);
+            this.btFont.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btFont.Name = "btFont";
-            this.btFont.Size = new System.Drawing.Size(164, 22);
+            this.btFont.Size = new System.Drawing.Size(219, 27);
             this.btFont.TabIndex = 28;
             this.btFont.Text = "Font";
             this.btFont.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -399,9 +508,10 @@
             // pictureBoxPicStrikeThrough
             // 
             this.pictureBoxPicStrikeThrough.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPicStrikeThrough.Image")));
-            this.pictureBoxPicStrikeThrough.Location = new System.Drawing.Point(443, 9);
+            this.pictureBoxPicStrikeThrough.Location = new System.Drawing.Point(591, 11);
+            this.pictureBoxPicStrikeThrough.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxPicStrikeThrough.Name = "pictureBoxPicStrikeThrough";
-            this.pictureBoxPicStrikeThrough.Size = new System.Drawing.Size(23, 22);
+            this.pictureBoxPicStrikeThrough.Size = new System.Drawing.Size(31, 27);
             this.pictureBoxPicStrikeThrough.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPicStrikeThrough.TabIndex = 34;
             this.pictureBoxPicStrikeThrough.TabStop = false;
@@ -410,19 +520,19 @@
             // 
             this.lblFont.AutoSize = true;
             this.lblFont.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFont.Location = new System.Drawing.Point(224, 32);
-            this.lblFont.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFont.Location = new System.Drawing.Point(299, 39);
             this.lblFont.Name = "lblFont";
-            this.lblFont.Size = new System.Drawing.Size(81, 12);
+            this.lblFont.Size = new System.Drawing.Size(111, 15);
             this.lblFont.TabIndex = 28;
             this.lblFont.Text = "Font and alignment";
             // 
             // picUnderline
             // 
             this.picUnderline.Image = ((System.Drawing.Image)(resources.GetObject("picUnderline.Image")));
-            this.picUnderline.Location = new System.Drawing.Point(414, 9);
+            this.picUnderline.Location = new System.Drawing.Point(552, 11);
+            this.picUnderline.Margin = new System.Windows.Forms.Padding(4);
             this.picUnderline.Name = "picUnderline";
-            this.picUnderline.Size = new System.Drawing.Size(23, 22);
+            this.picUnderline.Size = new System.Drawing.Size(31, 27);
             this.picUnderline.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picUnderline.TabIndex = 33;
             this.picUnderline.TabStop = false;
@@ -430,9 +540,10 @@
             // picBold
             // 
             this.picBold.Image = ((System.Drawing.Image)(resources.GetObject("picBold.Image")));
-            this.picBold.Location = new System.Drawing.Point(354, 9);
+            this.picBold.Location = new System.Drawing.Point(472, 11);
+            this.picBold.Margin = new System.Windows.Forms.Padding(4);
             this.picBold.Name = "picBold";
-            this.picBold.Size = new System.Drawing.Size(23, 22);
+            this.picBold.Size = new System.Drawing.Size(31, 27);
             this.picBold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBold.TabIndex = 31;
             this.picBold.TabStop = false;
@@ -440,9 +551,10 @@
             // picItalic
             // 
             this.picItalic.Image = ((System.Drawing.Image)(resources.GetObject("picItalic.Image")));
-            this.picItalic.Location = new System.Drawing.Point(383, 9);
+            this.picItalic.Location = new System.Drawing.Point(511, 11);
+            this.picItalic.Margin = new System.Windows.Forms.Padding(4);
             this.picItalic.Name = "picItalic";
-            this.picItalic.Size = new System.Drawing.Size(23, 22);
+            this.picItalic.Size = new System.Drawing.Size(31, 27);
             this.picItalic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picItalic.TabIndex = 32;
             this.picItalic.TabStop = false;
@@ -457,19 +569,18 @@
             this.filepannel.Controls.Add(this.lblHome);
             this.filepannel.Controls.Add(this.lblInsert);
             this.filepannel.Location = new System.Drawing.Point(-1, -1);
-            this.filepannel.Margin = new System.Windows.Forms.Padding(2);
+            this.filepannel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.filepannel.Name = "filepannel";
-            this.filepannel.Size = new System.Drawing.Size(896, 37);
+            this.filepannel.Size = new System.Drawing.Size(1195, 46);
             this.filepannel.TabIndex = 22;
             // 
             // lblAdv
             // 
             this.lblAdv.AutoSize = true;
             this.lblAdv.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdv.Location = new System.Drawing.Point(406, 5);
-            this.lblAdv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAdv.Location = new System.Drawing.Point(541, 6);
             this.lblAdv.Name = "lblAdv";
-            this.lblAdv.Size = new System.Drawing.Size(65, 17);
+            this.lblAdv.Size = new System.Drawing.Size(85, 23);
             this.lblAdv.TabIndex = 25;
             this.lblAdv.Text = "Advanced";
             // 
@@ -477,10 +588,9 @@
             // 
             this.lblView.AutoSize = true;
             this.lblView.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblView.Location = new System.Drawing.Point(337, 5);
-            this.lblView.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblView.Location = new System.Drawing.Point(449, 6);
             this.lblView.Name = "lblView";
-            this.lblView.Size = new System.Drawing.Size(35, 17);
+            this.lblView.Size = new System.Drawing.Size(46, 23);
             this.lblView.TabIndex = 27;
             this.lblView.Text = "View";
             // 
@@ -488,22 +598,19 @@
             // 
             this.lblDesign.AutoSize = true;
             this.lblDesign.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesign.Location = new System.Drawing.Point(251, 5);
-            this.lblDesign.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDesign.Location = new System.Drawing.Point(335, 6);
             this.lblDesign.Name = "lblDesign";
-            this.lblDesign.Size = new System.Drawing.Size(48, 17);
+            this.lblDesign.Size = new System.Drawing.Size(62, 23);
             this.lblDesign.TabIndex = 28;
             this.lblDesign.Text = "Design";
-            this.lblDesign.Click += new System.EventHandler(this.lblDesign_Click);
             // 
             // lblFile
             // 
             this.lblFile.AutoSize = true;
             this.lblFile.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFile.Location = new System.Drawing.Point(21, 5);
-            this.lblFile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFile.Location = new System.Drawing.Point(28, 6);
             this.lblFile.Name = "lblFile";
-            this.lblFile.Size = new System.Drawing.Size(27, 17);
+            this.lblFile.Size = new System.Drawing.Size(35, 23);
             this.lblFile.TabIndex = 23;
             this.lblFile.Text = "File";
             // 
@@ -511,22 +618,19 @@
             // 
             this.lblHome.AutoSize = true;
             this.lblHome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHome.Location = new System.Drawing.Point(86, 5);
-            this.lblHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblHome.Location = new System.Drawing.Point(115, 6);
             this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(43, 17);
+            this.lblHome.Size = new System.Drawing.Size(56, 23);
             this.lblHome.TabIndex = 24;
             this.lblHome.Text = "Home";
-            this.lblHome.Click += new System.EventHandler(this.lblHome_Click);
             // 
             // lblInsert
             // 
             this.lblInsert.AutoSize = true;
             this.lblInsert.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInsert.Location = new System.Drawing.Point(173, 5);
-            this.lblInsert.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblInsert.Location = new System.Drawing.Point(231, 6);
             this.lblInsert.Name = "lblInsert";
-            this.lblInsert.Size = new System.Drawing.Size(40, 17);
+            this.lblInsert.Size = new System.Drawing.Size(53, 23);
             this.lblInsert.TabIndex = 26;
             this.lblInsert.Text = "Insert";
             // 
@@ -534,36 +638,68 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.Controls.Add(this.lblshapes);
-            this.panel1.Location = new System.Drawing.Point(25, 170);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(33, 209);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(166, 26);
+            this.panel1.Size = new System.Drawing.Size(221, 32);
             this.panel1.TabIndex = 25;
             // 
             // lblshapes
             // 
             this.lblshapes.AutoSize = true;
             this.lblshapes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblshapes.Location = new System.Drawing.Point(11, 5);
-            this.lblshapes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblshapes.Location = new System.Drawing.Point(15, 6);
             this.lblshapes.Name = "lblshapes";
-            this.lblshapes.Size = new System.Drawing.Size(143, 15);
+            this.lblshapes.Size = new System.Drawing.Size(175, 18);
             this.lblshapes.TabIndex = 25;
             this.lblshapes.Text = "Basic Flow Chart Shapes";
-            this.lblshapes.Click += new System.EventHandler(this.lblshapes_Click);
+            // 
+            // btbEclipse
+            // 
+            this.btbEclipse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btbEclipse.BackgroundImage")));
+            this.btbEclipse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbEclipse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbEclipse.Location = new System.Drawing.Point(141, 103);
+            this.btbEclipse.Name = "btbEclipse";
+            this.btbEclipse.Size = new System.Drawing.Size(59, 49);
+            this.btbEclipse.TabIndex = 33;
+            this.btbEclipse.UseVisualStyleBackColor = true;
+            this.btbEclipse.Click += new System.EventHandler(this.btbEclipse_Click);
+            // 
+            // btbClear
+            // 
+            this.btbClear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbClear.Location = new System.Drawing.Point(973, 36);
+            this.btbClear.Name = "btbClear";
+            this.btbClear.Size = new System.Drawing.Size(101, 24);
+            this.btbClear.TabIndex = 35;
+            this.btbClear.Text = "Clear";
+            this.btbClear.UseVisualStyleBackColor = true;
+            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
+            // 
+            // btbSave
+            // 
+            this.btbSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btbSave.Location = new System.Drawing.Point(973, 0);
+            this.btbSave.Name = "btbSave";
+            this.btbSave.Size = new System.Drawing.Size(101, 30);
+            this.btbSave.TabIndex = 36;
+            this.btbSave.Text = "Save";
+            this.btbSave.UseVisualStyleBackColor = true;
+            this.btbSave.Click += new System.EventHandler(this.btbSave_Click);
             // 
             // workspace
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.WorkspacePage);
             this.Controls.Add(this.homepanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "workspace";
             this.Text = "workspace";
             this.Load += new System.EventHandler(this.workspace_Load);
@@ -573,12 +709,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceClose)).EndInit();
             this.WorkspacePage.ResumeLayout(false);
-            this.WorkspacePage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.userspannel.ResumeLayout(false);
             this.userspannel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picuser3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picuser2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picuser1)).EndInit();
+            this.basicdiagramspannel.ResumeLayout(false);
             this.Optionspannel.ResumeLayout(false);
             this.Optionspannel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -626,7 +763,6 @@
         private System.Windows.Forms.PictureBox picuser2;
         private System.Windows.Forms.PictureBox picuser1;
         private System.Windows.Forms.Label lblUsers;
-        private System.Windows.Forms.Label lblwelcome;
         private System.Windows.Forms.PictureBox picCut;
         private System.Windows.Forms.Label lblClipboard;
         private System.Windows.Forms.Panel Fontendpannel;
@@ -644,5 +780,16 @@
         private System.Windows.Forms.PictureBox picoptions;
         private System.Windows.Forms.Button btSize;
         private System.Windows.Forms.Button btFont;
+        private System.Windows.Forms.Button btbCircle;
+        private System.Windows.Forms.Button btbSquare;
+        private System.Windows.Forms.Button btbRectangle;
+        private System.Windows.Forms.Button btbLine;
+        private System.Windows.Forms.Button btbRhombus;
+        private System.Windows.Forms.PictureBox pic;
+        private System.Windows.Forms.Button btbPencil;
+        private System.Windows.Forms.Button btbEraser;
+        private System.Windows.Forms.Button btbEclipse;
+        private System.Windows.Forms.Button btbSave;
+        private System.Windows.Forms.Button btbClear;
     }
 }

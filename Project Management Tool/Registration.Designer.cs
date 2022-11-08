@@ -64,7 +64,7 @@ namespace Project_Management_Tool
             // 
             // registrationPannel1
             // 
-            this.registrationPannel1.BackColor = System.Drawing.Color.Transparent;
+            this.registrationPannel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.registrationPannel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.registrationPannel1.Controls.Add(this.regGeneralInfo);
             this.registrationPannel1.Controls.Add(this.regOrg);
@@ -89,7 +89,7 @@ namespace Project_Management_Tool
             // 
             this.regGeneralInfo.AutoSize = true;
             this.regGeneralInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regGeneralInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regGeneralInfo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regGeneralInfo.Location = new System.Drawing.Point(16, 14);
             this.regGeneralInfo.Name = "regGeneralInfo";
             this.regGeneralInfo.Size = new System.Drawing.Size(187, 28);
@@ -100,7 +100,7 @@ namespace Project_Management_Tool
             // 
             this.regOrg.AutoSize = true;
             this.regOrg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regOrg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regOrg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regOrg.Location = new System.Drawing.Point(32, 326);
             this.regOrg.Name = "regOrg";
             this.regOrg.Size = new System.Drawing.Size(130, 28);
@@ -111,7 +111,7 @@ namespace Project_Management_Tool
             // 
             this.regLName.AutoSize = true;
             this.regLName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regLName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regLName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regLName.Location = new System.Drawing.Point(33, 218);
             this.regLName.Name = "regLName";
             this.regLName.Size = new System.Drawing.Size(107, 28);
@@ -149,7 +149,7 @@ namespace Project_Management_Tool
             // 
             this.regPhno.AutoSize = true;
             this.regPhno.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regPhno.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regPhno.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regPhno.Location = new System.Drawing.Point(32, 270);
             this.regPhno.Name = "regPhno";
             this.regPhno.Size = new System.Drawing.Size(148, 28);
@@ -169,7 +169,7 @@ namespace Project_Management_Tool
             // 
             this.regFName.AutoSize = true;
             this.regFName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regFName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regFName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regFName.Location = new System.Drawing.Point(33, 165);
             this.regFName.Name = "regFName";
             this.regFName.Size = new System.Drawing.Size(115, 28);
@@ -180,7 +180,7 @@ namespace Project_Management_Tool
             // 
             this.regOrgID.AutoSize = true;
             this.regOrgID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regOrgID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regOrgID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regOrgID.Location = new System.Drawing.Point(32, 377);
             this.regOrgID.Name = "regOrgID";
             this.regOrgID.Size = new System.Drawing.Size(154, 28);
@@ -200,7 +200,7 @@ namespace Project_Management_Tool
             // 
             this.regEmailID.AutoSize = true;
             this.regEmailID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.regEmailID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.regEmailID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.regEmailID.Location = new System.Drawing.Point(35, 110);
             this.regEmailID.Name = "regEmailID";
             this.regEmailID.Size = new System.Drawing.Size(92, 28);

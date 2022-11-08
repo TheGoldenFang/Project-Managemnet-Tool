@@ -51,10 +51,10 @@ namespace Project_Management_Tool
             // 
             this.loginClose.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.loginClose.Image = ((System.Drawing.Image)(resources.GetObject("loginClose.Image")));
-            this.loginClose.Location = new System.Drawing.Point(893, 13);
-            this.loginClose.Margin = new System.Windows.Forms.Padding(2);
+            this.loginClose.Location = new System.Drawing.Point(1191, 16);
+            this.loginClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginClose.Name = "loginClose";
-            this.loginClose.Size = new System.Drawing.Size(16, 15);
+            this.loginClose.Size = new System.Drawing.Size(21, 18);
             this.loginClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.loginClose.TabIndex = 28;
             this.loginClose.TabStop = false;
@@ -69,10 +69,10 @@ namespace Project_Management_Tool
             this.LoginPanel.Controls.Add(this.txtUsername);
             this.LoginPanel.Controls.Add(this.loginPassword);
             this.LoginPanel.Controls.Add(this.txtPassword);
-            this.LoginPanel.Location = new System.Drawing.Point(286, 96);
-            this.LoginPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.LoginPanel.Location = new System.Drawing.Point(381, 118);
+            this.LoginPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginPanel.Name = "LoginPanel";
-            this.LoginPanel.Size = new System.Drawing.Size(353, 323);
+            this.LoginPanel.Size = new System.Drawing.Size(471, 398);
             this.LoginPanel.TabIndex = 34;
             // 
             // lblloginoption
@@ -81,10 +81,9 @@ namespace Project_Management_Tool
             this.lblloginoption.BackColor = System.Drawing.Color.Transparent;
             this.lblloginoption.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblloginoption.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblloginoption.Location = new System.Drawing.Point(17, 91);
-            this.lblloginoption.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblloginoption.Location = new System.Drawing.Point(23, 112);
             this.lblloginoption.Name = "lblloginoption";
-            this.lblloginoption.Size = new System.Drawing.Size(148, 19);
+            this.lblloginoption.Size = new System.Drawing.Size(183, 23);
             this.lblloginoption.TabIndex = 40;
             this.lblloginoption.Text = "Log in to your account";
             // 
@@ -92,10 +91,10 @@ namespace Project_Management_Tool
             // 
             this.btblogin.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btblogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btblogin.Location = new System.Drawing.Point(91, 259);
-            this.btblogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btblogin.Location = new System.Drawing.Point(121, 319);
+            this.btblogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btblogin.Name = "btblogin";
-            this.btblogin.Size = new System.Drawing.Size(172, 32);
+            this.btblogin.Size = new System.Drawing.Size(229, 39);
             this.btblogin.TabIndex = 34;
             this.btblogin.Text = "Login";
             this.btblogin.UseVisualStyleBackColor = false;
@@ -107,10 +106,9 @@ namespace Project_Management_Tool
             this.loginUsername.BackColor = System.Drawing.Color.Transparent;
             this.loginUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginUsername.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loginUsername.Location = new System.Drawing.Point(17, 123);
-            this.loginUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.loginUsername.Location = new System.Drawing.Point(23, 151);
             this.loginUsername.Name = "loginUsername";
-            this.loginUsername.Size = new System.Drawing.Size(85, 21);
+            this.loginUsername.Size = new System.Drawing.Size(104, 28);
             this.loginUsername.TabIndex = 37;
             this.loginUsername.Text = "Username ";
             // 
@@ -118,10 +116,10 @@ namespace Project_Management_Tool
             // 
             this.txtUsername.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(21, 150);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUsername.Location = new System.Drawing.Point(28, 185);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(290, 22);
+            this.txtUsername.Size = new System.Drawing.Size(385, 26);
             this.txtUsername.TabIndex = 35;
             // 
             // loginPassword
@@ -130,10 +128,9 @@ namespace Project_Management_Tool
             this.loginPassword.BackColor = System.Drawing.Color.Transparent;
             this.loginPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginPassword.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loginPassword.Location = new System.Drawing.Point(19, 182);
-            this.loginPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.loginPassword.Location = new System.Drawing.Point(25, 224);
             this.loginPassword.Name = "loginPassword";
-            this.loginPassword.Size = new System.Drawing.Size(80, 21);
+            this.loginPassword.Size = new System.Drawing.Size(98, 28);
             this.loginPassword.TabIndex = 38;
             this.loginPassword.Text = "Password ";
             // 
@@ -141,10 +138,10 @@ namespace Project_Management_Tool
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(21, 213);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPassword.Location = new System.Drawing.Point(28, 262);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(290, 22);
+            this.txtPassword.Size = new System.Drawing.Size(385, 26);
             this.txtPassword.TabIndex = 36;
             // 
             // lblRegister
@@ -153,10 +150,9 @@ namespace Project_Management_Tool
             this.lblRegister.BackColor = System.Drawing.Color.Transparent;
             this.lblRegister.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegister.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblRegister.Location = new System.Drawing.Point(400, 431);
-            this.lblRegister.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRegister.Location = new System.Drawing.Point(533, 530);
             this.lblRegister.Name = "lblRegister";
-            this.lblRegister.Size = new System.Drawing.Size(127, 19);
+            this.lblRegister.Size = new System.Drawing.Size(157, 23);
             this.lblRegister.TabIndex = 39;
             this.lblRegister.Text = "New User? Register";
             this.lblRegister.Click += new System.EventHandler(this.lblRegister_Click);
@@ -165,10 +161,10 @@ namespace Project_Management_Tool
             // 
             this.welcomepanel.BackColor = System.Drawing.Color.Transparent;
             this.welcomepanel.Controls.Add(this.lblWelcome);
-            this.welcomepanel.Location = new System.Drawing.Point(286, 96);
-            this.welcomepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.welcomepanel.Location = new System.Drawing.Point(381, 118);
+            this.welcomepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.welcomepanel.Name = "welcomepanel";
-            this.welcomepanel.Size = new System.Drawing.Size(353, 44);
+            this.welcomepanel.Size = new System.Drawing.Size(471, 54);
             this.welcomepanel.TabIndex = 40;
             // 
             // lblWelcome
@@ -177,27 +173,26 @@ namespace Project_Management_Tool
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblWelcome.Location = new System.Drawing.Point(130, 10);
-            this.lblWelcome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblWelcome.Location = new System.Drawing.Point(173, 12);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(95, 25);
+            this.lblWelcome.Size = new System.Drawing.Size(120, 32);
             this.lblWelcome.TabIndex = 38;
             this.lblWelcome.Text = "Welcome!";
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(917, 553);
+            this.ClientSize = new System.Drawing.Size(1223, 681);
             this.Controls.Add(this.welcomepanel);
             this.Controls.Add(this.lblRegister);
             this.Controls.Add(this.LoginPanel);
             this.Controls.Add(this.loginClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(100, 100);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

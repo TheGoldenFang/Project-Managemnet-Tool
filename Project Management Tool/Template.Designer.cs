@@ -601,6 +601,7 @@
             this.lblblankkdiagram.Size = new System.Drawing.Size(121, 23);
             this.lblblankkdiagram.TabIndex = 2;
             this.lblblankkdiagram.Text = "Blank Diagram";
+            this.lblblankkdiagram.Click += new System.EventHandler(this.lblblankkdiagram_Click);
             // 
             // picblankdiagram
             // 

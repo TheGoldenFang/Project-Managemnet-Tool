@@ -77,5 +77,12 @@ namespace Project_Management_Tool
         {
             TemplatePage.BackColor = Color.FromArgb(50, 0, 0, 0);
         }
+
+        private void lblblankkdiagram_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            workspace form9 = new workspace();
+            form9.Show();
+        }
     }
 }

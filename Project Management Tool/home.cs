@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -46,7 +47,7 @@ namespace Project_Management_Tool
 
         private void btHomeFile_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btHomeGetStarted_Click(object sender, EventArgs e)

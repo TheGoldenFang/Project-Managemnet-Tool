@@ -69,7 +69,6 @@ namespace Project_Management_Tool
         );
         private void Registration_Load(object sender, EventArgs e)
         {
-            registrationPannel1.BackColor = Color.FromArgb(100,255,255,255);
             registrationPannel2.BackColor = Color.FromArgb(80,108,172,255);
             registrationPannel1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, registrationPannel1.Width, registrationPannel1.Height, 30, 30));
             registrationPannel2.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, registrationPannel2.Width, registrationPannel2.Height, 30, 30));
