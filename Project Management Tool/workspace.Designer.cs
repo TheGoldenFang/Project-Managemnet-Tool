@@ -545,7 +545,7 @@
             // picBold
             // 
             this.picBold.Image = ((System.Drawing.Image)(resources.GetObject("picBold.Image")));
-            this.picBold.Location = new System.Drawing.Point(472, 11);
+            this.picBold.Location = new System.Drawing.Point(469, 11);
             this.picBold.Margin = new System.Windows.Forms.Padding(4);
             this.picBold.Name = "picBold";
             this.picBold.Size = new System.Drawing.Size(31, 27);
