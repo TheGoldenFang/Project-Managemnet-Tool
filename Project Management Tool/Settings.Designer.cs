@@ -70,21 +70,25 @@
             // 
             // settingsuseravatar
             // 
-            this.settingsuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.settingsuseravatar.BackColor = System.Drawing.Color.Transparent;
+            this.settingsuseravatar.Image = ((System.Drawing.Image)(resources.GetObject("settingsuseravatar.Image")));
             this.settingsuseravatar.Location = new System.Drawing.Point(1143, 11);
             this.settingsuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsuseravatar.Name = "settingsuseravatar";
             this.settingsuseravatar.Size = new System.Drawing.Size(67, 62);
+            this.settingsuseravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsuseravatar.TabIndex = 31;
             this.settingsuseravatar.TabStop = false;
             // 
             // settingsappicon
             // 
-            this.settingsappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.settingsappicon.BackColor = System.Drawing.Color.Transparent;
+            this.settingsappicon.Image = ((System.Drawing.Image)(resources.GetObject("settingsappicon.Image")));
             this.settingsappicon.Location = new System.Drawing.Point(13, 6);
             this.settingsappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settingsappicon.Name = "settingsappicon";
             this.settingsappicon.Size = new System.Drawing.Size(89, 74);
+            this.settingsappicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsappicon.TabIndex = 30;
             this.settingsappicon.TabStop = false;
             // 

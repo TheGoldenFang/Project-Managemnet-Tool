@@ -42,9 +42,11 @@ namespace Project_Management_Tool
             this.lblRegister = new System.Windows.Forms.Label();
             this.welcomepanel = new System.Windows.Forms.Panel();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.loginClose)).BeginInit();
             this.LoginPanel.SuspendLayout();
             this.welcomepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // loginClose
@@ -63,6 +65,7 @@ namespace Project_Management_Tool
             // LoginPanel
             // 
             this.LoginPanel.BackColor = System.Drawing.Color.Transparent;
+            this.LoginPanel.Controls.Add(this.pictureBox1);
             this.LoginPanel.Controls.Add(this.lblloginoption);
             this.LoginPanel.Controls.Add(this.btblogin);
             this.LoginPanel.Controls.Add(this.loginUsername);
@@ -81,7 +84,7 @@ namespace Project_Management_Tool
             this.lblloginoption.BackColor = System.Drawing.Color.Transparent;
             this.lblloginoption.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblloginoption.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblloginoption.Location = new System.Drawing.Point(23, 112);
+            this.lblloginoption.Location = new System.Drawing.Point(24, 126);
             this.lblloginoption.Name = "lblloginoption";
             this.lblloginoption.Size = new System.Drawing.Size(183, 23);
             this.lblloginoption.TabIndex = 40;
@@ -91,7 +94,7 @@ namespace Project_Management_Tool
             // 
             this.btblogin.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btblogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btblogin.Location = new System.Drawing.Point(121, 319);
+            this.btblogin.Location = new System.Drawing.Point(122, 333);
             this.btblogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btblogin.Name = "btblogin";
             this.btblogin.Size = new System.Drawing.Size(229, 39);
@@ -106,7 +109,7 @@ namespace Project_Management_Tool
             this.loginUsername.BackColor = System.Drawing.Color.Transparent;
             this.loginUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginUsername.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loginUsername.Location = new System.Drawing.Point(23, 151);
+            this.loginUsername.Location = new System.Drawing.Point(24, 165);
             this.loginUsername.Name = "loginUsername";
             this.loginUsername.Size = new System.Drawing.Size(104, 28);
             this.loginUsername.TabIndex = 37;
@@ -116,7 +119,7 @@ namespace Project_Management_Tool
             // 
             this.txtUsername.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(28, 185);
+            this.txtUsername.Location = new System.Drawing.Point(29, 199);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(385, 26);
@@ -128,7 +131,7 @@ namespace Project_Management_Tool
             this.loginPassword.BackColor = System.Drawing.Color.Transparent;
             this.loginPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginPassword.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loginPassword.Location = new System.Drawing.Point(25, 224);
+            this.loginPassword.Location = new System.Drawing.Point(26, 238);
             this.loginPassword.Name = "loginPassword";
             this.loginPassword.Size = new System.Drawing.Size(98, 28);
             this.loginPassword.TabIndex = 38;
@@ -138,7 +141,7 @@ namespace Project_Management_Tool
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(28, 262);
+            this.txtPassword.Location = new System.Drawing.Point(29, 276);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(385, 26);
@@ -179,6 +182,16 @@ namespace Project_Management_Tool
             this.lblWelcome.TabIndex = 38;
             this.lblWelcome.Text = "Welcome!";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(179, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 41;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -202,6 +215,7 @@ namespace Project_Management_Tool
             this.LoginPanel.PerformLayout();
             this.welcomepanel.ResumeLayout(false);
             this.welcomepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,6 +233,7 @@ namespace Project_Management_Tool
         private System.Windows.Forms.Panel welcomepanel;
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.Label lblloginoption;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

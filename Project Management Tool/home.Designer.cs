@@ -82,10 +82,10 @@
             this.homePagePanel.Controls.Add(this.importexport);
             this.homePagePanel.Controls.Add(this.openfile);
             this.homePagePanel.Controls.Add(this.getstarted);
-            this.homePagePanel.Location = new System.Drawing.Point(46, 90);
-            this.homePagePanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homePagePanel.Location = new System.Drawing.Point(61, 111);
+            this.homePagePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homePagePanel.Name = "homePagePanel";
-            this.homePagePanel.Size = new System.Drawing.Size(850, 393);
+            this.homePagePanel.Size = new System.Drawing.Size(1133, 483);
             this.homePagePanel.TabIndex = 20;
             // 
             // settings
@@ -93,19 +93,19 @@
             this.settings.Controls.Add(this.picsettings);
             this.settings.Controls.Add(this.btHomeSettings);
             this.settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settings.Location = new System.Drawing.Point(621, 215);
-            this.settings.Margin = new System.Windows.Forms.Padding(2);
+            this.settings.Location = new System.Drawing.Point(828, 265);
+            this.settings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.settings.Name = "settings";
-            this.settings.Size = new System.Drawing.Size(141, 116);
+            this.settings.Size = new System.Drawing.Size(188, 143);
             this.settings.TabIndex = 17;
             // 
             // picsettings
             // 
             this.picsettings.Image = ((System.Drawing.Image)(resources.GetObject("picsettings.Image")));
-            this.picsettings.Location = new System.Drawing.Point(37, 16);
-            this.picsettings.Margin = new System.Windows.Forms.Padding(2);
+            this.picsettings.Location = new System.Drawing.Point(49, 20);
+            this.picsettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picsettings.Name = "picsettings";
-            this.picsettings.Size = new System.Drawing.Size(68, 58);
+            this.picsettings.Size = new System.Drawing.Size(91, 71);
             this.picsettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picsettings.TabIndex = 3;
             this.picsettings.TabStop = false;
@@ -113,10 +113,10 @@
             // btHomeSettings
             // 
             this.btHomeSettings.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeSettings.Location = new System.Drawing.Point(25, 78);
-            this.btHomeSettings.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeSettings.Location = new System.Drawing.Point(33, 96);
+            this.btHomeSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeSettings.Name = "btHomeSettings";
-            this.btHomeSettings.Size = new System.Drawing.Size(103, 32);
+            this.btHomeSettings.Size = new System.Drawing.Size(137, 39);
             this.btHomeSettings.TabIndex = 5;
             this.btHomeSettings.Text = "Settings";
             this.btHomeSettings.UseVisualStyleBackColor = true;
@@ -127,19 +127,19 @@
             this.premium.Controls.Add(this.picgopremium);
             this.premium.Controls.Add(this.btHomeToPremium);
             this.premium.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.premium.Location = new System.Drawing.Point(348, 215);
-            this.premium.Margin = new System.Windows.Forms.Padding(2);
+            this.premium.Location = new System.Drawing.Point(464, 265);
+            this.premium.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.premium.Name = "premium";
-            this.premium.Size = new System.Drawing.Size(141, 116);
+            this.premium.Size = new System.Drawing.Size(188, 143);
             this.premium.TabIndex = 17;
             // 
             // picgopremium
             // 
             this.picgopremium.Image = ((System.Drawing.Image)(resources.GetObject("picgopremium.Image")));
-            this.picgopremium.Location = new System.Drawing.Point(37, 16);
-            this.picgopremium.Margin = new System.Windows.Forms.Padding(2);
+            this.picgopremium.Location = new System.Drawing.Point(49, 20);
+            this.picgopremium.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picgopremium.Name = "picgopremium";
-            this.picgopremium.Size = new System.Drawing.Size(68, 58);
+            this.picgopremium.Size = new System.Drawing.Size(91, 71);
             this.picgopremium.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picgopremium.TabIndex = 3;
             this.picgopremium.TabStop = false;
@@ -147,10 +147,10 @@
             // btHomeToPremium
             // 
             this.btHomeToPremium.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeToPremium.Location = new System.Drawing.Point(17, 78);
-            this.btHomeToPremium.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeToPremium.Location = new System.Drawing.Point(23, 96);
+            this.btHomeToPremium.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeToPremium.Name = "btHomeToPremium";
-            this.btHomeToPremium.Size = new System.Drawing.Size(113, 32);
+            this.btHomeToPremium.Size = new System.Drawing.Size(151, 39);
             this.btHomeToPremium.TabIndex = 7;
             this.btHomeToPremium.Text = "Go Premium!";
             this.btHomeToPremium.UseVisualStyleBackColor = true;
@@ -161,19 +161,19 @@
             this.accountdetails.Controls.Add(this.picaccountdetails);
             this.accountdetails.Controls.Add(this.btHomeAccDetails);
             this.accountdetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountdetails.Location = new System.Drawing.Point(70, 215);
-            this.accountdetails.Margin = new System.Windows.Forms.Padding(2);
+            this.accountdetails.Location = new System.Drawing.Point(93, 265);
+            this.accountdetails.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.accountdetails.Name = "accountdetails";
-            this.accountdetails.Size = new System.Drawing.Size(141, 116);
+            this.accountdetails.Size = new System.Drawing.Size(188, 143);
             this.accountdetails.TabIndex = 17;
             // 
             // picaccountdetails
             // 
             this.picaccountdetails.Image = ((System.Drawing.Image)(resources.GetObject("picaccountdetails.Image")));
-            this.picaccountdetails.Location = new System.Drawing.Point(37, 16);
-            this.picaccountdetails.Margin = new System.Windows.Forms.Padding(2);
+            this.picaccountdetails.Location = new System.Drawing.Point(49, 20);
+            this.picaccountdetails.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picaccountdetails.Name = "picaccountdetails";
-            this.picaccountdetails.Size = new System.Drawing.Size(68, 58);
+            this.picaccountdetails.Size = new System.Drawing.Size(91, 71);
             this.picaccountdetails.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picaccountdetails.TabIndex = 3;
             this.picaccountdetails.TabStop = false;
@@ -181,10 +181,10 @@
             // btHomeAccDetails
             // 
             this.btHomeAccDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeAccDetails.Location = new System.Drawing.Point(10, 78);
-            this.btHomeAccDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeAccDetails.Location = new System.Drawing.Point(13, 96);
+            this.btHomeAccDetails.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeAccDetails.Name = "btHomeAccDetails";
-            this.btHomeAccDetails.Size = new System.Drawing.Size(126, 32);
+            this.btHomeAccDetails.Size = new System.Drawing.Size(168, 39);
             this.btHomeAccDetails.TabIndex = 4;
             this.btHomeAccDetails.Text = "Account details";
             this.btHomeAccDetails.UseVisualStyleBackColor = true;
@@ -195,19 +195,19 @@
             this.importexport.Controls.Add(this.picimpexp);
             this.importexport.Controls.Add(this.btHomeImpExp);
             this.importexport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.importexport.Location = new System.Drawing.Point(621, 54);
-            this.importexport.Margin = new System.Windows.Forms.Padding(2);
+            this.importexport.Location = new System.Drawing.Point(828, 66);
+            this.importexport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.importexport.Name = "importexport";
-            this.importexport.Size = new System.Drawing.Size(141, 116);
+            this.importexport.Size = new System.Drawing.Size(188, 143);
             this.importexport.TabIndex = 17;
             // 
             // picimpexp
             // 
             this.picimpexp.Image = ((System.Drawing.Image)(resources.GetObject("picimpexp.Image")));
-            this.picimpexp.Location = new System.Drawing.Point(37, 16);
-            this.picimpexp.Margin = new System.Windows.Forms.Padding(2);
+            this.picimpexp.Location = new System.Drawing.Point(49, 20);
+            this.picimpexp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picimpexp.Name = "picimpexp";
-            this.picimpexp.Size = new System.Drawing.Size(68, 58);
+            this.picimpexp.Size = new System.Drawing.Size(91, 71);
             this.picimpexp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picimpexp.TabIndex = 3;
             this.picimpexp.TabStop = false;
@@ -215,10 +215,10 @@
             // btHomeImpExp
             // 
             this.btHomeImpExp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeImpExp.Location = new System.Drawing.Point(13, 78);
-            this.btHomeImpExp.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeImpExp.Location = new System.Drawing.Point(17, 96);
+            this.btHomeImpExp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeImpExp.Name = "btHomeImpExp";
-            this.btHomeImpExp.Size = new System.Drawing.Size(115, 32);
+            this.btHomeImpExp.Size = new System.Drawing.Size(153, 39);
             this.btHomeImpExp.TabIndex = 3;
             this.btHomeImpExp.Text = "Import/Export";
             this.btHomeImpExp.UseVisualStyleBackColor = true;
@@ -229,19 +229,19 @@
             this.openfile.Controls.Add(this.picopenfile);
             this.openfile.Controls.Add(this.btHomeFile);
             this.openfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.openfile.Location = new System.Drawing.Point(348, 54);
-            this.openfile.Margin = new System.Windows.Forms.Padding(2);
+            this.openfile.Location = new System.Drawing.Point(464, 66);
+            this.openfile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.openfile.Name = "openfile";
-            this.openfile.Size = new System.Drawing.Size(141, 116);
+            this.openfile.Size = new System.Drawing.Size(188, 143);
             this.openfile.TabIndex = 16;
             // 
             // picopenfile
             // 
             this.picopenfile.Image = ((System.Drawing.Image)(resources.GetObject("picopenfile.Image")));
-            this.picopenfile.Location = new System.Drawing.Point(37, 16);
-            this.picopenfile.Margin = new System.Windows.Forms.Padding(2);
+            this.picopenfile.Location = new System.Drawing.Point(49, 20);
+            this.picopenfile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picopenfile.Name = "picopenfile";
-            this.picopenfile.Size = new System.Drawing.Size(68, 58);
+            this.picopenfile.Size = new System.Drawing.Size(91, 71);
             this.picopenfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picopenfile.TabIndex = 3;
             this.picopenfile.TabStop = false;
@@ -249,10 +249,10 @@
             // btHomeFile
             // 
             this.btHomeFile.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeFile.Location = new System.Drawing.Point(15, 78);
-            this.btHomeFile.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeFile.Location = new System.Drawing.Point(20, 96);
+            this.btHomeFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeFile.Name = "btHomeFile";
-            this.btHomeFile.Size = new System.Drawing.Size(117, 32);
+            this.btHomeFile.Size = new System.Drawing.Size(156, 39);
             this.btHomeFile.TabIndex = 6;
             this.btHomeFile.Text = "Open File";
             this.btHomeFile.UseVisualStyleBackColor = true;
@@ -263,19 +263,19 @@
             this.getstarted.Controls.Add(this.btHomeGetStarted);
             this.getstarted.Controls.Add(this.picgetstarted);
             this.getstarted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getstarted.Location = new System.Drawing.Point(70, 54);
-            this.getstarted.Margin = new System.Windows.Forms.Padding(2);
+            this.getstarted.Location = new System.Drawing.Point(93, 66);
+            this.getstarted.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.getstarted.Name = "getstarted";
-            this.getstarted.Size = new System.Drawing.Size(141, 116);
+            this.getstarted.Size = new System.Drawing.Size(188, 143);
             this.getstarted.TabIndex = 15;
             // 
             // btHomeGetStarted
             // 
             this.btHomeGetStarted.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btHomeGetStarted.Location = new System.Drawing.Point(25, 82);
-            this.btHomeGetStarted.Margin = new System.Windows.Forms.Padding(2);
+            this.btHomeGetStarted.Location = new System.Drawing.Point(33, 101);
+            this.btHomeGetStarted.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeGetStarted.Name = "btHomeGetStarted";
-            this.btHomeGetStarted.Size = new System.Drawing.Size(99, 32);
+            this.btHomeGetStarted.Size = new System.Drawing.Size(132, 39);
             this.btHomeGetStarted.TabIndex = 7;
             this.btHomeGetStarted.Text = "Get Started";
             this.btHomeGetStarted.UseVisualStyleBackColor = true;
@@ -284,10 +284,10 @@
             // picgetstarted
             // 
             this.picgetstarted.Image = ((System.Drawing.Image)(resources.GetObject("picgetstarted.Image")));
-            this.picgetstarted.Location = new System.Drawing.Point(37, 16);
-            this.picgetstarted.Margin = new System.Windows.Forms.Padding(2);
+            this.picgetstarted.Location = new System.Drawing.Point(49, 20);
+            this.picgetstarted.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picgetstarted.Name = "picgetstarted";
-            this.picgetstarted.Size = new System.Drawing.Size(68, 58);
+            this.picgetstarted.Size = new System.Drawing.Size(91, 71);
             this.picgetstarted.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picgetstarted.TabIndex = 3;
             this.picgetstarted.TabStop = false;
@@ -300,28 +300,32 @@
             this.homepanel.Controls.Add(this.homeClose);
             this.homepanel.Controls.Add(this.lblhome);
             this.homepanel.Location = new System.Drawing.Point(1, 2);
-            this.homepanel.Margin = new System.Windows.Forms.Padding(2);
+            this.homepanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homepanel.Name = "homepanel";
-            this.homepanel.Size = new System.Drawing.Size(943, 48);
+            this.homepanel.Size = new System.Drawing.Size(1257, 59);
             this.homepanel.TabIndex = 21;
             // 
             // useravatar
             // 
-            this.useravatar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.useravatar.Location = new System.Drawing.Point(860, 5);
-            this.useravatar.Margin = new System.Windows.Forms.Padding(2);
+            this.useravatar.BackColor = System.Drawing.Color.Transparent;
+            this.useravatar.Image = ((System.Drawing.Image)(resources.GetObject("useravatar.Image")));
+            this.useravatar.Location = new System.Drawing.Point(1147, 6);
+            this.useravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.useravatar.Name = "useravatar";
-            this.useravatar.Size = new System.Drawing.Size(40, 36);
+            this.useravatar.Size = new System.Drawing.Size(53, 44);
+            this.useravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.useravatar.TabIndex = 31;
             this.useravatar.TabStop = false;
             // 
             // appicon
             // 
-            this.appicon.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.appicon.Location = new System.Drawing.Point(23, 5);
-            this.appicon.Margin = new System.Windows.Forms.Padding(2);
+            this.appicon.BackColor = System.Drawing.Color.Transparent;
+            this.appicon.Image = ((System.Drawing.Image)(resources.GetObject("appicon.Image")));
+            this.appicon.Location = new System.Drawing.Point(31, 6);
+            this.appicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.appicon.Name = "appicon";
-            this.appicon.Size = new System.Drawing.Size(44, 39);
+            this.appicon.Size = new System.Drawing.Size(59, 48);
+            this.appicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.appicon.TabIndex = 30;
             this.appicon.TabStop = false;
             // 
@@ -329,10 +333,10 @@
             // 
             this.homeClose.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.homeClose.Image = ((System.Drawing.Image)(resources.GetObject("homeClose.Image")));
-            this.homeClose.Location = new System.Drawing.Point(919, 14);
-            this.homeClose.Margin = new System.Windows.Forms.Padding(2);
+            this.homeClose.Location = new System.Drawing.Point(1225, 17);
+            this.homeClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.homeClose.Name = "homeClose";
-            this.homeClose.Size = new System.Drawing.Size(16, 15);
+            this.homeClose.Size = new System.Drawing.Size(21, 18);
             this.homeClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.homeClose.TabIndex = 29;
             this.homeClose.TabStop = false;
@@ -344,23 +348,23 @@
             this.lblhome.BackColor = System.Drawing.Color.Transparent;
             this.lblhome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.lblhome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblhome.Location = new System.Drawing.Point(84, 12);
-            this.lblhome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblhome.Location = new System.Drawing.Point(112, 15);
             this.lblhome.Name = "lblhome";
-            this.lblhome.Size = new System.Drawing.Size(66, 24);
+            this.lblhome.Size = new System.Drawing.Size(82, 29);
             this.lblhome.TabIndex = 10;
             this.lblhome.Text = "Home";
             // 
             // home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(944, 553);
+            this.ClientSize = new System.Drawing.Size(1259, 681);
             this.Controls.Add(this.homepanel);
             this.Controls.Add(this.homePagePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "home";
             this.Text = "home";
             this.Load += new System.EventHandler(this.home_Load);

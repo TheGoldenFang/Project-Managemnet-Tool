@@ -641,21 +641,25 @@
             // 
             // tempuseravatar
             // 
-            this.tempuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tempuseravatar.BackColor = System.Drawing.Color.Transparent;
+            this.tempuseravatar.Image = ((System.Drawing.Image)(resources.GetObject("tempuseravatar.Image")));
             this.tempuseravatar.Location = new System.Drawing.Point(1143, 16);
             this.tempuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempuseravatar.Name = "tempuseravatar";
             this.tempuseravatar.Size = new System.Drawing.Size(67, 62);
+            this.tempuseravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempuseravatar.TabIndex = 31;
             this.tempuseravatar.TabStop = false;
             // 
             // tempappicon
             // 
-            this.tempappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tempappicon.BackColor = System.Drawing.Color.Transparent;
+            this.tempappicon.Image = ((System.Drawing.Image)(resources.GetObject("tempappicon.Image")));
             this.tempappicon.Location = new System.Drawing.Point(31, 11);
             this.tempappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tempappicon.Name = "tempappicon";
             this.tempappicon.Size = new System.Drawing.Size(85, 66);
+            this.tempappicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempappicon.TabIndex = 30;
             this.tempappicon.TabStop = false;
             // 
@@ -695,6 +699,7 @@
             this.tempSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tempSettings.TabIndex = 51;
             this.tempSettings.TabStop = false;
+            this.tempSettings.Visible = false;
             this.tempSettings.Click += new System.EventHandler(this.tempSettings_Click);
             // 
             // tempimpexp

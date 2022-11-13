@@ -459,21 +459,25 @@
             // 
             // impuseravatar
             // 
-            this.impuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.impuseravatar.BackColor = System.Drawing.Color.Transparent;
+            this.impuseravatar.Image = ((System.Drawing.Image)(resources.GetObject("impuseravatar.Image")));
             this.impuseravatar.Location = new System.Drawing.Point(1143, 10);
             this.impuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impuseravatar.Name = "impuseravatar";
             this.impuseravatar.Size = new System.Drawing.Size(67, 62);
+            this.impuseravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impuseravatar.TabIndex = 31;
             this.impuseravatar.TabStop = false;
             // 
             // impappicon
             // 
-            this.impappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.impappicon.BackColor = System.Drawing.Color.Transparent;
+            this.impappicon.Image = ((System.Drawing.Image)(resources.GetObject("impappicon.Image")));
             this.impappicon.Location = new System.Drawing.Point(27, 7);
             this.impappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.impappicon.Name = "impappicon";
             this.impappicon.Size = new System.Drawing.Size(91, 69);
+            this.impappicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impappicon.TabIndex = 30;
             this.impappicon.TabStop = false;
             // 
@@ -513,6 +517,7 @@
             this.impSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.impSettings.TabIndex = 44;
             this.impSettings.TabStop = false;
+            this.impSettings.Visible = false;
             this.impSettings.Click += new System.EventHandler(this.impSettings_Click);
             // 
             // impimpexp

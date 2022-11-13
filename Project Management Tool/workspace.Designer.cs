@@ -61,6 +61,7 @@
             this.lblClipboard = new System.Windows.Forms.Label();
             this.picPaste = new System.Windows.Forms.PictureBox();
             this.Fontendpannel = new System.Windows.Forms.Panel();
+            this.comboBoxFont = new System.Windows.Forms.ComboBox();
             this.ComboBoxFontSize = new System.Windows.Forms.ComboBox();
             this.pictureBoxPicStrikeThrough = new System.Windows.Forms.PictureBox();
             this.lblFont = new System.Windows.Forms.Label();
@@ -76,7 +77,6 @@
             this.lblInsert = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblshapes = new System.Windows.Forms.Label();
-            this.comboBoxFont = new System.Windows.Forms.ComboBox();
             this.homepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceuseravatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workspaceappicon)).BeginInit();
@@ -118,21 +118,25 @@
             // 
             // workspaceuseravatar
             // 
-            this.workspaceuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.workspaceuseravatar.BackColor = System.Drawing.Color.Transparent;
+            this.workspaceuseravatar.Image = ((System.Drawing.Image)(resources.GetObject("workspaceuseravatar.Image")));
             this.workspaceuseravatar.Location = new System.Drawing.Point(1143, 5);
             this.workspaceuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workspaceuseravatar.Name = "workspaceuseravatar";
             this.workspaceuseravatar.Size = new System.Drawing.Size(67, 62);
+            this.workspaceuseravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.workspaceuseravatar.TabIndex = 31;
             this.workspaceuseravatar.TabStop = false;
             // 
             // workspaceappicon
             // 
-            this.workspaceappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.workspaceappicon.BackColor = System.Drawing.Color.Transparent;
+            this.workspaceappicon.Image = ((System.Drawing.Image)(resources.GetObject("workspaceappicon.Image")));
             this.workspaceappicon.Location = new System.Drawing.Point(13, 9);
             this.workspaceappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workspaceappicon.Name = "workspaceappicon";
             this.workspaceappicon.Size = new System.Drawing.Size(75, 58);
+            this.workspaceappicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.workspaceappicon.TabIndex = 30;
             this.workspaceappicon.TabStop = false;
             // 
@@ -155,7 +159,7 @@
             this.lblworkspace.BackColor = System.Drawing.Color.Transparent;
             this.lblworkspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.lblworkspace.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblworkspace.Location = new System.Drawing.Point(115, 26);
+            this.lblworkspace.Location = new System.Drawing.Point(100, 26);
             this.lblworkspace.Name = "lblworkspace";
             this.lblworkspace.Size = new System.Drawing.Size(147, 29);
             this.lblworkspace.TabIndex = 10;
@@ -202,6 +206,7 @@
             this.userspannel.Name = "userspannel";
             this.userspannel.Size = new System.Drawing.Size(84, 443);
             this.userspannel.TabIndex = 27;
+            this.userspannel.Visible = false;
             // 
             // picuser3
             // 
@@ -487,6 +492,17 @@
             this.Fontendpannel.Size = new System.Drawing.Size(643, 54);
             this.Fontendpannel.TabIndex = 28;
             // 
+            // comboBoxFont
+            // 
+            this.comboBoxFont.FormattingEnabled = true;
+            this.comboBoxFont.Items.AddRange(new object[] {
+            "Calibri",
+            "Times New Roman"});
+            this.comboBoxFont.Location = new System.Drawing.Point(233, 15);
+            this.comboBoxFont.Name = "comboBoxFont";
+            this.comboBoxFont.Size = new System.Drawing.Size(205, 24);
+            this.comboBoxFont.TabIndex = 37;
+            // 
             // ComboBoxFontSize
             // 
             this.ComboBoxFontSize.FormattingEnabled = true;
@@ -658,17 +674,6 @@
             this.lblshapes.Size = new System.Drawing.Size(175, 18);
             this.lblshapes.TabIndex = 25;
             this.lblshapes.Text = "Basic Flow Chart Shapes";
-            // 
-            // comboBoxFont
-            // 
-            this.comboBoxFont.FormattingEnabled = true;
-            this.comboBoxFont.Items.AddRange(new object[] {
-            "Calibri",
-            "Times New Roman"});
-            this.comboBoxFont.Location = new System.Drawing.Point(233, 15);
-            this.comboBoxFont.Name = "comboBoxFont";
-            this.comboBoxFont.Size = new System.Drawing.Size(205, 24);
-            this.comboBoxFont.TabIndex = 37;
             // 
             // workspace
             // 

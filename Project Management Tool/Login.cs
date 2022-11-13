@@ -27,14 +27,14 @@ namespace Project_Management_Tool
         }
         private void btblogin_Click(object sender, EventArgs e)
         {
-            bool isUserok = false, isUserProfileok = false, ispassok = false;
+            bool isUserok = false, ispassok = false;
             if (!Authenticate())
             {
                 MessageBox.Show("Please Enter Valid Data");
                 return;
             }
 
-            string query = "SELECT * FROM users WHERE uname=@uname";
+            string query = "SELECT * FROM user_profile WHERE Username=@uname";
             con.Open();
             SqlCommand scmd = new SqlCommand(query, con);
 
@@ -50,7 +50,7 @@ namespace Project_Management_Tool
             con.Close();
 
             con.Open();
-            query = "SELECT * FROM users WHERE uname=@uname AND password=@passcode";
+            query = "SELECT * FROM user_profile WHERE Username=@uname AND Password=@passcode";
             scmd = new SqlCommand(query, con);
 
 
@@ -77,11 +77,7 @@ namespace Project_Management_Tool
                 MessageBox.Show("User does not exist!");
 
             }
-            else if (isUserok && !isUserProfileok)
-            {
-                MessageBox.Show("User does not exist in the chosen profile!");
-            }
-            else if (isUserok && isUserProfileok && !ispassok)
+            else if (isUserok && !ispassok)
             {
                 MessageBox.Show("Wrong Password,Try Again.");
             }

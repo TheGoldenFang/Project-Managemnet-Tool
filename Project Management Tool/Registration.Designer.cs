@@ -261,6 +261,7 @@ namespace Project_Management_Tool
             // regLoginRedirect
             // 
             this.regLoginRedirect.AutoSize = true;
+            this.regLoginRedirect.BackColor = System.Drawing.Color.Transparent;
             this.regLoginRedirect.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regLoginRedirect.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.regLoginRedirect.Location = new System.Drawing.Point(164, 496);

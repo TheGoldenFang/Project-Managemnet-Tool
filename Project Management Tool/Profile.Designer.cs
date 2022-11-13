@@ -54,7 +54,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.homepanel = new System.Windows.Forms.Panel();
-            this.profileuseravatar = new System.Windows.Forms.PictureBox();
             this.profileappicon = new System.Windows.Forms.PictureBox();
             this.profileClose = new System.Windows.Forms.PictureBox();
             this.lblprofiletohome = new System.Windows.Forms.Label();
@@ -68,7 +67,6 @@
             this.profilepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.useravatar)).BeginInit();
             this.homepanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.profileuseravatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileappicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileSettings)).BeginInit();
@@ -237,11 +235,13 @@
             // 
             // useravatar
             // 
-            this.useravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.useravatar.Location = new System.Drawing.Point(677, 44);
+            this.useravatar.BackColor = System.Drawing.Color.Transparent;
+            this.useravatar.Image = ((System.Drawing.Image)(resources.GetObject("useravatar.Image")));
+            this.useravatar.Location = new System.Drawing.Point(734, 44);
             this.useravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.useravatar.Name = "useravatar";
             this.useravatar.Size = new System.Drawing.Size(127, 126);
+            this.useravatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.useravatar.TabIndex = 25;
             this.useravatar.TabStop = false;
             // 
@@ -259,7 +259,7 @@
             this.lblUserAvatar.AutoSize = true;
             this.lblUserAvatar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserAvatar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblUserAvatar.Location = new System.Drawing.Point(683, 176);
+            this.lblUserAvatar.Location = new System.Drawing.Point(743, 176);
             this.lblUserAvatar.Name = "lblUserAvatar";
             this.lblUserAvatar.Size = new System.Drawing.Size(113, 28);
             this.lblUserAvatar.TabIndex = 26;
@@ -348,7 +348,6 @@
             // homepanel
             // 
             this.homepanel.BackColor = System.Drawing.Color.Transparent;
-            this.homepanel.Controls.Add(this.profileuseravatar);
             this.homepanel.Controls.Add(this.profileappicon);
             this.homepanel.Controls.Add(this.profileClose);
             this.homepanel.Controls.Add(this.lblprofiletohome);
@@ -358,23 +357,15 @@
             this.homepanel.Size = new System.Drawing.Size(1257, 86);
             this.homepanel.TabIndex = 23;
             // 
-            // profileuseravatar
-            // 
-            this.profileuseravatar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.profileuseravatar.Location = new System.Drawing.Point(1143, 16);
-            this.profileuseravatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.profileuseravatar.Name = "profileuseravatar";
-            this.profileuseravatar.Size = new System.Drawing.Size(67, 62);
-            this.profileuseravatar.TabIndex = 31;
-            this.profileuseravatar.TabStop = false;
-            // 
             // profileappicon
             // 
-            this.profileappicon.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.profileappicon.BackColor = System.Drawing.Color.Transparent;
+            this.profileappicon.Image = ((System.Drawing.Image)(resources.GetObject("profileappicon.Image")));
             this.profileappicon.Location = new System.Drawing.Point(23, 10);
             this.profileappicon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.profileappicon.Name = "profileappicon";
             this.profileappicon.Size = new System.Drawing.Size(87, 69);
+            this.profileappicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profileappicon.TabIndex = 30;
             this.profileappicon.TabStop = false;
             // 
@@ -414,6 +405,7 @@
             this.profileSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profileSettings.TabIndex = 51;
             this.profileSettings.TabStop = false;
+            this.profileSettings.Visible = false;
             this.profileSettings.Click += new System.EventHandler(this.profileSettings_Click);
             // 
             // profileimpexp
@@ -507,7 +499,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.useravatar)).EndInit();
             this.homepanel.ResumeLayout(false);
             this.homepanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.profileuseravatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileappicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileSettings)).EndInit();
@@ -547,7 +538,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Panel homepanel;
-        private System.Windows.Forms.PictureBox profileuseravatar;
         private System.Windows.Forms.PictureBox profileappicon;
         private System.Windows.Forms.PictureBox profileClose;
         private System.Windows.Forms.Label lblprofiletohome;
